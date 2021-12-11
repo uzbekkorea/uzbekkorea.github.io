@@ -1,0 +1,23 @@
+title: Кореядаги Ўзбекистонликлар
+email: uzbekkorea@outlook.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Корея ҳақида ўзбек тилида маълумотла веб саҳифаси
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://uzbekkorea.com" 
+#twitter_username: jekyllrb
+github_username:  uzbekkorea
+
+# Build settings
+markdown: kramdown
+remote_theme: chrisrhymes/bulma-clean-theme
+plugins:
+  - github-pages
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/blog/page:num"
+
+show_drafts: false
+
