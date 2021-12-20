@@ -1,0 +1,6 @@
+navigation:
+  - title: Корея ҳақида
+    url: /about/
+  - title: Излаш
+    ur: /search/
+    icon: fa-search
