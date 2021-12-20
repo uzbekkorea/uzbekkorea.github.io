@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Markup: Syntax Highlighting"
-author: mmistakes
+author: smartnode
 tags: [Highlight, Markdown]
 ---
 

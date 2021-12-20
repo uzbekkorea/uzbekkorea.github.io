@@ -2,7 +2,7 @@
 layout: post
 title: Generate a table of content
 tags: [Kramdown, Customization]
-author: sylhare
+author: uzbekkorea
 excerpt_separator: <!--more-->
 ---
 
