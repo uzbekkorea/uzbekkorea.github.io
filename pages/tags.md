@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: Tags
+title: Калит сўзлар
 permalink: /tags/
 icon: "fa-tags"
 ---

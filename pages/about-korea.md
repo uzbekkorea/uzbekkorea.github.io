@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Корея ҳақида
-permalink: /about/
-feature-img: ""assets/img/feature-img/about.jpeg""
-tags: [Page]
+permalink: /about-korea/
+feature-img: "assets/img/feature-img/about.jpeg"
+tags: [корея]
 ---
 
 Саҳифа тайёрланмоқда ...

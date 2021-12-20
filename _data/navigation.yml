@@ -1,6 +1,18 @@
-navigation:
-  - title: Корея ҳақида
-    url: /about/
-  - title: Излаш
-    ur: /search/
-    icon: fa-search
+- title: "Корея ҳақида"
+  url: /about-korea/
+- title: "Саёҳат"
+  url: /travel/
+- title: "Транспорт"
+  url: /transport/
+- title: "Турар жойлар"
+  url: /accomodation/
+- title: "Озиқ-овқат"
+  url: /food/
+- title: "Савдо-сотиқ"
+  url: /shopping/
+- title: Излаш
+  url: /search/
+  icon: fa-search
+- title: Калит сўзлар
+  url: /tags/
+  icon: fa-tags

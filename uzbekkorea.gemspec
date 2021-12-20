@@ -3,7 +3,13 @@
 Gem::Specification.new do |spec|
   spec.name          = "uzbekkorea"
   spec.version       = "2.3.9"
+  spec.authors       = ["Shuhrat Dehkanov", "Elmurod Talipov"]
   spec.email         = ["uzbekkorea@outlook.com"]
+
+  spec.summary       = "Jekyll theme for uzbekkorea.com"
+  spec.description   = %q{Jekyll theme for uzbekkorea.com}
+  spec.homepage      = "https://uzbekkorea.com"
+  spec.license       = "MIT"
 
   spec.rdoc_options            = ["--charset=UTF-8"]
   spec.extra_rdoc_files        = %w(README.md LICENSE)
@@ -23,4 +29,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-feed", "~> 0.9"
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
   spec.add_runtime_dependency "jekyll-seo-tag", "~>2.6"
+  spec.add_runtime_dependency "kramdown-parser-gfm"
 end
