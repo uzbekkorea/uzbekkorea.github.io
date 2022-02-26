@@ -1,54 +1,181 @@
+theme: jekyll-theme-chirpy
 
-title: Кореядаги Ўзбекистонликлар
-description: "Корея ҳақида ўзбек тилида маълумотлар тўплами"
-baseurl: ""
+baseurl: ''
+
 url: "https://uzbekkorea.com"
-avatar: assets/img/triangle.png                      # Empty for no avatar in navbar
-favicon: assets/favicon.ico                          # Icon displayed in the tab
 
-# Header and footer text
-header_text: Ҳуш келибсиз  # Change Blog header text
-header_feature_image: assets/img/pexels/triangular.jpeg
-footer_text: > 
-  Except where otherwise noted, content on this site is licensed under a <a href="https://creativecommons.org/licenses/by-nc/4.0/">Attribution-NonCommercial 4.0 International license</a> 
+# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
+lang: uz
 
-# Blog
-excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
-post_navigation: true
-color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
+prefer_datetime_locale:
 
-# Features
-# More in the _data folder for share buttons, author and language
-# For layout customization, go to the "_sass > base" folder, and check "_variables.scss"
-katex: true                                             # Enable if using math markup
-mermaid: true                                           # Enable mermaid-js for sequence and diagrams
-google_analytics:                                       # Tracking ID, e.g. "UA-000000-01"
-cookie_consent: false                                   # To respect the usage of cookies
-color_theme: auto                                       # auto, dark or light
+timezone: Asia/Seoul
 
-# Comments
+title: Koreya Hayoti
+
+tagline: Koreya haqida ma’lumot
+
+description: >-
+  Koreya haqida turli ma’lumotlar tōplami.
+
+github:
+  username: uzbekkorea
+twitter:
+  username: uzbekkorea
+
+social:
+  # Change to your full name.
+  # It will be displayed as the default author of the posts and the copyright owner in the Footer
+  name: Koreyadagi Ōzbekistonliklar
+  email: uzbekkorea@outlook.com
+  links:
+    # The first element serves as the copyright owner's link
+    - https://twitter.com/uzbekkorea
+    - https://github.com/uzbekkorea
+    # - https://www.facebook.com/username
+    # - https://www.linkedin.com/in/username
+
+google_site_verification:               # fill in to your verification string
+
+
+google_analytics:
+  id:                 # fill in your Google Analytics ID
+  # Google Analytics pageviews report settings
+  pv:
+    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
+    cache_path:       # the local PV cache data, friendly to visitors from GFW region
+
+# Prefer color scheme setting.
+#
+# Note: Keep empty will follow the system prefer color by default,
+# and there will be a toggle to switch the theme between dark and light
+# on the bottom left of the sidebar.
+#
+# Available options:
+#
+#     light  - Use the light color scheme
+#     dark   - Use the dark color scheme
+#
+theme_mode:   # [light|dark]
+
+# The CDN endpoint for images.
+# Notice that once it is assigned, the CDN url
+# will be added to all image (site avatar & posts' images) paths starting with '/'
+#
+# e.g. 'https://cdn.com'
+# img_cdn: 'https://raw.githubusercontent.com/uzbekkorea/uzbekkorea-images/main'
+
+# the avatar on sidebar, support local or CORS resources
+avatar: '/assets/img/avatar.jpg'
+
+# boolean type, the global switch for ToC in posts.
+toc: true
+
 comments:
-  disqus_shortname:                                     # Your discus shortname for comments
-  cusdis_app_id:                                        # Your cusdis data-app-id
-  utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
-    repo:                                               # your public comments repository (e.g. owner/repo)
-    issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)
+  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  # The active options are as follows:
+  disqus:
+    shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  # utterances settings › https://utteranc.es/
+  utterances:
+    repo:         # <gh-username>/<repo>
+    issue_term:   # < url | pathname | title | ...>
+  # Giscus options › https://giscus.app
+  giscus:
+    repo:             # <gh-username>/<repo>
+    repo_id:
+    category:
+    category_id:
+    mapping:          # optional, default to 'pathname'
+    input_position:   # optional, default to 'bottom'
+    lang:             # optional, default to the value of `site.lang`
 
-# PAGINATION
-paginate: 5
-paginate_path: "/blog/page:num"
+# Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
+assets:
+  self_host:
+    enabled:      # boolean, keep empty means false
+    # specify the Jekyll environment, empty means both
+    # only works if `assets.self_host.enabled` is 'true'
+    env:          # [development|production]
 
-# PORTFOLIO
+paginate: 10
+
+# ------------ The following options are not recommended to be modified ------------------
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:   # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: highlight
+    # default_lang: console
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
 collections:
-  portfolio:
+  tabs:
     output: true
-    permalink: /:collection/:name
+    sort_by: order
 
-# BUILD SETTINGS
+defaults:
+  - scope:
+      path: ''          # An empty string here means all files in the project
+      type: posts
+    values:
+      layout: post
+      comments: true    # Enable comments in posts.
+      toc: true         # Display TOC column in posts.
+      # DO NOT modify the following parameter unless you are confident enough
+      # to update the code of all other post links in this project.
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ''
+      type: tabs             # see `site.collections`
+    values:
+      layout: page
+      permalink: /:title/
+  - scope:
+      path: assets/img/favicons
+    values:
+      swcache: true
+  - scope:
+      path: assets/js/dist
+    values:
+      swcache: true
+
 sass:
   style: compressed
-plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
-exclude: [".jekyll-cache", ".idea", "vendor/*", "assets/node_modules/*"]
 
-# theme: type-on-strap                                  # if using the theme as a jekyll theme gem
-remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - '*.gem'
+  - '*.gemspec'
+  - .jekyll-cache
+  - tools
+  - README.md
+  - LICENSE
+  - gulpfile.js
+  - node_modules
+  - package*.json
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/

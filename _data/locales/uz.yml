@@ -1,0 +1,78 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: Maqola
+  category: Turkumlar
+  tag: Kalit Sōzlar
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: Boş Sahifa
+  categories: Turkumlar
+  tags: Kalit Sōzlar
+  archives: Maqolalar Arxivi
+  about: Sayt Haqida
+
+# the text displayed in the search bar & search results
+search:
+  hint: izlaş
+  cancel: qaytiş
+  no_results: Afsus! Hech narsa topilmadi.
+
+panel:
+  lastmod: Oxirgi Yangilanish
+  trending_tags: Maşxur Kalit Sōzlar
+  toc: Mundarija
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: This post is licensed under :LICENSE_NAME by the author.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: Barça huquqlar himoyalangan
+  verbose: >-
+    Except where otherwise noted, the blog posts on this site are licensed
+    under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
+
+meta: Powered by :PLATFORM with :THEME theme.
+
+not_found:
+  statment: Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
+  hint_template: :HEAD_BAK to try finding it again, or search for it on the :ARCHIVES_PAGE.
+  head_back: Head back Home
+  archives_page: Archives page
+
+# ----- Posts related labels -----
+
+post:
+  written_by: Muallif
+  posted: Yozildi
+  updated: Yangilandi
+  words: sōz
+  pageview_measure: kōrildi
+  read_time:
+    unit: min
+    prompt: read
+  relate_posts: Qōşimça ōqiş
+  share: Ulaşiş
+  button:
+    next: Keyingi
+    previous: Avvalgi
+    copy_code:
+      succeed: Nusxa olindi!
+    share_link:
+      title: Bōḡlanişni Kōçiriş
+      succeed: Bōḡlanişni kōçirildi!
+  # pinned prompt of posts list on homepage
+  pin_prompt: Qadalgan
+
+# categories page
+categories:
+  category_measure: turkumlar
+  post_measure: maqolalar
