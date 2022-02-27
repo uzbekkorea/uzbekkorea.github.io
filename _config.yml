@@ -169,7 +169,7 @@ exclude:
   - '*.gem'
   - '*.gemspec'
   - .jekyll-cache
-  - tools
+  - tmp
   - README.md
   - LICENSE
   - gulpfile.js

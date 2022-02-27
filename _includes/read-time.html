@@ -2,7 +2,7 @@
   Calculate the post's reading time, and display the word count in tooltip
  -->
 
-{% assign words = include.content | strip_html | number_of_words: "auto" %}
+{% assign words = include.content | strip_html | number_of_words %}
 
 <!-- words per minute  -->
 
@@ -24,7 +24,7 @@
   title="{{ words }} {{ site.data.locales[lang].post.words }}">
   <em>{{- read_time -}}{{" "}}{{- site.data.locales[lang].post.read_time.unit -}}</em>
   {%- if include.prompt -%}
-    {%- assign _prompt_words = read_prompt | number_of_words: 'auto' -%}
+    {%- assign _prompt_words = read_prompt | number_of_words -%}
     {%- unless _prompt_words > 1 -%}{{ " " }}{%- endunless -%}{{ read_prompt }}
   {%- endif -%}
 </span>
