@@ -184,3 +184,5 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+remote_theme: cotes2020/jekyll-theme-chirpy
