@@ -1,5 +1,3 @@
-theme: jekyll-theme-chirpy
-
 baseurl: ''
 
 url: "https://uzbekkorea.com"
@@ -66,7 +64,7 @@ theme_mode:   # [light|dark]
 # img_cdn: 'https://raw.githubusercontent.com/uzbekkorea/uzbekkorea-images/main'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/assets/img/avatar.jpg'
+avatar: '/assets/img/avatar.png'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -159,6 +157,13 @@ compress_html:
   blanklines: false
   ignore:
     envs: [development]
+
+plugins: 
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-sitemap
 
 exclude:
   - '*.gem'

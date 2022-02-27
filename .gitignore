@@ -23,7 +23,6 @@ _development_tool/*
 Gemfile.lock
 *.gem
 .gems
-uzbekkorea.gemspec
 
 # Node.js
 **/node_modules/*
