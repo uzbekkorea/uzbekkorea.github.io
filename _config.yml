@@ -5,21 +5,21 @@ url: "https://uzbekkorea.com"
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 lang: uz
 
-prefer_datetime_locale:
+prefer_datetime_locale: uz-latn
 
 timezone: Asia/Seoul
 
 title: Koreya Hayoti
 
-tagline: Koreya haqida ma’lumot
+tagline: tajriba va ma’lumot tōplami
 
 description: >-
-  Koreya haqida turli ma’lumotlar tōplami.
+  Koreya haqida turli tajriba va ma’lumotlar tōplami.
 
 github:
   username: uzbekkorea
-twitter:
-  username: uzbekkorea
+#twitter:
+#  username: uzbekkorea
 
 social:
   # Change to your full name.
@@ -28,8 +28,8 @@ social:
   email: uzbekkorea@outlook.com
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/uzbekkorea
     - https://github.com/uzbekkorea
+    #- https://twitter.com/uzbekkorea
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 

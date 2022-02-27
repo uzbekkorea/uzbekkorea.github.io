@@ -4,7 +4,7 @@
 In order to test your changes locally you need to install jekyll, 
 and run following command.
 ```sh
-jekyll serve
+bundle exec jekyll serve
 ```
 
 ### Docker Environment

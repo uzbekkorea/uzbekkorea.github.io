@@ -30,35 +30,35 @@ panel:
 copyright:
   # Shown at the bottom of the post
   license:
-    template: This post is licensed under :LICENSE_NAME by the author.
+    template: Uşbu maqola muallif tomonidan :LICENSE_NAME bilan licensiyalangan.
     name: CC BY 4.0
     link: https://creativecommons.org/licenses/by/4.0/
 
   # Displayed in the footer
   brief: Barça huquqlar himoyalangan
   verbose: >-
-    Except where otherwise noted, the blog posts on this site are licensed
-    under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
+    Alohida kōrsatilmaganda, uşbu saytdagi maqolalar muallif tomonidan
+    "Creative Commons Attribution 4.0 International (CC BY 4.0)" bilan licensiyalangan.
 
 meta: Powered by :PLATFORM with :THEME theme.
 
 not_found:
-  statment: Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
-  hint_template: :HEAD_BAK to try finding it again, or search for it on the :ARCHIVES_PAGE.
-  head_back: Head back Home
-  archives_page: Archives page
+  statment: Keçirasiz, taşrif etilgan sahifa topilmadi yoki kōçirilgan.
+  hint_template: :HEAD_BAK va qayta kōrib çiqing, yoki :ARCHIVES_PAGEdan izlab kōring.
+  head_back: Boş sahifaga qayting
+  archives_page: Maqolalar arxivi
 
 # ----- Posts related labels -----
 
 post:
-  written_by: Muallif
-  posted: Yozildi
+  written_by: 'Muallif:'
+  posted: 'Kiritildi:'
   updated: Yangilandi
   words: sōz
   pageview_measure: kōrildi
   read_time:
-    unit: min
-    prompt: read
+    unit: minut
+    prompt: da ōqiladi
   relate_posts: Qōşimça ōqiş
   share: Ulaşiş
   button:

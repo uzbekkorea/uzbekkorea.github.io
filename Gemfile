@@ -1,6 +1,5 @@
 source "https://rubygems.org"
 gem 'github-pages'
-#gemspec
 
 group :test do
   gem "html-proofer", "~> 3.18"

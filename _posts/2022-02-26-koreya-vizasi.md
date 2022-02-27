@@ -1,7 +1,7 @@
 ---
 title: Koreya vizasi
 author:
-  name: uzbekkorea
+  name: Koreyadagi Ōzbekistonliklar
   link: https://github.com/uzbekkorea
 date: 2022-02-26 20:55:00 +0900
 categories: [Koreyaga Taşrif, Viza]
