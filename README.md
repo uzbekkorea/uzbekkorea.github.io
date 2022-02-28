@@ -1,4 +1,14 @@
-# Uzbekistan Community in Korea
+# Life in Korea : Experience of Uzbeks in Korea
+This is static site based jekyll that contains information shared by Uzbekistan people living in Korea.
+
+## How to add article
+- `Fork` the repository
+- Add new article with create file with a name `date-title.md` in `_posts`
+- Test locally
+- Push and create pull request
+
+> :exclamation: Do NOT directly modify `gh-pages` branch, it is deployed when `main` branch is  modified.
+
 
 ## How to test locally
 In order to test your changes locally you need to install jekyll, 
