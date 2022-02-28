@@ -170,11 +170,13 @@ exclude:
   - '*.gemspec'
   - .jekyll-cache
   - tmp
+  - source
   - README.md
   - LICENSE
   - gulpfile.js
   - node_modules
   - package*.json
+  - docker-jekyll-serve.sh
 
 jekyll-archives:
   enabled: [categories, tags]
