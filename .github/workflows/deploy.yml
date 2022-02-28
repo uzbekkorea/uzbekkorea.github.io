@@ -27,8 +27,7 @@ jobs:
             ${{ runner.os }}-gems-
 
       - name: Build and deploy
-        uses: joshlarsen/jekyll4-deploy-gh-pages@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.JEKYLL_PAT }}
-          GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+        uses: helaili/jekyll-action@v2
+        with:
+          token: ${{ secrets.JEKYLL_PAT }}
+          target_branch: 'test-gh-pages'
