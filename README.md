@@ -7,7 +7,7 @@ This is static site based jekyll that contains information shared by Uzbekistan 
 - Test locally
 - Push and create pull request
 
-> :exclamation: Do NOT directly modify `gh-pages` branch, it is deployed when `main` branch is  modified.
+> :warning: Do NOT directly modify `gh-pages` branch, it is deployed when `main` branch is  modified.
 
 
 ## How to test locally
