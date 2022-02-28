@@ -29,5 +29,5 @@ jobs:
       - name: Build and deploy
         uses: helaili/jekyll-action@v2
         with:
-          token: ${{ secrets.JEKYLL_PAT }}
+          token: ${{ secrets.JEKYLL_TOKEN }}
           target_branch: 'test-gh-pages'
