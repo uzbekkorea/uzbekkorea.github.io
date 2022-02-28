@@ -1,6 +1,6 @@
 ---
 layout: archives
-title: Archives
+title: Maqolalar Arxivi
 icon: fas fa-archive
 order: 3
 ---
