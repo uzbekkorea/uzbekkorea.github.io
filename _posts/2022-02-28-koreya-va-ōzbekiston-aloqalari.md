@@ -12,7 +12,7 @@ pin: false
 ## Tarixiy aloqalar
 Koreyslar va Markaziy Osiyo xalqlarining ōrtasidagi tarixiy ōzaro aloqalari tarixi qadim davrlarga borib taqaladi. Uşbu mintaqaning baʼzi viloyatlari zamonaviy ilmiy tasavvurlarga kōra, koreys etnosining genezisida ham muhim rol ōynagan. Oltoy va Ōrta Osiyo rayonlarida joylaşgan xalqlarning koreyslar etnogenezida qatnaşganiga qaramay, koreyslar va Ōrta Osiyo mintaqasi ōrtasidagi aloqalar VII asrgaça bōlgan tarixiy adabiyotlarda qayd etilmagan.
 
-![Koreys elçisi Samarqand hokimi huzurida](/assets/img/korea-uzbekistan-relatoins-history.jpg)
+![Koreys elçisi Samarqand hokimi huzurida](/assets/posts/img/korea-uzbekistan-relatoins-history.jpg)
 
 Koreya va Ōrta Osiyoning aloqalari borasidagi dastlabki hujjatli dalil Samarqanddagi Afrosiyobda saqlangan devoriy tasvirlar sanaladi, unda ikkita koreys elçisi Samarqand hokimi huzurida tasvirlangan, uşbu taşrif vaqti VII asr bilan belgilanadi. Şuningdek, koreys monarxi Xeçxoning Ōrta Osiyo bōylab VIII asrdagi sayohati maʼlum. Arablar va xitoyliklar ōrtasidagi Talas jangida esa (751 y.), Xitoy qōşiniga koreys generali Ko Son Çji qōm ond oniik qilgan (xitoyliklarga asir bōlgan jangçi Ko Sa Gening avlodi). Koreys olimlari van Xengdok maqbarasi (Silla, IX asr)dagi toş haykalni Markaziy Osiyodan çiqqan kişi tasviri hisoblaydilar.
 
@@ -46,11 +46,11 @@ Faol hamkorlik sport sohasida ham amalga oşirilmoqda. Ōzbekistonda WTF (jahon 
 
 2017 yil Ōzbebiston prezidenti Şavkat Mirziyoyev Janubiy Koreyaga 4 kunlik taşrifni amalga oşird. Uşbu taşrifda Janubiy Koreya prezidenti Mun Je-In bilan uçraşdi. Korea-Ōzbekiston Biznes Forumida turli sohalardagi aloqalarni rivojlantiriş muhokama qilindi. Taşrif davomida Seul hokimi Park Von-Sun Ş. Mirziyoevga Seul Şahrining fahriy fuqarosi unvonini taqdim etdi.
 
-![Koreys Madaniyat va Sanʼat Uyining oçilişi](/assets/img/korea-uzbekistan-business-forum.jpg)
+![Koreys Madaniyat va Sanʼat Uyining oçilişi](/assets/posts/img/korea-uzbekistan-business-forum.jpg)
 
 2019 yil, Janubiy Koreya prezidenti Mun Je-In Ōzbekistonga 4 kunlik taşrif uyuştirib Ōzbekiston prezidentiy Şavkat Mirziyoyeve bilan uçraşib ikki-tomonlama aloqalarni yanada oldinga surişni muhokama qildi. Şuningdek, Oliy Majlis Qonunçilik palatasi deputatlari va Senati aʼzolari oldida nutq sōzladi va Toşkenda Koreys Madaniyat va Sanʼat Uyining tantanali oçilişida qatnaşdi.
 
-![Koreys Madaniyat va Sanʼat Uyining oçilişi](/assets/img/koyrea-madaniyat-va-sanat-uyi.png)
+![Koreys Madaniyat va Sanʼat Uyining oçilişi](/assets/posts/img/koyrea-madaniyat-va-sanat-uyi.png)
 
 2020 yilning noyabr oyida Seul şahrida bōlib ōtgan 13-Markaziy Osiyo–Koreya hamkorlik forumi doirasida Janubiy Koreya va Ōzbekiston uçraşib, COVID-19 pandemiyasi kontekstida iqtisodiy hamkorlikning oqibatlari va imkoniyatlarini, şuningdek, savdo tōsiqlar va mahsulot sifati va raqobatbardoşligini oşiriş muammolarni bartaraf etiş masalalarini muhokama qilişdi. 2021-yil yanvar oyida mamlakatlar “Barqaror Savdo-Iqtisodiy Şeriklik tōḡrisidagi bitim” (BSIŞ) deb nomlanadigan ikki tomonlama erkin savdo bitimini muhokama qiliş boşlanganini eʼlon qildi.
 

@@ -11,6 +11,8 @@ on:
       - "LICENSE"
       - "docker-jekyll-serve.sh"
       - "tmp"
+      - "source"
+      - "tools"
       - "gulpfile.js"
       - "source"
       

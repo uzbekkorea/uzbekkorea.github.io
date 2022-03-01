@@ -171,6 +171,7 @@ exclude:
   - '*.gemspec'
   - .jekyll-cache
   - tmp
+  - tools
   - source
   - README.md
   - LICENSE
