@@ -3,7 +3,7 @@ title: Koreya joylaşuv va iqlimi
 author:
   name: Koreyadagi Ōzbekistonliklar
   link: https://github.com/uzbekkorea
-date: 2022-03-01 15:50:00 +0900
+date: 2022-03-01 23:00:00 +0900
 categories: [Koreya Haqida, Joylayşuv va Iqlimi]
 tags: [koreya haqida, juḡrofiy joylaşuv, fasllar, ob-havo, iqlim]
 pin: false
