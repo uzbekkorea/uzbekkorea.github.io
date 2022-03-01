@@ -1,5 +1,5 @@
 ---
-title: Koreya joylaşuv va iqlimi
+title: Koreyada ōqişga moliyaviy yordam
 author:
   name: Koreyadagi Ōzbekistonliklar
   link: https://github.com/uzbekkorea
