@@ -1,5 +1,5 @@
 ---
-title: Çet elliklar rōyxatidan ōtiş
+title: Koreyada çet elliklar rōyxatidan ōtiş
 author:
   name: Koreyadagi Ōzbekistonliklar
   link: https://github.com/uzbekkorea
