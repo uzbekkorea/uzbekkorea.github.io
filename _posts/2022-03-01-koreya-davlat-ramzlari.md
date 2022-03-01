@@ -1,5 +1,5 @@
 ---
-title: Davlat ramzlari
+title: Koreya davlat ramzlari
 author:
   name: Koreyadagi Ōzbekistonliklar
   link: https://github.com/uzbekkorea
