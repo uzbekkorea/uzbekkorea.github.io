@@ -25,7 +25,7 @@ Nisbatan katta bōlmagan Koreya yarim orolida etariliça kōp katta va kiçik da
 Koreyaning uç tomonini yuvib turuvçi dengizlar ham aholi hayotida uzoq davrlardan beri muhim rolga ega bōldi. Şuning uçun ham dengizşunoslik va kemasozlik sanoati tez rivojlandi.
 
 ## Iqlimi
-Koreya bir-biridan farq qiladigan tōrt faslga ega. Bahor qisqa bōlişiga qaramasdan juda ham yoqimli va quyoşli bōladi. Yoz esa issiq va namlik yuqori bōlib, iyul oylarida yomḡirga boy bōladi. Kuz fasli yorqin tilla va qizil ranglar bilan bōyalib ajoyib rang-barang panoramani yaratadi. Qiş sovuq va quruq kelib vaqti-vaqti bilan qor yoḡadi. Janubiy ḡarbdagi Jeju-do (orol) yumşoq subtropik iqlimga ega. Koreya tumanlar ōrtasidagi temperatura farqi juda katta, ōrtaça hisobda 6°S dan 16°S gaça orasida bōladi. Yilining eng issiq oyi bōlgan avgustda esa temperatura 19°S dan 35°S orasida bōladi, eng sovuq oyi yanvarda esa temperatura minus 8°S gaça tuşib ketadi.
+Koreya bir-biridan farq qiladigan tōrt faslga ega. Bahor qisqa bōlişiga qaramasdan juda ham yoqimli va quyoşli bōladi. Yoz esa issiq va namlik yuqori bōlib, iyul oylarida yomḡirga boy bōladi. Kuz fasli yorqin tilla va qizil ranglar bilan bōyalib ajoyib rang-barang panoramani yaratadi. Qiş sovuq va quruq kelib vaqti-vaqti bilan qor yoḡadi. Janubiy ḡarbdagi Jeju-do (orol) yumşoq subtropik iqlimga ega. Koreya tumanlar ōrtasidagi temperatura farqi juda katta, ōrtaça hisobda 6°C dan 16°C gaça orasida bōladi. Yilining eng issiq oyi bōlgan avgustda esa temperatura 19°C dan 35°C orasida bōladi, eng sovuq oyi yanvarda esa temperatura minus 8°C gaça tuşib ketadi.
 
 ![Koreyada Tōrt Fasl](/assets/posts/img/korea-4-seaons.jpg){: width="90%" style="border: 1px solid #eee" }
 
