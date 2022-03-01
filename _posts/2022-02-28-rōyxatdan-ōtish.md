@@ -11,7 +11,7 @@ pin: false
 
 Koreya Respublikasiga kirib kelgan kundan boşlab 90 kundan kōp  uzoq muddat istiqomat qilmoqçi bōlgan çet elliklar çet ellik rōyxat  kartasini olişi kerak. Rōyxatni yakunlagan çet elliklar soḡliq suḡurtasini olişi mumkin va ularning farzandlari Koreya Respublikasi yoki çet el maktabiga kirişi mumkin. çet elliklar har doim çet ellik rōyxat kartasini olib yurişi kerak
 
-![Çet elliklar rōyxat kartasi](/assets/posts/imgid_card_sample.jpg){: width="70%" }
+![Çet elliklar rōyxat kartasi](/assets/posts/img/id_card_sample.jpg){: width="70%" }
 
 ## Ariza topşiradigan şaxslar 
 - Koreya Respublikasida 91 kundan kōp istiqomat qilmoqçi bōlgan çet elliklar
