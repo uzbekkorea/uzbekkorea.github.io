@@ -18,29 +18,29 @@ Koreya va Ōrta Osiyoning aloqalari borasidagi dastlabki hujjatli dalil Samarqan
 
 Koreyaning hozirgi Ōzbekiston hududidagi xalqlar bilan keyingi aloqalari boşqa qayd etilmagan.
 
-XIX asrning ikkinçi yarmida koreys immigraciyasi boşlangandan sōng, hozirgi Ōzbekiston, Qozoḡiston va Qirḡiziston hududida birinçi marta koreyslar 1897 yilda ōtkazilgan Rossiya imperiyasining umumiy aholi rōyxatida qayd etilgan. 1926 yildagi Birinçi Umum ittifoq aholi rōyxati bu borada 87 nafar koreysni qayd etgan: Qozoḡiston da - 42 nafar, Ōzbekistonda - 36 va Qirḡizistonda - 9 kişi yaşaganini kōriş mumkin.
+XIX asrning ikkinçi yarmida koreys immigratsiyasi boşlangandan sōng, hozirgi Ōzbekiston, Qozoḡiston va Qirḡiziston hududida birinçi marta koreyslar 1897 yilda ōtkazilgan Rossiya imperiyasining umumiy aholi rōyxatida qayd etilgan. 1926 yildagi Birinçi Umum ittifoq aholi rōyxati bu borada 87 nafar koreysni qayd etgan: Qozoḡiston da - 42 nafar, Ōzbekistonda - 36 va Qirḡizistonda - 9 kişi yaşaganini kōriş mumkin.
 
 Yuqoridagi yillarda Markaziy Osiyoda yaşovçi koreyslar ilk marotaba ōzlarining taşkilotlarini tuzişga harakat qiladi. Masalan, 1921 yilda Turkiston Respublikasi milliy işlari bōyiça xalq qōmitasida koreys seksiyasi tuzilgan. 1924 yil 26 avgustda esa Turkiston Respublikasi NKVDsida Turkiston Respublikasi koreyslari Ittifoqi qayd etilgan, unga 28 kişi kirgan. 1926 yildagi qayta rōyxatdan ōtişda Ittifoq rōyxati 33 kişiga ortgan. Biroq, 1926 yil 29 sentyabrda koreyslar Ittifoqi ŌzSSR NKVDsi tomonidan tugatilgan.
 
-1937 yilda esa Uzoq Şarqdagi barça koreys aholist Ōzbekiston va Qozoḡistonga deportaciya qilingan.
+1937 yilda esa Uzoq Şarqdagi barça koreys aholist Ōzbekiston va Qozoḡistonga deportatsiya qilingan.
 
 ## Koreya Respublikasi bilan aloqa
 
-1992 yilning martida Ōzbekiston va Janubiy Koreya ōrtasida diplomatik aloqalar ōrnatild, şu yilning 19 iyunida esa Ōzbekistan Prezidenti I.A. Karimove Koreya Respublikasida bōlgan taşrif davomida "Ōzbekiston va Janubiy Koreya ōrtasida davlatlararo munosabatlar va hamkorlik asoslari tōḡrisida" şartnoma imzolangan. Şuningdek, turli sohalarda (savdo, madaniyat, taʼlim, OAV, turizm va sport) uzoq muddatga mōljallangan hamkorlik kelişib olindi. Taşrifning eng muhim natijasi "DEU" korporaciyasi bilan Asaka şahrida avtomobil işlab çiqariş korxonasini quriş bōyiça bitim imzolanişi bōldi.
+1992 yilning martida Ōzbekiston va Janubiy Koreya ōrtasida diplomatik aloqalar ōrnatild, şu yilning 19 iyunida esa Ōzbekistan Prezidenti I.A. Karimove Koreya Respublikasida bōlgan taşrif davomida "Ōzbekiston va Janubiy Koreya ōrtasida davlatlararo munosabatlar va hamkorlik asoslari tōḡrisida" şartnoma imzolangan. Şuningdek, turli sohalarda (savdo, madaniyat, taʼlim, OAV, turizm va sport) uzoq muddatga mōljallangan hamkorlik kelişib olindi. Taşrifning eng muhim natijasi "DEU" korporatsiyasi bilan Asaka şahrida avtomobil işlab çiqariş korxonasini quriş bōyiça bitim imzolanişi bōldi.
 
 1992-1996 yillarda "UzDEU avto" qōşma korxonasini loyihalaştiriş va quriş işlari amalga oşirildi. 1995 yil 25 m artda korxona avtom obil işlab çiqarişni boşladi. Ayni paytda Ōzbekiston avtomobil işlab çiqariş bōyiça 28 mamlakat qatoridan joy oldi. 1998 yilda korxona "Damas", "Tiko" va "Neksiya" markasidagi 54400 avtom obil işlab çiqardi. Keyinçalik Asakadagi zavod boşqa, birmunça zamonaviyroq modeldagi avtomobillarni - "Matiz", "Lasetti", "Spark" va boşqa modellar işlab çiqara boşladi.
 
 Ōzbekiston va Janubiy Koreya prezidentlari sammiti tizimli xarakter kasb etdi - ular 11 marotaba uçraşdi. Parlamentlararo aloqalar faollaşdi.
 
-Ōzbekistonda Janubiy Koreya kapitali iştirokidagi 400 dan ortiq korxona faoliyat yuritadi. Janubiy Koreya tekstil, yengil, toḡ-metallurgiya, neft-kimyo, elektrotexnika, oziq-ovqat, quriliş, energetika, farmacevtika va respublika iqtisodining boşqa sohalarida hamda Surgil bazasidagi Ustyurt gaz-kimyo kompleksi, Navoiy erkin industrial-iqtisodiy zonasini, Navoiy şahri aeroporti bazasidagi xalqaro logistika intermodal markazini, Angren erkin industrial-iqtisodiy zonasini rivojlantirişda faol iştirok etadi. Uşbu mamlakatning 90 dan ortiq kompaniyalari vakolatxonalari oçilgan. 2012 yilda Ōzbekistan va Janubiy Koreya ōrtasid agi tovar ayirboşlaş 1,6 mlrd. AQŞ dollarini taşkil etdi.
+Ōzbekistonda Janubiy Koreya kapitali iştirokidagi 400 dan ortiq korxona faoliyat yuritadi. Janubiy Koreya tekstil, yengil, toḡ-metallurgiya, neft-kimyo, elektrotexnika, oziq-ovqat, quriliş, energetika, farmatsevtika va respublika iqtisodining boşqa sohalarida hamda Surgil bazasidagi Ustyurt gaz-kimyo kompleksi, Navoiy erkin industrial-iqtisodiy zonasini, Navoiy şahri aeroporti bazasidagi xalqaro logistika intermodal markazini, Angren erkin industrial-iqtisodiy zonasini rivojlantirişda faol iştirok etadi. Uşbu mamlakatning 90 dan ortiq kompaniyalari vakolatxonalari oçilgan. 2012 yilda Ōzbekistan va Janubiy Koreya ōrtasid agi tovar ayirboşlaş 1,6 mlrd. AQŞ dollarini taşkil etdi.
 
-Faol hamkorlik, şuningdek, axborot texnologiyalari sohasida ham rivojlanmoqda. 2013 yilda Ōzbekiston davlat Aloqa, axborotlaştiriş va telekommunikaciya qōmitasi raisi ōrinbosari lavozimiga Janubiy Koreya davlat maʼmuriyati va xavfsizlik vaziri ōrinbosari taklif etildi.
+Faol hamkorlik, şuningdek, axborot texnologiyalari sohasida ham rivojlanmoqda. 2013 yilda Ōzbekiston davlat Aloqa, axborotlaştiriş va telekommunikatsiya qōmitasi raisi ōrinbosari lavozimiga Janubiy Koreya davlat maʼmuriyati va xavfsizlik vaziri ōrinbosari taklif etildi.
 
 Fan, taʼlim va madaniyat sohalaridagi hamkorliklar faol rivojlanmoqda. 1992 yildan Ōzbekistonda Koreya Respublikasining Ōzbekistondagi elçixonasi qoşida koreys maʼrifat markazi faoliyat yuritmoqda, unda 1000 dan ortiq kişi har yili koreys tilini ōrganmoqda. Bundan taşqari, koreys tili Ōzbekistonning 22 ta maktab va kollejida va 5 ta oliy ōquv yurtida ōqitiladi (uçta oliy ōquv yurtida koreys tiliga ixtisoslaşgan kafedra mavjud). Seuldagi xorijiy tadqiqotlar Koreys universitetida koreys talabalari koreys tilini ōrganişi mumkin bōlgan Markaziy Osiyo tadqiqotlari kafedrasi oçilgan. Qōşma ilmiy loyihalar amalga oşirilmoqda.
 
 Ōzbekistonning televizion kanallarida Janubiy Koreya filmlari berib boriladi. Ijodiy jamoa yōnalişi bōyiça doimo almaşinuv amalga oşiriladi. Ōzbekistonda turli sohalarda Janubiy Koreyalik kōngillilar KOIKA yōnalişi bōyiça işlaydilar. 
 
-Faol hamkorlik sport sohasida ham amalga oşirilmoqda. Ōzbekistonda WTF (jahon taekvando federaciyasi) faoliyat yuritadi.
+Faol hamkorlik sport sohasida ham amalga oşirilmoqda. Ōzbekistonda WTF (jahon taekvando federatsiyasi) faoliyat yuritadi.
 
 Ōzbekiston Respublikasi Mehnat va aholini ijtimoiy himoya qiliş vazirligi bilan Koreya Respublikasi Bandlik va mehnat vazirligi ōrtasida işçilarni Koreya Respublikasiga yuboriş bōyiça kelişuv mavjud. Kōplab Ōzbekistonliklar Janubiy Koreyada ōqiydi va işlaydi. 2012 yil oxirida ular soni 12 mingdan ortgan. Janubiy Koreya va Ōzbekiston fuqarolari ōrtasida millatlararo nikohlar soni ham ortib bormoqda.
 

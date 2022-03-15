@@ -33,14 +33,14 @@ madaniyat / san’at (D-1), din (D-6), taşrif qilib birga yaşaş (F-1), hamroh
   - Ruxsat olingandan keyin
 
 ## Rōyxatdan ōtiş tartibi va rōyxat kartasini oliş usuli
-Çet elliklar rōyxatidan ōtişga ariza topşirgan şaxslar albatta quyidagi hujjatlarni manzilgohi qaraydigan immigraciya 
+Çet elliklar rōyxatidan ōtişga ariza topşirgan şaxslar albatta quyidagi hujjatlarni manzilgohi qaraydigan immigratsiya 
 byurosi yoki filialiga topşirişi kerak.
 - Çet elliklar rōyxatidan ōtiş arizasi, pasport, rangli surat 1ta (3,5 sm X 4,5 sm), istiqomat turi bōyiça kerak bōlgan hujjatlar, haq 30 ming von
 - Çet elliklar rōyxatidan ōtiş muddati 1 yil va uni tugaşidan oldin yangilaş kerak.
 - Istiqomat şartnomasiga kerak bōlgan hujjat viza turiga qarab farq qiladi.
 - Rōyxat kartasini ariza topşirgan joydan bevosita yoki poçta orqali oliş mumkin, va karta berilişi uçun taxminan 4 hafta vaqt ketadi.
 
-> Immigraciya byurosiga taşrif qilişingizdan oldin “Hi Korea” (www.hikorea.go.kr) veb-saytida albatta oldindan taşrifni bron qiliş kerak. 
+> Immigratsiya byurosiga taşrif qilişingizdan oldin “Hi Korea” (www.hikorea.go.kr) veb-saytida albatta oldindan taşrifni bron qiliş kerak. 
 {: .prompt-tip }
 
 ## Har xil arizalar
@@ -49,15 +49,15 @@ byurosi yoki filialiga topşirişi kerak.
 > Çet elliklar rōyxati ma’lumotlari ōzgargani haqida ariza topşiriş burçi
 {: .prompt-warning }
 
-Rōyxatdan ōtgan çet elliklar quyidagi ariza sabablari içida bittasi bōlsa ham Immigraciya byurosida çet ellik rōyxat ma’lumotini ōzgartirişi kerak.
+Rōyxatdan ōtgan çet elliklar quyidagi ariza sabablari içida bittasi bōlsa ham Immigratsiya byurosida çet ellik rōyxat ma’lumotini ōzgartirişi kerak.
 
 ### Ariza va usuli
 - Ismi, jinsi, tuḡilgan kuni va fuqaroligi ōzgargan bōlsa yoki pasport raqami, berilgan sanasi, yaroqlik muddati ōzgarganda
-- Madaniyat/san’at (D-1), çet ellik talabalar (D-2), oddiy stajorlik (D-4), reportaj (D-5), din (D-6), istiqomat (D-7), kompaniya investiciyasi (D-8), savdo va menejment (D-9) malakalariga ega bōlgan çet elliklar fuqaro bōlgan guruh yoki guruh nomi ōzgarganda
+- Madaniyat/san’at (D-1), çet ellik talabalar (D-2), oddiy stajorlik (D-4), reportaj (D-5), din (D-6), istiqomat (D-7), kompaniya investitsiyasi (D-8), savdo va menejment (D-9) malakalariga ega bōlgan çet elliklar fuqaro bōlgan guruh yoki guruh nomi ōzgarganda
 - Ariza muddati: 
   - Yuqoridagi ariza sababi paydo bōlganidan 14 kun içida
 - Ariza usuli: 
-  - Arizaçi yoki vakokatli şaxsi qaraşli Immigraciya byurosiga kerakli hujjatlarni topşiradi.
+  - Arizaçi yoki vakokatli şaxsi qaraşli Immigratsiya byurosiga kerakli hujjatlarni topşiradi.
 - Topşiriladigan hujjatlar:
   - Pasport
   - Çet ellik rōyxat kartasi
@@ -65,7 +65,7 @@ Rōyxatdan ōtgan çet elliklar quyidagi ariza sabablari içida bittasi bōlsa h
   - Ōzgargan ma’lumotni isbotlovçi hujjatlar
 
 ### Istiqomat manzili ōzgargani haqida ariza topşiriş burçi
-Rōyxatdan ōtgan çet ellik istiqomat joyini ōzgartirganida albatta yangi joyga kōçgan kunidan boşlab 14 kun içida yangi manzilining şahar, gun, gu ma’muriyati va ip, myon, dong ma’muriyati yoki tegişli Immigraciya byurosiga istiqomat joyi ōzgargani haqida ariza topşirişi şart. 
+Rōyxatdan ōtgan çet ellik istiqomat joyini ōzgartirganida albatta yangi joyga kōçgan kunidan boşlab 14 kun içida yangi manzilining şahar, gun, gu ma’muriyati va ip, myon, dong ma’muriyati yoki tegişli Immigratsiya byurosiga istiqomat joyi ōzgargani haqida ariza topşirişi şart. 
 
 Topşiriladigan hujjatlar: 
   - Pasport
@@ -74,14 +74,14 @@ Topşiriladigan hujjatlar:
   - Istiqomat manzilini isbotlovçi hujjatlar
 
 ### Iş beruvçi haqida ariza topşiriş burçi
-Çet ellik işçilarni işga oluvçisi yoki çet ellik sanoat stajorligi korxonasining direktori quyidagi ariza  sabablari paydo bōlganda şu kundan boşlab 15 kun içida Immigraciya byurosiga ariza topşirişi kerak.
+Çet ellik işçilarni işga oluvçisi yoki çet ellik sanoat stajorligi korxonasining direktori quyidagi ariza  sabablari paydo bōlganda şu kundan boşlab 15 kun içida Immigratsiya byurosiga ariza topşirişi kerak.
 
 ### Ariza sababi 
 - Çet ellik işçilarni işdan bōşatgan yoki çet ellik işçilari işdan bōşagan yoki ōlgan holda
 - Işga olgan çet ellikning turgan joyini bilmagan holda
 - Iş şartnomasining muhim tarkibi ōzgargan holda 
 
-> Namuna) Iş şartnomasining muddatini ōzgartiriş, iş joyi nomini ōzgartiriş, iş beruvçi yoki iş joyi manzilini ōzgartiriş, işçini boşqa iş joyi (zavod)ga jōnatiş (iş joyini ōzgartiriş)da işga olingan çet  ellik immigraciya qonuni va boşqa qoidalarni buzgan holda
+> Namuna) Iş şartnomasining muddatini ōzgartiriş, iş joyi nomini ōzgartiriş, iş beruvçi yoki iş joyi manzilini ōzgartiriş, işçini boşqa iş joyi (zavod)ga jōnatiş (iş joyini ōzgartiriş)da işga olingan çet  ellik immigratsiya qonuni va boşqa qoidalarni buzgan holda
 {: .prompt-tip }
 
 ### Çet ellik talabalik haqida ariza topşiriş burçi
@@ -91,12 +91,12 @@ kabilarini çet ellik talabalarning ōzi yoki ularning vakolatli şaxslari bevos
 - Ariza muddati: 
   - Ariza sababi paydo bōlganda bu haqda bilgan kundan 14 kun içida ariza topşiriş kerak.
 
-> Vaqtinçalik iş (arbayt) bilan şuḡullanmoqçi bōlgan çet ellik talaba (D-2), til ōrganiş (D-4-1) vizasiga ega bōlgan çet ellik talabalar Immigraciya byurosining ruxsatini olişi kerak. Ruxsat beriladigan sohalar mutahassislik faniga yaqin deb tan olinadigan iş turi, ijtimoiy umumiy fikr bōyiça talaba odatda qila oladigan iş turi, işlaş çegaralanmagan boşqa oddiy mehnat sohalari, sotuvçilik, restoran işçisi, tadbirga yordam beruvçi işçilar kabilariga ruxsat beriladi. Istiqomat muddati içida eng uzoḡi 1 yilgaça ruxsat beriladi.
+> Vaqtinçalik iş (arbayt) bilan şuḡullanmoqçi bōlgan çet ellik talaba (D-2), til ōrganiş (D-4-1) vizasiga ega bōlgan çet ellik talabalar Immigratsiya byurosining ruxsatini olişi kerak. Ruxsat beriladigan sohalar mutahassislik faniga yaqin deb tan olinadigan iş turi, ijtimoiy umumiy fikr bōyiça talaba odatda qila oladigan iş turi, işlaş çegaralanmagan boşqa oddiy mehnat sohalari, sotuvçilik, restoran işçisi, tadbirga yordam beruvçi işçilar kabilariga ruxsat beriladi. Istiqomat muddati içida eng uzoḡi 1 yilgaça ruxsat beriladi.
 {: .prompt-danger }
 
 ### Çet ellik rōyxat kartasini qaytarib beriş majburiyati
 - Qaytariş joyi
-  - Immigraciya byurosi
+  - Immigratsiya byurosi
 - Qaytariş sababi 
   - Rōyxatdan ōtgan çet ellikning oxirgi davlatdan çiqib ketayotganda
   - Rōyxatdan ōtgan çet ellikning ōzining fuqarolidan voz keçib Koreya Respublikasi fuqaroligini olganda
