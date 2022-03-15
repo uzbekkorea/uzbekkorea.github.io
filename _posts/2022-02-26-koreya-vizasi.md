@@ -12,7 +12,6 @@ pin: true
 Koreya Respublikasiga taşrif qiladigan şaxslar mehnat, sayohat, ōqiş kabi maqsadiga qarab vizaga ega bōlişi kerak va viza pasportiga yopiştirilişi kerak. Vizaga ega bōlgan xolda ham Koreya Respublikasiga kirib keliş rad qilinişi mumkin.
 
 ## Istiqomat turi bōyiça vizalar
-
 - Diplomatlar (A-1)
 - Davlat işçilari (A-2)
 - Bitim (A-3)
@@ -48,7 +47,6 @@ Koreya Respublikasiga taşrif qiladigan şaxslar mehnat, sayohat, ōqiş kabi ma
 - Boşqalar (G-1)
 
 ## Viza oliş usullari
-
 - Ariza topşiradigan va beriladigan joylari: 
   - Koreya Respublikasining elçixonalari yoki konsulliklari
   - Maxsus hollarda Immigratsiya byurosi yoki filialida viza berilganligi haqida guvohnoma olinadi.
