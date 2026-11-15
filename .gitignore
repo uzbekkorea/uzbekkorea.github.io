@@ -33,3 +33,6 @@ Gemfile.lock
 *copy.md
 test/*
 /uzbekorea*/*
+
+# Local working documents (plans, notes); not published or committed
+docs/
