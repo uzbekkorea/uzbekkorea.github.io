@@ -21,10 +21,10 @@ jobs:
 
     steps:
       - name: Clone repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Caching for Bundler
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
