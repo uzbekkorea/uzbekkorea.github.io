@@ -172,6 +172,7 @@ exclude:
   - .jekyll-cache
   - tmp
   - tools
+  - docs
   - source
   - README.md
   - LICENSE
