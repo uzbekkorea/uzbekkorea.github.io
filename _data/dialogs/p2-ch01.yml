@@ -1,0 +1,167 @@
+# Koreys tili 2-qism, 1-dars: Asosiy iboralar
+#
+# Audio is generated from this file with `uv run tools/tts.py p2-ch01`
+# and saved to assets/audio/p2-ch01/. Edit text here, then re-run the script.
+#
+# Fields: id (unique, used in audio file names), speaker (key of `speakers`),
+# ko (Korean), rom (Revised Romanization), uz (Uzbek, new alphabet).
+# Optional per line:
+#   tts: { ko: "...", uz: "..." }  text to speak when it differs from the text shown
+#   duration: { ko: 0.8 }            fix a clip's length in seconds
+# One-syllable lines (네, Ha) come out as noise; their clips were picked by ear
+# and installed with --adopt (see the tts note on p01).
+
+speakers:
+  jisu:
+    name: 지수 (Jisu)
+    side: left
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "female, young adult, moderate pitch", seed: 42 }
+  anvar:
+    name: 안바르 (Anvar)
+    side: right
+    voice:
+      ko: { instruct: "male, young adult, moderate pitch", seed: 7 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+  narrator:
+    name: ""
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+
+dialog:
+  - id: d01
+    speaker: jisu
+    ko: 안녕하세요!
+    rom: Annyeonghaseyo!
+    uz: Assalomu alaykum!
+  - id: d02
+    speaker: anvar
+    ko: 안녕하세요. 만나서 반갑습니다.
+    rom: Annyeonghaseyo. Mannaseo bangapseumnida.
+    uz: Assalomu alaykum. Tanişganimdan xursandman.
+  - id: d03
+    speaker: jisu
+    ko: 저는 김지수예요. 이름이 뭐예요?
+    rom: Jeoneun Gim Jisuyeyo. Ireumi mwoyeyo?
+    uz: Men Kim Jisuman. Ismingiz nima?
+  - id: d04
+    speaker: anvar
+    ko: 제 이름은 안바르예요. 우즈베키스탄 사람이에요.
+    rom: Je ireumeun Anbareuyeyo. Ujeubekiseutan saramieyo.
+    uz: Mening ismim Anvar. Men özbekistonlikman.
+  - id: d05
+    speaker: jisu
+    ko: 아, 그래요? 한국어를 잘하시네요!
+    rom: A, geuraeyo? Hangugeoreul jalhasineyo!
+    uz: Şundaymi? Koreys tilida yaxşi gapirar ekansiz!
+  - id: d06
+    speaker: anvar
+    ko: 아니에요. 조금 해요.
+    rom: Anieyo. Jogeum haeyo.
+    uz: Yöq, ozgina gapiraman.
+  - id: d07
+    speaker: jisu
+    ko: 한국에 처음 왔어요?
+    rom: Hanguge cheoeum wasseoyo?
+    uz: Koreyaga birinçi marta keldingizmi?
+  - id: d08
+    speaker: anvar
+    ko: 네, 처음이에요.
+    rom: Ne, cheoeumieyo.
+    uz: Ha, birinçi marta.
+  - id: d09
+    speaker: jisu
+    ko: 한국에 오신 것을 환영합니다!
+    rom: Hanguge osin geoseul hwanyeonghamnida!
+    uz: Koreyaga xuş kelibsiz!
+  - id: d10
+    speaker: anvar
+    ko: 감사합니다.
+    rom: Gamsahamnida.
+    uz: Rahmat.
+  - id: d11
+    speaker: jisu
+    ko: 그럼, 안녕히 가세요.
+    rom: Geureom, annyeonghi gaseyo.
+    uz: Unda, yaxşi boring.
+  - id: d12
+    speaker: anvar
+    ko: 네, 안녕히 계세요.
+    rom: Ne, annyeonghi gyeseyo.
+    uz: Yaxşi qoling.
+
+phrases:
+  - id: p01
+    speaker: narrator
+    ko: 네.
+    # Audio adopted by ear: ko is "네, 네."; uz is "Ha, to'g'ri." cut after "Ha".
+    tts: { ko: "네, 네.", uz: "Ha, to'g'ri." }
+    rom: Ne.
+    uz: Ha.
+  - id: p02
+    speaker: narrator
+    ko: 아니요.
+    rom: Aniyo.
+    uz: Yöq.
+  - id: p03
+    speaker: narrator
+    ko: 여보세요.
+    rom: Yeoboseyo.
+    uz: Allo.
+  - id: p04
+    speaker: narrator
+    ko: 안녕하세요.
+    rom: Annyeonghaseyo.
+    uz: Assalomu alaykum.
+  - id: p05
+    speaker: narrator
+    ko: 안녕히 가세요.
+    rom: Annyeonghi gaseyo.
+    uz: Yaxşi boring.
+  - id: p06
+    speaker: narrator
+    ko: 안녕히 계세요.
+    rom: Annyeonghi gyeseyo.
+    uz: Yaxşi qoling.
+  - id: p07
+    speaker: narrator
+    ko: 감사합니다.
+    rom: Gamsahamnida.
+    uz: Rahmat.
+  - id: p08
+    speaker: narrator
+    ko: 죄송합니다.
+    rom: Joesonghamnida.
+    uz: Keçirasiz.
+  - id: p09
+    speaker: narrator
+    ko: 괜찮아요.
+    rom: Gwaenchanayo.
+    uz: Heçqisi yöq.
+  - id: p10
+    speaker: narrator
+    ko: 실례합니다.
+    rom: Sillyehamnida.
+    uz: Uzr, bezovta qilyapman.
+  - id: p11
+    speaker: narrator
+    ko: 잠깐만요.
+    rom: Jamkkanmanyo.
+    uz: Bir daqiqa.
+  - id: p12
+    speaker: narrator
+    ko: 다시 한번 말해 주세요.
+    rom: Dasi hanbeon malhae juseyo.
+    uz: Yana bir marta ayting.
+  - id: p13
+    speaker: narrator
+    ko: 천천히 말해 주세요.
+    rom: Cheoncheonhi malhae juseyo.
+    uz: Sekinroq gapiring.
+  - id: p14
+    speaker: narrator
+    ko: 알겠습니다.
+    rom: Algetseumnida.
+    uz: Tuşundim.
