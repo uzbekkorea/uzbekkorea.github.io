@@ -18,21 +18,27 @@ jobs:
   deploy:
     name: github-pages
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Clone repository
         uses: actions/checkout@v4
 
-      - name: Caching for Bundler
-        uses: actions/cache@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
+          ruby-version: '3.3'
+          bundler-cache: true
 
-      - name: Build and deploy
-        uses: helaili/jekyll-action@v2
+      - name: Build site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          token: ${{ secrets.JEKYLL_TOKEN }}
-          target_branch: 'gh-pages'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./_site
