@@ -1,0 +1,163 @@
+# Koreys tili 2-qism, 2-dars: Aeroportga kelganda
+#
+# Audio is generated from this file with `uv run tools/tts.py p2-ch02`
+# and saved to assets/audio/p2-ch02/. Edit text here, then re-run the script.
+#
+# Fields: id (unique, used in audio file names), speaker (key of `speakers`),
+# ko (Korean), rom (Revised Romanization), uz (Uzbek, new alphabet).
+# Optional per line:
+#   tts: { ko: "...", uz: "..." }  text to speak when it differs from the text shown
+#   duration: { ko: 0.8 }            fix a clip's length in seconds
+
+speakers:
+  officer:
+    name: 심사관 (Çegara xodimi)
+    side: left
+    voice:
+      ko: { instruct: "female, middle-aged, moderate pitch", seed: 42 }
+      uz: { instruct: "female, middle-aged, moderate pitch", seed: 42 }
+  anvar:
+    name: 안바르 (Anvar)
+    side: right
+    voice:
+      ko: { instruct: "male, young adult, moderate pitch", seed: 7 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+  narrator:
+    name: ""
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+
+dialog:
+  - id: d01
+    speaker: officer
+    ko: 안녕하세요. 여권 좀 보여 주세요.
+    rom: Annyeonghaseyo. Yeogwon jom boyeo juseyo.
+    uz: Assalomu alaykum. Pasportingizni körsating.
+  - id: d02
+    speaker: anvar
+    ko: 네, 여기 있어요.
+    rom: Ne, yeogi isseoyo.
+    uz: Mana, marhamat.
+  - id: d03
+    speaker: officer
+    ko: 어디에서 오셨어요?
+    rom: Eodieseo osyeosseoyo?
+    uz: Qayerdan keldingiz?
+  - id: d04
+    speaker: anvar
+    ko: 우즈베키스탄에서 왔어요.
+    rom: Ujeubekiseutaneseo wasseoyo.
+    uz: Özbekistondan keldim.
+  - id: d05
+    speaker: officer
+    ko: 방문 목적이 뭐예요?
+    rom: Bangmun mokjeogi mwoyeyo?
+    uz: Taşrifingiz maqsadi nima?
+  - id: d06
+    speaker: anvar
+    ko: 일하러 왔어요.
+    rom: Ilhareo wasseoyo.
+    uz: Işlagani keldim.
+  - id: d07
+    speaker: officer
+    ko: 얼마 동안 계실 거예요?
+    rom: Eolma dongan gyesil geoyeyo?
+    uz: Qança muddatga qolasiz?
+  - id: d08
+    speaker: anvar
+    ko: 삼 년 있을 거예요.
+    rom: Sam nyeon isseul geoyeyo.
+    uz: Uç yil qolaman.
+  - id: d09
+    speaker: officer
+    ko: 어디에서 일할 거예요?
+    rom: Eodieseo ilhal geoyeyo?
+    uz: Qayerda işlaysiz?
+  - id: d10
+    speaker: anvar
+    ko: 공장에서 일할 거예요.
+    rom: Gongjangeseo ilhal geoyeyo.
+    uz: Zavodda işlayman.
+  - id: d11
+    speaker: officer
+    ko: 네, 됐습니다. 여권 여기 있습니다.
+    rom: Ne, dwaetseumnida. Yeogwon yeogi itseumnida.
+    uz: Yaxşi, böldi. Mana pasportingiz.
+  - id: d12
+    speaker: anvar
+    ko: 감사합니다. 수고하세요.
+    rom: Gamsahamnida. Sugohaseyo.
+    uz: Rahmat. Işingizga omad.
+
+phrases:
+  - id: p01
+    speaker: narrator
+    ko: 여권 좀 보여 주세요.
+    rom: Yeogwon jom boyeo juseyo.
+    uz: Pasportingizni körsating.
+  - id: p02
+    speaker: narrator
+    ko: 여기 있어요.
+    rom: Yeogi isseoyo.
+    uz: Mana, marhamat.
+  - id: p03
+    speaker: narrator
+    ko: 방문 목적이 뭐예요?
+    rom: Bangmun mokjeogi mwoyeyo?
+    uz: Taşrifingiz maqsadi nima?
+  - id: p04
+    speaker: narrator
+    ko: 관광하러 왔어요.
+    rom: Gwanganghareo wasseoyo.
+    uz: Sayohat qilgani keldim.
+  - id: p05
+    speaker: narrator
+    ko: 일하러 왔어요.
+    rom: Ilhareo wasseoyo.
+    uz: Işlagani keldim.
+  - id: p06
+    speaker: narrator
+    ko: 공부하러 왔어요.
+    rom: Gongbuhareo wasseoyo.
+    uz: Öqigani keldim.
+  - id: p07
+    speaker: narrator
+    ko: 일주일 있을 거예요.
+    rom: Iljuil isseul geoyeyo.
+    uz: Bir hafta qolaman.
+  - id: p08
+    speaker: narrator
+    ko: 짐 찾는 곳이 어디예요?
+    rom: Jim channeun gosi eodiyeyo?
+    uz: Yuk oliş joyi qayerda?
+  - id: p09
+    speaker: narrator
+    ko: 제 가방이 안 나왔어요.
+    rom: Je gabangi an nawasseoyo.
+    uz: Mening sumkam çiqmadi.
+  - id: p10
+    speaker: narrator
+    ko: 출구가 어디예요?
+    rom: Chulguga eodiyeyo?
+    uz: Çiqiş qayerda?
+  - id: p11
+    speaker: narrator
+    ko: 화장실이 어디예요?
+    rom: Hwajangsiri eodiyeyo?
+    uz: Hojatxona qayerda?
+  - id: p12
+    speaker: narrator
+    ko: 공항버스는 어디에서 타요?
+    rom: Gonghangbeoseuneun eodieseo tayo?
+    uz: Aeroport avtobusiga qayerdan çiqiladi?
+  - id: p13
+    speaker: narrator
+    ko: 한국어를 잘 못해요.
+    rom: Hangugeoreul jal motaeyo.
+    uz: Koreys tilini yaxşi bilmayman.
+  - id: p14
+    speaker: narrator
+    ko: 수고하세요.
+    rom: Sugohaseyo.
+    uz: Işingizga omad.
