@@ -1,5 +1,5 @@
 ---
-title: "Koreys tili 3-dars: Batçim — böğin oxiridagi undoşlar"
+title: "Koreys tili 1-qism, 3-dars: Batçim — böğin oxiridagi undoşlar"
 author:
   name: Koreyadagi Özbekistonliklar
   link: https://github.com/uzbekkorea
