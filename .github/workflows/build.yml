@@ -9,7 +9,6 @@ on:
     paths-ignore:
       - "README.md"
       - "LICENSE"
-      - "docker-jekyll-serve.sh"
       - "tmp"
       - "source"
       - "tools"
