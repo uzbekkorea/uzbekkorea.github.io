@@ -19,5 +19,11 @@ Koreys va özbek tillari grammatikasida öxşaşliklar köp: ikkala tilda ham ga
 7. [Tasdiq va inkor gaplar]({% post_url 2026-11-15-koreys-tili-7-tasdiq-va-inkor %})
 8. [Zamonlar]({% post_url 2026-11-15-koreys-tili-8-zamonlar %})
 
-> Darslar mavzulari [KBS WORLD Learn Korean](https://world.kbs.co.kr/learn_korean/lessons/e_index.htm) kursining 1-qismi asosida tayyorlandi. Koreys sözlarining lotin yozuvidagi öqilişi rasmiy [Koreys tilini romanizatsiya qiliş qoidalari](https://www.korean.go.kr/front_eng/roman/roman_01.do) (Revised Romanization) böyiça berilgan.
+## 2-qism. Koreyaga kelganda
+
+Har bir darsda koreysça va özbekça audio bilan dialog bor.
+
+1. [Asosiy iboralar]({% post_url 2026-11-15-koreys-tili-2-01-asosiy-iboralar %})
+
+> Darslar mavzulari [KBS WORLD Learn Korean](https://world.kbs.co.kr/learn_korean/lessons/e_index.htm) kursi asosida tanlandi. Koreys sözlarining lotin yozuvidagi öqilişi rasmiy [Koreys tilini romanizatsiya qiliş qoidalari](https://www.korean.go.kr/front_eng/roman/roman_01.do) (Revised Romanization) böyiça berilgan.
 {: .prompt-info }
