@@ -11,10 +11,10 @@ timezone: Asia/Seoul
 
 title: Koreya Hayoti
 
-tagline: tajriba va ma’lumotlar tōplami
+tagline: tajriba va ma’lumotlar töplami
 
 description: >-
-  Koreya haqida turli tajriba va ma’lumotlar tōplami.
+  Koreya haqida turli tajriba va ma’lumotlar töplami.
 
 github:
   username: uzbekkorea
@@ -24,7 +24,7 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Koreyadagi Ōzbekistonliklar
+  name: Koreyadagi Özbekistonliklar
   email: info@uzbekkorea.com
   links:
     # The first element serves as the copyright owner's link

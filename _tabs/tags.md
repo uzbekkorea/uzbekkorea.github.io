@@ -1,6 +1,6 @@
 ---
 layout: tags
-title: Kalit Sōzlar
+title: Kalit Sözlar
 icon: fas fa-tag
 order: 2
 ---

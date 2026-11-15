@@ -5,14 +5,14 @@
 layout:
   post: Maqola
   category: Turkumlar
-  tag: Kalit Sōzlar
+  tag: Kalit Sözlar
 
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
   home: Boş Sahifa
   categories: Turkumlar
-  tags: Kalit Sōzlar
+  tags: Kalit Sözlar
   archives: Maqolalar Arxivi
   about: Sayt Haqida
 
@@ -20,11 +20,11 @@ tabs:
 search:
   hint: izlaş
   cancel: qaytiş
-  no_results: Afsus! Hech narsa topilmadi.
+  no_results: Afsus! Heç narsa topilmadi.
 
 panel:
   lastmod: Oxirgi Yangilanish
-  trending_tags: Maşxur Kalit Sōzlar
+  trending_tags: Maşxur Kalit Sözlar
   toc: Mundarija
 
 copyright:
@@ -37,14 +37,14 @@ copyright:
   # Displayed in the footer
   brief: Barça huquqlar himoyalangan
   verbose: >-
-    Alohida kōrsatilmaganda, uşbu saytdagi maqolalar muallif tomonidan
+    Alohida körsatilmaganda, uşbu saytdagi maqolalar muallif tomonidan
     "Creative Commons Attribution 4.0 International (CC BY 4.0)" bilan licensiyalangan.
 
 meta: Powered by :PLATFORM with :THEME theme.
 
 not_found:
-  statment: Keçirasiz, taşrif etilgan sahifa topilmadi yoki kōçirilgan.
-  hint_template: :HEAD_BAK va qayta kōrib çiqing, yoki :ARCHIVES_PAGEdan izlab kōring.
+  statment: Keçirasiz, taşrif etilgan sahifa topilmadi yoki köçirilgan.
+  hint_template: :HEAD_BAK va qayta körib çiqing, yoki :ARCHIVES_PAGEdan izlab köring.
   head_back: Boş sahifaga qayting
   archives_page: Maqolalar arxivi
 
@@ -54,12 +54,12 @@ post:
   written_by: 'Muallif:'
   posted: 'Kiritildi:'
   updated: Yangilandi
-  words: sōz
-  pageview_measure: kōrildi
+  words: söz
+  pageview_measure: körildi
   read_time:
     unit: minut
-    prompt: da ōqiladi
-  relate_posts: Qōşimça ōqiş
+    prompt: da öqiladi
+  relate_posts: Qöşimça öqiş
   share: Ulaşiş
   button:
     next: Keyingi
@@ -67,8 +67,8 @@ post:
     copy_code:
       succeed: Nusxa olindi!
     share_link:
-      title: Bōḡlanişni Kōçiriş
-      succeed: Bōḡlanişni kōçirildi!
+      title: Böğlanişni Köçiriş
+      succeed: Böğlanişni köçirildi!
   # pinned prompt of posts list on homepage
   pin_prompt: Qadalgan
 
