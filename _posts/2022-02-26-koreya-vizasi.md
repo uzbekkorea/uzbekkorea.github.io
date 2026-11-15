@@ -1,7 +1,7 @@
 ---
 title: Koreya vizasi
 author:
-  name: Koreyadagi Ōzbekistonliklar
+  name: Koreyadagi Özbekistonliklar
   link: https://github.com/uzbekkorea
 date: 2022-02-26 20:55:00 +0900
 categories: [Koreyaga Taşrif, Viza]
@@ -9,9 +9,9 @@ tags: [koreyaga taşrif, viza]
 pin: true
 ---
 
-Koreya Respublikasiga taşrif qiladigan şaxslar mehnat, sayohat, ōqiş kabi maqsadiga qarab vizaga ega bōlişi kerak va viza pasportiga yopiştirilişi kerak. Vizaga ega bōlgan xolda ham Koreya Respublikasiga kirib keliş rad qilinişi mumkin.
+Koreya Respublikasiga taşrif qiladigan şaxslar mehnat, sayohat, öqiş kabi maqsadiga qarab vizaga ega bölişi kerak va viza pasportiga yopiştirilişi kerak. Vizaga ega bölgan xolda ham Koreya Respublikasiga kirib keliş rad qilinişi mumkin.
 
-## Istiqomat turi bōyiça vizalar
+## Istiqomat turi böyiça vizalar
 - Diplomatlar (A-1)
 - Davlat işçilari (A-2)
 - Bitim (A-3)
@@ -54,7 +54,7 @@ Koreya Respublikasiga taşrif qiladigan şaxslar mehnat, sayohat, ōqiş kabi ma
 - Topşiriladigan hujjatlar: 
   - Pasport
   - Viza oliş arizasi
-  - Viza turi bōyiça kerakli hujjatlar (Batafsil axborot uçun www.hikorea.go.kr taşrif eting)
+  - Viza turi böyiça kerakli hujjatlar (Batafsil axborot uçun www.hikorea.go.kr taşrif eting)
 
 - Viza beriş haqi: 
-  - Istiqomat muddatiga qarab har xil bōladi (taxminan 40-90 AQŞ dollari atrofida).
+  - Istiqomat muddatiga qarab har xil böladi (taxminan 40-90 AQŞ dollari atrofida).
