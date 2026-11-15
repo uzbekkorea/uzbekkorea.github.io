@@ -1,5 +1,5 @@
 ---
-title: "Koreys tili 7-dars: Tasdiq va inkor gaplar"
+title: "Koreys tili 1-qism, 7-dars: Tasdiq va inkor gaplar"
 author:
   name: Koreyadagi Özbekistonliklar
   link: https://github.com/uzbekkorea

@@ -1,5 +1,5 @@
 ---
-title: "Koreys tili 8-dars: Zamonlar"
+title: "Koreys tili 1-qism, 8-dars: Zamonlar"
 author:
   name: Koreyadagi Özbekistonliklar
   link: https://github.com/uzbekkorea

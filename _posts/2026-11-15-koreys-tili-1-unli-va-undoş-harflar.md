@@ -1,5 +1,5 @@
 ---
-title: "Koreys tili 1-dars: Unli va undoş harflar"
+title: "Koreys tili 1-qism, 1-dars: Unli va undoş harflar"
 author:
   name: Koreyadagi Özbekistonliklar
   link: https://github.com/uzbekkorea

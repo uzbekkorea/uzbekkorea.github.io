@@ -1,5 +1,5 @@
 ---
-title: "Koreys tili 2-dars: Murakkab unlilar va qöş undoşlar"
+title: "Koreys tili 1-qism, 2-dars: Murakkab unlilar va qöş undoşlar"
 author:
   name: Koreyadagi Özbekistonliklar
   link: https://github.com/uzbekkorea

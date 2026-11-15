@@ -1,5 +1,5 @@
 ---
-title: "Koreys tili 6-dars: Qöşimçalar (조사)"
+title: "Koreys tili 1-qism, 6-dars: Qöşimçalar (조사)"
 author:
   name: Koreyadagi Özbekistonliklar
   link: https://github.com/uzbekkorea

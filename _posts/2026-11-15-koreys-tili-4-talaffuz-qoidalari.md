@@ -1,5 +1,5 @@
 ---
-title: "Koreys tili 4-dars: Talaffuz qoidalari"
+title: "Koreys tili 1-qism, 4-dars: Talaffuz qoidalari"
 author:
   name: Koreyadagi Özbekistonliklar
   link: https://github.com/uzbekkorea

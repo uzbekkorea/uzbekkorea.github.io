@@ -1,5 +1,5 @@
 ---
-title: "Koreys tili 5-dars: Hurmat şakllari"
+title: "Koreys tili 1-qism, 5-dars: Hurmat şakllari"
 author:
   name: Koreyadagi Özbekistonliklar
   link: https://github.com/uzbekkorea
