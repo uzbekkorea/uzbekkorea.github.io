@@ -1,0 +1,148 @@
+{% comment %}
+  Dialog player for Korean lessons.
+  Usage: {% include dialog-player.html data="p2-ch01" section="dialog" %}
+  - data: file name in _data/dialogs/ (audio is in assets/audio/<data>/)
+  - section: "dialog" (speech bubbles, play-all) or "phrases" (phrase list)
+{% endcomment %}
+
+{% assign dp = site.data.dialogs[include.data] %}
+{% assign dp_items = dp[include.section] %}
+{% capture dp_base %}{{ '/assets/audio/' | append: include.data | append: '/' | relative_url }}{% endcapture %}
+
+<div class="dialog-player dp-{{ include.section }}" data-base="{{ dp_base }}">
+  <div class="dp-controls">
+    {% if include.section == 'dialog' %}
+    <button type="button" class="dp-play-all" data-label-play="Hammasini tinglaş" data-label-stop="Töxtatiş">
+      <i class="fas fa-play"></i> <span>Hammasini tinglaş</span>
+    </button>
+    {% endif %}
+    <button type="button" class="dp-toggle" data-target="rom" aria-pressed="true"><i class="fas fa-eye"></i> Öqilişi</button>
+    <button type="button" class="dp-toggle" data-target="uz" aria-pressed="true"><i class="fas fa-eye"></i> Tarjima</button>
+  </div>
+
+  <ol class="dp-lines">
+    {% for line in dp_items %}
+    {% assign speaker = dp.speakers[line.speaker] %}
+    <li class="dp-line dp-side-{{ speaker.side | default: 'left' }}" data-id="{{ line.id }}">
+      {% if speaker.name != '' %}<div class="dp-speaker">{{ speaker.name }}</div>{% endif %}
+      <div class="dp-bubble">
+        <p class="dp-ko" lang="ko">{{ line.ko }}</p>
+        <p class="dp-rom">{{ line.rom }}</p>
+        <p class="dp-uz">{{ line.uz }}</p>
+        <div class="dp-buttons">
+          <button type="button" class="dp-say" data-lang="ko" aria-label="Koreysça tinglaş"><i class="fas fa-volume-up"></i> KO</button>
+          <button type="button" class="dp-say" data-lang="uz" aria-label="Özbekça tinglaş"><i class="fas fa-volume-up"></i> UZ</button>
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
+</div>
+
+<script>
+  (function () {
+    if (window.dialogPlayerReady) { return; }
+    window.dialogPlayerReady = true;
+
+    var audio = new Audio();
+    var run = 0; /* bumped on every new action, so an older play-all loop stops */
+
+    function play(src) {
+      return new Promise(function (resolve) {
+        audio.onended = resolve;
+        audio.onerror = resolve; /* a missing clip is skipped, not fatal */
+        audio.src = src;
+        audio.play().catch(resolve);
+      });
+    }
+
+    function wait(ms) {
+      return new Promise(function (resolve) { setTimeout(resolve, ms); });
+    }
+
+    function setActive(player, line) {
+      player.querySelectorAll('.dp-line').forEach(function (li) {
+        li.classList.toggle('dp-active', li === line);
+      });
+    }
+
+    /* scroll only the dialog box, never the page */
+    function scrollToLine(line) {
+      var box = line.parentElement;
+      var top = line.offsetTop - (box.clientHeight - line.offsetHeight) / 2;
+      box.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+    }
+
+    function resetButton(player) {
+      var btn = player.querySelector('.dp-play-all');
+      if (!btn) { return; }
+      btn.classList.remove('dp-playing');
+      btn.querySelector('i').className = 'fas fa-play';
+      btn.querySelector('span').textContent = btn.dataset.labelPlay;
+    }
+
+    function stopAll() {
+      run++;
+      audio.pause();
+      document.querySelectorAll('.dialog-player').forEach(function (p) {
+        setActive(p, null);
+        resetButton(p);
+      });
+    }
+
+    async function playAll(player) {
+      stopAll();
+      var mine = run;
+      var btn = player.querySelector('.dp-play-all');
+      btn.classList.add('dp-playing');
+      btn.querySelector('i').className = 'fas fa-stop';
+      btn.querySelector('span').textContent = btn.dataset.labelStop;
+      var base = player.dataset.base;
+      var withUz = !player.classList.contains('dp-hide-uz');
+      var lines = player.querySelectorAll('.dp-line');
+      for (var i = 0; i < lines.length; i++) {
+        if (mine !== run) { return; }
+        setActive(player, lines[i]);
+        scrollToLine(lines[i]);
+        await play(base + lines[i].dataset.id + '-ko.m4a');
+        if (withUz && mine === run) {
+          await wait(400);
+          await play(base + lines[i].dataset.id + '-uz.m4a');
+        }
+        await wait(700);
+      }
+      if (mine === run) { stopAll(); }
+    }
+
+    document.addEventListener('click', function (e) {
+      var player = e.target.closest('.dialog-player');
+      if (!player) { return; }
+
+      var all = e.target.closest('.dp-play-all');
+      if (all) {
+        if (all.classList.contains('dp-playing')) { stopAll(); } else { playAll(player); }
+        return;
+      }
+
+      var toggle = e.target.closest('.dp-toggle');
+      if (toggle) {
+        var on = toggle.getAttribute('aria-pressed') !== 'true';
+        toggle.setAttribute('aria-pressed', on ? 'true' : 'false');
+        toggle.querySelector('i').className = on ? 'fas fa-eye' : 'fas fa-eye-slash';
+        player.classList.toggle('dp-hide-' + toggle.dataset.target, !on);
+        return;
+      }
+
+      var say = e.target.closest('.dp-say');
+      if (say) {
+        stopAll();
+        var line = say.closest('.dp-line');
+        setActive(player, line);
+        var mine = run;
+        play(player.dataset.base + line.dataset.id + '-' + say.dataset.lang + '.m4a').then(function () {
+          if (mine === run) { setActive(player, null); }
+        });
+      }
+    });
+  })();
+</script>
