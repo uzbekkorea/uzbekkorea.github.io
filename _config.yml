@@ -178,7 +178,6 @@ exclude:
   - gulpfile.js
   - node_modules
   - package*.json
-  - docker-jekyll-serve.sh
 
 jekyll-archives:
   enabled: [categories, tags]

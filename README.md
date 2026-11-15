@@ -11,24 +11,22 @@ This is static site based jekyll that contains information shared by Uzbekistan 
 
 
 ## How to test locally
-In order to test your changes locally you need to install jekyll, 
-and run following command.
+You need Ruby 3.0 or newer. On macOS, install it with Homebrew:
 ```sh
-bundle exec jekyll serve
+brew install ruby
 ```
 
-### Docker Environment
-If you have docker, you may run jekyll in docker container. 
-First you need to pull jekyll docker image.
+Then run the site with live reload:
 ```sh
-docker pull jekyll/jekyll
+tools/serve.sh
 ```
 
-Then, you may run following script
+To only check that the site builds (same as the PR build check):
 ```sh
-./docker-jekyll-serve.sh
+tools/serve.sh build
 ```
 
+The script installs gems into `vendor/bundle` on the first run.
 
 ### Verify changes
 
