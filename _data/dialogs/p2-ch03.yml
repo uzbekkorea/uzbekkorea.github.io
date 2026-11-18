@@ -1,0 +1,167 @@
+# Koreys tili 2-qism, 3-dars: Bojxonada
+#
+# Audio is generated from this file with `uv run tools/tts.py p2-ch03`
+# and saved to assets/audio/p2-ch03/. Edit text here, then re-run the script.
+#
+# Fields: id (unique, used in audio file names), speaker (key of `speakers`),
+# ko (Korean), rom (Revised Romanization), uz (Uzbek, new alphabet).
+# Optional per line:
+#   tts: { ko: "...", uz: "..." }  text to speak when it differs from the text shown
+#   duration: { ko: 0.8 }            fix a clip's length in seconds
+
+speakers:
+  officer:
+    name: 세관원 (Bojxona xodimi)
+    side: left
+    voice:
+      ko: { instruct: "male, middle-aged, low pitch", seed: 42 }
+      uz: { instruct: "male, middle-aged, low pitch", seed: 42 }
+  anvar:
+    name: 안바르 (Anvar)
+    side: right
+    voice:
+      ko: { instruct: "male, young adult, moderate pitch", seed: 7 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+  narrator:
+    name: ""
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+
+dialog:
+  - id: d01
+    speaker: officer
+    ko: 신고할 물건 있어요?
+    rom: Singohal mulgeon isseoyo?
+    uz: Deklaratsiya qilinadigan narsangiz bormi?
+  - id: d02
+    speaker: anvar
+    ko: 아니요, 없어요.
+    rom: Aniyo, eopseoyo.
+    uz: Yöq, heç narsa yöq.
+  - id: d03
+    speaker: officer
+    ko: 가방 좀 열어 주세요.
+    rom: Gabang jom yeoreo juseyo.
+    uz: Sumkangizni oçib bering.
+  - id: d04
+    speaker: anvar
+    ko: 네. 옷하고 책이에요.
+    rom: Ne. Otago chaegieyo.
+    uz: Xöp. Kiyim va kitoblar.
+  - id: d05
+    speaker: officer
+    ko: 이건 뭐예요?
+    rom: Igeon mwoyeyo?
+    uz: Bu nima?
+  - id: d06
+    speaker: anvar
+    ko: 우즈베키스탄 과자예요. 친구 선물이에요.
+    rom: Ujeubekiseutan gwajayeyo. Chingu seonmurieyo.
+    uz: Özbek şirinliklari. Döstimga sovğa.
+  - id: d07
+    speaker: officer
+    ko: 고기나 과일은 없어요?
+    rom: Gogina gwaireun eopseoyo?
+    uz: Göşt yoki meva yöqmi?
+  - id: d08
+    speaker: anvar
+    ko: 네, 없어요.
+    rom: Ne, eopseoyo.
+    uz: Yöq, olib kelmadim.
+  - id: d09
+    speaker: officer
+    ko: 이 가방도 손님 거예요?
+    rom: I gabangdo sonnim geoyeyo?
+    uz: Bu sumka ham siznikimi?
+  - id: d10
+    speaker: anvar
+    ko: 네, 제 거예요.
+    # uz audio adopted by ear: seed 7 says "meniki" with short vowels.
+    rom: Ne, je geoyeyo.
+    uz: Ha, meniki.
+  - id: d11
+    speaker: officer
+    ko: 네, 됐습니다. 가셔도 됩니다.
+    rom: Ne, dwaetseumnida. Gasyeodo doemnida.
+    uz: Ha, böldi. Ketaverişingiz mumkin.
+  - id: d12
+    speaker: anvar
+    ko: 감사합니다.
+    rom: Gamsahamnida.
+    uz: Rahmat.
+
+phrases:
+  - id: p01
+    speaker: narrator
+    ko: 신고할 물건 있어요?
+    rom: Singohal mulgeon isseoyo?
+    uz: Deklaratsiya qilinadigan narsangiz bormi?
+  - id: p02
+    speaker: narrator
+    ko: 신고할 물건 없어요.
+    rom: Singohal mulgeon eopseoyo.
+    uz: Deklaratsiya qilinadigan narsam yöq.
+  - id: p03
+    speaker: narrator
+    ko: 가방 좀 열어 주세요.
+    rom: Gabang jom yeoreo juseyo.
+    uz: Sumkangizni oçib bering.
+  - id: p04
+    speaker: narrator
+    ko: 여기에 올려 주세요.
+    rom: Yeogie ollyeo juseyo.
+    uz: Bu yerga qöying.
+  - id: p05
+    speaker: narrator
+    ko: 이건 뭐예요?
+    rom: Igeon mwoyeyo?
+    uz: Bu nima?
+  - id: p06
+    speaker: narrator
+    ko: 선물이에요.
+    rom: Seonmurieyo.
+    uz: Bu sovğa.
+  - id: p07
+    speaker: narrator
+    ko: 개인 물건이에요.
+    rom: Gaein mulgeonieyo.
+    uz: Şaxsiy buyumlarim.
+  - id: p08
+    speaker: narrator
+    ko: 약이에요.
+    rom: Yagieyo.
+    uz: Bu dori.
+  - id: p09
+    speaker: narrator
+    ko: 이건 누구 거예요?
+    rom: Igeon nugu geoyeyo?
+    uz: Bu kimniki?
+  - id: p10
+    speaker: narrator
+    ko: 제 거예요.
+    # 거 is pronounced [꺼]; spelled that way for TTS, the take was approved by ear.
+    tts: { ko: "제 꺼예요." }
+    # uz audio adopted by ear: seed 7 says "meniki" with short vowels.
+    rom: Je geoyeyo.
+    uz: Meniki.
+  - id: p11
+    speaker: narrator
+    ko: 술이나 담배 있어요?
+    rom: Surina dambae isseoyo?
+    uz: Spirtli içimlik yoki sigaret bormi?
+  - id: p12
+    speaker: narrator
+    ko: 이건 반입할 수 없어요.
+    rom: Igeon banipal su eopseoyo.
+    uz: Buni olib kiriş mumkin emas.
+  - id: p13
+    speaker: narrator
+    ko: 어디로 가면 돼요?
+    rom: Eodiro gamyeon dwaeyo?
+    uz: Qayerga borsam böladi?
+  - id: p14
+    speaker: narrator
+    ko: 가셔도 됩니다.
+    rom: Gasyeodo doemnida.
+    uz: Ketaverişingiz mumkin.
