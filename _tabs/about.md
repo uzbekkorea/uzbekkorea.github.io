@@ -1,7 +1,7 @@
 ---
 title: Sayt Haqida
 icon: fas fa-info-circle
-order: 5
+order: 6
 ---
 
 **Koreya Hayoti** — Koreyada yaşayotgan, öqiyotgan, işlayotgan yoki bu davlatga borişni rejalaştirayotgan özbekistonliklar uçun tajriba va maʼlumotlar töplami.
