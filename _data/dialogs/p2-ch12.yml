@@ -1,0 +1,160 @@
+# Koreys tili 2-qism, 12-dars: Metroda (1)
+#
+# Audio is generated from this file with `uv run tools/tts.py p2-ch12`
+# and saved to assets/audio/p2-ch12/. Edit text here, then re-run the script.
+#
+# Fields: id (unique, used in audio file names), speaker (key of `speakers`),
+# ko (Korean), rom (Revised Romanization), uz (Uzbek, new alphabet).
+# Optional per line:
+#   tts: { ko: "...", uz: "..." }  text to speak when it differs from the text shown
+#   duration: { ko: 0.8 }            fix a clip's length in seconds
+
+speakers:
+  staff:
+    name: 역무원 (Bekat xodimi)
+    side: left
+    voice:
+      ko: { instruct: "male, middle-aged, moderate pitch", seed: 42 }
+      uz: { instruct: "male, middle-aged, moderate pitch", seed: 42 }
+  anvar:
+    name: 안바르 (Anvar)
+    side: right
+    voice:
+      ko: { instruct: "male, young adult, moderate pitch", seed: 7 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+  narrator:
+    name: ""
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+
+dialog:
+  - id: d01
+    speaker: anvar
+    ko: 실례합니다. 경복궁에 가려고 하는데요. 몇 호선을 타야 돼요?
+    rom: Sillyehamnida. Gyeongbokgunge garyeogo haneundeyo. Myeot hoseoneul taya dwaeyo?
+    uz: Keçirasiz, Gyeongbokgung saroyiga bormoqçiman. Qaysi yönalişga çiqişim kerak?
+  - id: d02
+    speaker: staff
+    ko: 3호선 경복궁역에서 내리시면 돼요.
+    tts: { ko: "삼 호선 경복궁역에서 내리시면 돼요.", uz: "Uçinçi yönalişdagi Gyeongbokgung bekatida tuşsangiz böladi." }
+    rom: Samhoseon Gyeongbokgungyeogeseo naerisimyeon dwaeyo.
+    uz: 3-yönalişdagi Gyeongbokgung bekatida tuşsangiz böladi.
+  - id: d03
+    speaker: anvar
+    ko: 여기서 3호선을 탈 수 있어요?
+    tts: { ko: "여기서 삼 호선을 탈 수 있어요?", uz: "Bu yerdan uçinçi yönalişga çiqsa böladimi?" }
+    rom: Yeogiseo samhoseoneul tal su isseoyo?
+    uz: Bu yerdan 3-yönalişga çiqsa böladimi?
+  - id: d04
+    speaker: staff
+    ko: 아니요. 1호선을 타고 종로3가역에서 3호선으로 갈아타야 해요.
+    tts: { ko: "아니요. 일 호선을 타고 종로삼가역에서 삼 호선으로 갈아타야 해요.", uz: "Yöq. Birinçi yönalişga çiqib, Jongno samga bekatida uçinçi yönalişga ötişingiz kerak." }
+    rom: Aniyo. Ilhoseoneul tago Jongnosamgayeogeseo samhoseoneuro garataya haeyo.
+    uz: Yöq. 1-yönalişga çiqib, Jongno 3-ga (samga) bekatida 3-yönalişga ötişingiz kerak.
+  - id: d05
+    speaker: anvar
+    ko: 1호선은 어느 쪽에서 타요?
+    tts: { ko: "일 호선은 어느 쪽에서 타요?", uz: "Birinçi yönalişga qaysi tomondan çiqaman?" }
+    rom: Ilhoseoneun eoneu jjogeseo tayo?
+    uz: 1-yönalişga qaysi tomondan çiqaman?
+  - id: d06
+    speaker: staff
+    ko: 서울역 방향으로 타세요. 두 정거장 가서 내리세요.
+    rom: Seoullyeok banghyangeuro taseyo. Du jeonggeojang gaseo naeriseyo.
+    uz: Seul vokzali tomonga ketadigan poyezdga çiqing. Ikki bekatdan keyin tuşing.
+  - id: d07
+    speaker: anvar
+    ko: 갈아탈 때 돈을 또 내야 돼요?
+    rom: Garatal ttae doneul tto naeya dwaeyo?
+    uz: Boşqa yönalişga ötganda yana pul tölaşim kerakmi?
+  - id: d08
+    speaker: staff
+    ko: 아니요, 교통카드를 쓰면 무료예요. 내릴 때도 카드를 꼭 찍으세요.
+    rom: Aniyo, gyotongkadeureul sseumyeon muryoyeyo. Naeril ttaedo kadeureul kkok jjigeuseyo.
+    uz: Yöq, transport kartasi bilan bepul. Bekatdan çiqayotganda ham kartani albatta tegizing.
+  - id: d09
+    speaker: anvar
+    ko: 카드에 돈이 별로 없어요. 어디에서 충전해요?
+    rom: Kadeue doni byeollo eopseoyo. Eodieseo chungjeonhaeyo?
+    uz: Kartamda pul kam qolgan. Qayerda pul solaman?
+  - id: d10
+    speaker: staff
+    ko: 저기 충전기에서 하시면 돼요. 현금만 돼요.
+    rom: Jeogi chungjeongieseo hasimyeon dwaeyo. Hyeongeumman dwaeyo.
+    uz: Anavi apparatda solsangiz böladi. Faqat naqd pul qabul qilinadi.
+  - id: d11
+    speaker: staff
+    ko: 그리고 저녁 6시쯤에는 사람이 많아요. 일찍 돌아오시는 게 좋아요.
+    tts: { ko: "그리고 저녁 여섯 시쯤에는 사람이 많아요. 일찍 돌아오시는 게 좋아요.", uz: "Yana, keçqurun soat oltilarda odam köp böladi. Ertaroq qaytganingiz yaxşi." }
+    rom: Geurigo jeonyeok yeoseot sijjeumeneun sarami manayo. Iljjik doraosineun ge joayo.
+    uz: Yana, keçqurun soat 6 larda odam köp böladi. Ertaroq qaytganingiz yaxşi.
+  - id: d12
+    speaker: anvar
+    ko: 네, 알겠습니다. 정말 감사합니다.
+    rom: Ne, algetseumnida. Jeongmal gamsahamnida.
+    uz: Xöp, tuşundim. Katta rahmat.
+
+phrases:
+  - id: p01
+    speaker: narrator
+    ko: 지하철역이 어디에 있어요?
+    rom: Jihacheollyeogi eodie isseoyo?
+    uz: Metro bekati qayerda?
+  - id: p02
+    speaker: narrator
+    ko: 몇 호선을 타야 돼요?
+    rom: Myeot hoseoneul taya dwaeyo?
+    uz: Qaysi yönalişga çiqişim kerak?
+  - id: p03
+    speaker: narrator
+    ko: 어디에서 갈아타야 돼요?
+    rom: Eodieseo garataya dwaeyo?
+    uz: Qayerda boşqa yönalişga ötişim kerak?
+  - id: p04
+    speaker: narrator
+    ko: 종로3가역에서 3호선으로 갈아타세요.
+    tts: { ko: "종로삼가역에서 삼 호선으로 갈아타세요.", uz: "Jongno samga bekatida uçinçi yönalişga öting." }
+    rom: Jongnosamgayeogeseo samhoseoneuro garataseyo.
+    uz: Jongno 3-ga (samga) bekatida 3-yönalişga öting.
+  - id: p05
+    speaker: narrator
+    ko: 2호선 타는 곳이 어디예요?
+    tts: { ko: "이 호선 타는 곳이 어디예요?", uz: "Ikkinçi yönalişga qayerdan çiqiladi?" }
+    rom: Ihoseon taneun gosi eodiyeyo?
+    uz: 2-yönalişga qayerdan çiqiladi?
+  - id: p06
+    speaker: narrator
+    ko: 이 열차 서울역에 가요?
+    rom: I yeolcha Seoullyeoge gayo?
+    uz: Bu poyezd Seul vokzaliga boradimi?
+  - id: p07
+    speaker: narrator
+    ko: 어느 쪽에서 타요?
+    rom: Eoneu jjogeseo tayo?
+    uz: Qaysi tomondan çiqaman?
+  - id: p08
+    speaker: narrator
+    ko: 교통카드를 충전하고 싶어요.
+    rom: Gyotongkadeureul chungjeonhago sipeoyo.
+    uz: Transport kartasiga pul solmoqçiman.
+  - id: p09
+    speaker: narrator
+    ko: 만 원 충전해 주세요.
+    rom: Man won chungjeonhae juseyo.
+    uz: Ön ming von solib bering.
+  - id: p10
+    speaker: narrator
+    ko: 카드에 돈이 얼마 남았어요?
+    rom: Kadeue doni eolma namasseoyo?
+    uz: Kartada qança pul qoldi?
+  - id: p11
+    speaker: narrator
+    ko: 막차는 몇 시예요?
+    rom: Makchaneun myeot siyeyo?
+    uz: Oxirgi poyezd soat neçada?
+  - id: p12
+    speaker: narrator
+    ko: 출퇴근 시간은 피하는 게 좋아요.
+    rom: Chultoegeun siganeun pihaneun ge joayo.
+    uz: Ertalabki va keçki tiğiz vaqtda yurmagan yaxşi.

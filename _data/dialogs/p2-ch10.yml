@@ -1,0 +1,160 @@
+# Koreys tili 2-qism, 10-dars: Restoranda
+#
+# Audio is generated from this file with `uv run tools/tts.py p2-ch10`
+# and saved to assets/audio/p2-ch10/. Edit text here, then re-run the script.
+#
+# Fields: id (unique, used in audio file names), speaker (key of `speakers`),
+# ko (Korean), rom (Revised Romanization), uz (Uzbek, new alphabet).
+# Optional per line:
+#   tts: { ko: "...", uz: "..." }  text to speak when it differs from the text shown
+#   duration: { ko: 0.8 }            fix a clip's length in seconds
+
+speakers:
+  server:
+    name: 종업원 (Ofitsiant)
+    side: left
+    voice:
+      ko: { instruct: "female, middle-aged, moderate pitch", seed: 42 }
+      uz: { instruct: "female, middle-aged, moderate pitch", seed: 42 }
+  jisu:
+    name: 지수 (Jisu)
+    side: left
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "female, young adult, moderate pitch", seed: 42 }
+  anvar:
+    name: 안바르 (Anvar)
+    side: right
+    voice:
+      ko: { instruct: "male, young adult, moderate pitch", seed: 7 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+  narrator:
+    name: ""
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+
+dialog:
+  - id: d01
+    speaker: server
+    ko: 어서 오세요. 몇 분이세요?
+    rom: Eoseo oseyo. Myeot buniseyo?
+    uz: Xuş kelibsiz. Neça kişisiz?
+  - id: d02
+    speaker: jisu
+    ko: 두 명이요.
+    rom: Du myeongiyo.
+    uz: Ikki kişi.
+  - id: d03
+    speaker: server
+    ko: 이쪽으로 앉으세요. 메뉴 여기 있어요.
+    rom: Ijjogeuro anjeuseyo. Menyu yeogi isseoyo.
+    uz: Mana bu yerga ötiring. Menyu mana.
+  - id: d04
+    speaker: anvar
+    ko: 저기요, 육개장에는 무슨 고기가 들어가요?
+    rom: Jeogiyo, yukgaejangeneun museun gogiga deureogayo?
+    uz: Keçirasiz, yukgejang şörvasiga qanday göşt solinadi?
+  - id: d05
+    speaker: server
+    ko: 소고기가 들어가요. 그런데 좀 매워요.
+    rom: Sogogiga deureogayo. Geureonde jom maewoyo.
+    uz: Mol göşti solinadi. Lekin biroz aççiq.
+  - id: d06
+    speaker: anvar
+    ko: 그럼 육개장 하나 주세요. 덜 맵게 해 주세요.
+    rom: Geureom yukgaejang hana juseyo. Deol maepge hae juseyo.
+    uz: Unda bitta yukgejang bering. Kamroq aççiq qilib bering.
+  - id: d07
+    speaker: jisu
+    ko: 저는 비빔밥하고 해물파전 하나 주세요.
+    rom: Jeoneun bibimbapago haemulpajeon hana juseyo.
+    uz: Menga bibimbap va bitta dengiz mahsulotli pajon bering.
+  - id: d08
+    speaker: server
+    ko: 네, 잠시만 기다리세요.
+    rom: Ne, jamsiman gidariseyo.
+    uz: Xöp, biroz kuting.
+  - id: d09
+    speaker: jisu
+    ko: 안바르 씨, 이 파전 좀 먹어 보세요.
+    rom: Anbareu ssi, i pajeon jom meogeo boseyo.
+    uz: Anvar, mana bu pajondan tatib köring.
+  - id: d10
+    speaker: anvar
+    ko: 와, 정말 맛있어요! 저기요, 반찬 좀 더 주세요.
+    rom: Wa, jeongmal masisseoyo! Jeogiyo, banchan jom deo juseyo.
+    uz: Voy, juda mazali ekan! Keçirasiz, yana gazak bering.
+  - id: d11
+    speaker: server
+    ko: 반찬은 저쪽에서 더 가져다 드세요.
+    rom: Banchaneun jeojjogeseo deo gajyeoda deuseyo.
+    uz: Gazaklarni anavi yerdan özingiz olib yeng.
+  - id: d12
+    speaker: anvar
+    ko: 네, 감사합니다. 지수 씨, 오늘은 제가 살게요!
+    rom: Ne, gamsahamnida. Jisu ssi, oneureun jega salgeyo!
+    uz: Xöp, rahmat. Jisu, bugun men mehmon qilaman!
+
+phrases:
+  - id: p01
+    speaker: narrator
+    ko: 메뉴판 좀 주세요.
+    rom: Menyupan jom juseyo.
+    uz: Menyuni bering.
+  - id: p02
+    speaker: narrator
+    ko: 뭐가 맛있어요?
+    rom: Mwoga masisseoyo?
+    uz: Nimasi mazali?
+  - id: p03
+    speaker: narrator
+    ko: 이거 하나 주세요.
+    rom: Igeo hana juseyo.
+    uz: Bundan bitta bering.
+  - id: p04
+    speaker: narrator
+    ko: 불고기 2인분 주세요.
+    tts: { ko: "불고기 이 인분 주세요." }
+    rom: Bulgogi iinbun juseyo.
+    uz: Ikki kişilik bulgogi bering.
+  - id: p05
+    speaker: narrator
+    ko: 무슨 고기가 들어가요?
+    rom: Museun gogiga deureogayo?
+    uz: Qanday göşt solinadi?
+  - id: p06
+    speaker: narrator
+    ko: 파는 빼 주세요.
+    rom: Paneun ppae juseyo.
+    uz: Kök piyoz solmang.
+  - id: p07
+    speaker: narrator
+    ko: 덜 맵게 해 주세요.
+    rom: Deol maepge hae juseyo.
+    uz: Kamroq aççiq qiling.
+  - id: p08
+    speaker: narrator
+    ko: 안 맵게 해 주세요.
+    rom: An maepge hae juseyo.
+    uz: Aççiq qilmang.
+  - id: p09
+    speaker: narrator
+    ko: 물 좀 주세요.
+    rom: Mul jom juseyo.
+    uz: Suv bering.
+  - id: p10
+    speaker: narrator
+    ko: 저기요!
+    rom: Jeogiyo!
+    uz: Keçirasiz! (xodimni çaqiriş)
+  - id: p11
+    speaker: narrator
+    ko: 포장돼요?
+    rom: Pojangdwaeyo?
+    uz: Olib ketsam böladimi?
+  - id: p12
+    speaker: narrator
+    ko: 계산해 주세요.
+    rom: Gyesanhae juseyo.
+    uz: Hisoblab bering.

@@ -1,0 +1,160 @@
+# Koreys tili 2-qism, 15-dars: Xarid (2): Insadong
+#
+# Audio is generated from this file with `uv run tools/tts.py p2-ch15`
+# and saved to assets/audio/p2-ch15/. Edit text here, then re-run the script.
+#
+# Fields: id (unique, used in audio file names), speaker (key of `speakers`),
+# ko (Korean), rom (Revised Romanization), uz (Uzbek, new alphabet).
+# Optional per line:
+#   tts: { ko: "...", uz: "..." }  text to speak when it differs from the text shown
+#   duration: { ko: 0.8 }            fix a clip's length in seconds
+
+speakers:
+  jisu:
+    name: 지수 (Jisu)
+    side: left
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "female, young adult, moderate pitch", seed: 42 }
+  seller:
+    name: 점원 (Sotuvçi)
+    side: left
+    voice:
+      ko: { instruct: "female, middle-aged, moderate pitch", seed: 42 }
+      uz: { instruct: "female, middle-aged, moderate pitch", seed: 42 }
+  anvar:
+    name: 안바르 (Anvar)
+    side: right
+    voice:
+      ko: { instruct: "male, young adult, moderate pitch", seed: 7 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+  narrator:
+    name: ""
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+
+dialog:
+  - id: d01
+    speaker: jisu
+    ko: 여기가 인사동이에요. 전통 물건이 많아요.
+    rom: Yeogiga Insadongieyo. Jeontong mulgeoni manayo.
+    uz: Mana şu Insadong. Bu yerda anʼanaviy buyumlar köp.
+  - id: d02
+    speaker: anvar
+    ko: 와, 정말 예쁘네요! 가족한테 줄 선물을 사고 싶어요.
+    rom: Wa, jeongmal yeppeuneyo! Gajokante jul seonmureul sago sipeoyo.
+    uz: Voy, juda çiroyli ekan! Oilamga sovğa olmoqçiman.
+  - id: d03
+    speaker: seller
+    ko: 어서 오세요. 천천히 구경하세요.
+    rom: Eoseo oseyo. Cheoncheonhi gugyeonghaseyo.
+    uz: Xuş kelibsiz. Bemalol tomoşa qiling.
+  - id: d04
+    speaker: anvar
+    ko: 어머니한테 드릴 선물을 찾는데요.
+    rom: Eomeonihante deuril seonmureul channeundeyo.
+    uz: Onamga sovğa qidiryapman.
+  - id: d05
+    speaker: seller
+    ko: 이 손거울 어떠세요? 자개로 만들었어요.
+    rom: I songeoul eotteoseyo? Jagaero mandeureosseoyo.
+    uz: Mana bu qöl oynasi qanday? Sadafdan yasalgan.
+  - id: d06
+    speaker: anvar
+    ko: 정말 예쁘네요. 얼마예요?
+    rom: Jeongmal yeppeuneyo. Eolmayeyo?
+    uz: Juda çiroyli ekan. Qança turadi?
+  - id: d07
+    speaker: seller
+    ko: 35,000원이에요.
+    tts: { ko: "삼만 오천 원이에요.", uz: "Öttiz beş ming von." }
+    rom: Samman ocheonwonieyo.
+    uz: 35 000 von.
+  - id: d08
+    speaker: jisu
+    ko: 아버지 선물로 이 전통차는 어때요?
+    rom: Abeoji seonmullo i jeontongchaneun eottaeyo?
+    uz: Otangizga sovğa uçun mana bu anʼanaviy çoy qanday?
+  - id: d09
+    speaker: anvar
+    ko: 좋아요. 이것도 주세요.
+    rom: Joayo. Igeotdo juseyo.
+    uz: Yaxşi. Buni ham bering.
+  - id: d10
+    speaker: seller
+    ko: 선물이세요? 포장해 드릴까요?
+    rom: Seonmuriseyo? Pojanghae deurilkkayo?
+    uz: Sovğami? Örab beraymi?
+  - id: d11
+    speaker: anvar
+    ko: 네, 따로 포장해 주세요.
+    rom: Ne, ttaro pojanghae juseyo.
+    uz: Ha, alohida-alohida örab bering.
+  - id: d12
+    speaker: seller
+    ko: 네, 잠깐만 기다리세요.
+    rom: Ne, jamkkanman gidariseyo.
+    uz: Xöp, biroz kutib turing.
+
+phrases:
+  - id: p01
+    speaker: narrator
+    ko: 선물을 사고 싶어요.
+    rom: Seonmureul sago sipeoyo.
+    uz: Sovğa olmoqçiman.
+  - id: p02
+    speaker: narrator
+    ko: 친구한테 줄 선물이에요.
+    rom: Chinguhante jul seonmurieyo.
+    uz: Bu döstimga sovğa.
+  - id: p03
+    speaker: narrator
+    ko: 어머니한테 드릴 선물을 찾는데요.
+    rom: Eomeonihante deuril seonmureul channeundeyo.
+    uz: Onamga sovğa qidiryapman.
+  - id: p04
+    speaker: narrator
+    ko: 구경만 해도 돼요?
+    rom: Gugyeongman haedo dwaeyo?
+    uz: Faqat tomoşa qilsam böladimi?
+  - id: p05
+    speaker: narrator
+    ko: 이건 뭐로 만들었어요?
+    rom: Igeon mworo mandeureosseoyo?
+    uz: Bu nimadan yasalgan?
+  - id: p06
+    speaker: narrator
+    ko: 한국 전통 물건이에요?
+    rom: Hanguk jeontong mulgeonieyo?
+    uz: Bu koreys anʼanaviy buyumimi?
+  - id: p07
+    speaker: narrator
+    ko: 정말 예쁘네요.
+    rom: Jeongmal yeppeuneyo.
+    uz: Juda çiroyli ekan.
+  - id: p08
+    speaker: narrator
+    ko: 이거 두 개 주세요.
+    rom: Igeo du gae juseyo.
+    uz: Bundan ikkita bering.
+  - id: p09
+    speaker: narrator
+    ko: 선물 포장해 주세요.
+    rom: Seonmul pojanghae juseyo.
+    uz: Sovğa qilib örab bering.
+  - id: p10
+    speaker: narrator
+    ko: 따로 포장해 주세요.
+    rom: Ttaro pojanghae juseyo.
+    uz: Alohida örab bering.
+  - id: p11
+    speaker: narrator
+    ko: 쇼핑백 하나 더 주세요.
+    rom: Syopingbaek hana deo juseyo.
+    uz: Yana bitta xarid paketi bering.
+  - id: p12
+    speaker: narrator
+    ko: 비행기에 가지고 탈 수 있어요?
+    rom: Bihaenggie gajigo tal su isseoyo?
+    uz: Buni samolyotga olib çiqsa böladimi?

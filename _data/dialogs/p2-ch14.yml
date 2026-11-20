@@ -1,0 +1,155 @@
+# Koreys tili 2-qism, 14-dars: Xarid (1): Dongdaemun
+#
+# Audio is generated from this file with `uv run tools/tts.py p2-ch14`
+# and saved to assets/audio/p2-ch14/. Edit text here, then re-run the script.
+#
+# Fields: id (unique, used in audio file names), speaker (key of `speakers`),
+# ko (Korean), rom (Revised Romanization), uz (Uzbek, new alphabet).
+# Optional per line:
+#   tts: { ko: "...", uz: "..." }  text to speak when it differs from the text shown
+#   duration: { ko: 0.8 }            fix a clip's length in seconds
+
+speakers:
+  seller:
+    name: 점원 (Sotuvçi)
+    side: left
+    voice:
+      ko: { instruct: "female, middle-aged, high pitch", seed: 42 }
+      uz: { instruct: "female, middle-aged, high pitch", seed: 42 }
+  anvar:
+    name: 안바르 (Anvar)
+    side: right
+    voice:
+      ko: { instruct: "male, young adult, moderate pitch", seed: 7 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+  narrator:
+    name: ""
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+
+dialog:
+  - id: d01
+    speaker: seller
+    ko: 어서 오세요. 뭐 찾으세요?
+    rom: Eoseo oseyo. Mwo chajeuseyo?
+    uz: Xuş kelibsiz. Nima qidiryapsiz?
+  - id: d02
+    speaker: anvar
+    ko: 겨울 재킷 좀 보여 주세요.
+    rom: Gyeoul jaekit jom boyeo juseyo.
+    uz: Qişki kurtkalarni körsating.
+  - id: d03
+    speaker: seller
+    ko: 이거 어때요? 요즘 인기가 많아요.
+    rom: Igeo eottaeyo? Yojeum ingiga manayo.
+    uz: Mana bu qanday? Hozir köp sotilyapti.
+  - id: d04
+    speaker: anvar
+    ko: 색이 예뻐요. 입어 봐도 돼요?
+    rom: Saegi yeppeoyo. Ibeo bwado dwaeyo?
+    uz: Rangi çiroyli. Kiyib körsam böladimi?
+  - id: d05
+    speaker: seller
+    ko: 네, 저기 탈의실에서 입어 보세요.
+    rom: Ne, jeogi taruisireseo ibeo boseyo.
+    uz: Ha, ana u yerdagi kiyim almaştiriş xonasida kiyib köring.
+  - id: d06
+    speaker: anvar
+    ko: 좀 작아요. 더 큰 거 있어요?
+    rom: Jom jagayo. Deo keun geo isseoyo?
+    uz: Biroz kiçik ekan. Kattaroği bormi?
+  - id: d07
+    speaker: seller
+    ko: 네, 이거 입어 보세요. 라지 사이즈예요.
+    rom: Ne, igeo ibeo boseyo. Raji saijeuyeyo.
+    uz: Bor, mana buni kiyib köring. Bu katta ölçam.
+  - id: d08
+    speaker: anvar
+    ko: 딱 맞아요. 얼마예요?
+    rom: Ttak majayo. Eolmayeyo?
+    uz: Aynan töğri keldi. Qança turadi?
+  - id: d09
+    speaker: seller
+    ko: 89,000원이에요.
+    tts: { ko: "팔만 구천 원이에요.", uz: "Sakson töqqiz ming von." }
+    rom: Palman gucheonwonieyo.
+    uz: 89 000 von.
+  - id: d10
+    speaker: anvar
+    ko: 너무 비싸요. 좀 깎아 주세요.
+    rom: Neomu bissayo. Jom kkakka juseyo.
+    uz: Juda qimmat ekan. Biroz arzonroq qilib bering.
+  - id: d11
+    speaker: seller
+    ko: 그럼 8만 원에 드릴게요.
+    tts: { ko: "그럼 팔만 원에 드릴게요.", uz: "Unda sakson ming vonga beraman." }
+    rom: Geureom palmanwone deurilgeyo.
+    uz: Unda 80 000 vonga beraman.
+  - id: d12
+    speaker: anvar
+    ko: 좋아요. 이걸로 할게요.
+    rom: Joayo. Igeollo halgeyo.
+    uz: Yaxşi. Şunisini olaman.
+
+phrases:
+  - id: p01
+    speaker: narrator
+    ko: 이거 입어 봐도 돼요?
+    rom: Igeo ibeo bwado dwaeyo?
+    uz: Buni kiyib körsam böladimi?
+  - id: p02
+    speaker: narrator
+    ko: 이 신발 신어 봐도 돼요?
+    rom: I sinbal sineo bwado dwaeyo?
+    uz: Bu oyoq kiyimni kiyib körsam böladimi?
+  - id: p03
+    speaker: narrator
+    ko: 탈의실이 어디예요?
+    rom: Taruisiri eodiyeyo?
+    uz: Kiyim almaştiriş xonasi qayerda?
+  - id: p04
+    speaker: narrator
+    ko: 더 큰 거 있어요?
+    rom: Deo keun geo isseoyo?
+    uz: Kattaroği bormi?
+  - id: p05
+    speaker: narrator
+    ko: 더 작은 거 있어요?
+    rom: Deo jageun geo isseoyo?
+    uz: Kiçikroği bormi?
+  - id: p06
+    speaker: narrator
+    ko: 다른 색 있어요?
+    rom: Dareun saek isseoyo?
+    uz: Boşqa rangi bormi?
+  - id: p07
+    speaker: narrator
+    ko: 너무 커요.
+    rom: Neomu keoyo.
+    uz: Juda katta.
+  - id: p08
+    speaker: narrator
+    ko: 딱 맞아요.
+    rom: Ttak majayo.
+    uz: Aynan töğri keldi.
+  - id: p09
+    speaker: narrator
+    ko: 이거 얼마예요?
+    rom: Igeo eolmayeyo?
+    uz: Bu qança turadi?
+  - id: p10
+    speaker: narrator
+    ko: 좀 깎아 주세요.
+    rom: Jom kkakka juseyo.
+    uz: Biroz arzonroq qilib bering.
+  - id: p11
+    speaker: narrator
+    ko: 이걸로 할게요.
+    rom: Igeollo halgeyo.
+    uz: Şunisini olaman.
+  - id: p12
+    speaker: narrator
+    ko: 택스 리펀드 돼요?
+    rom: Taekseu ripeondeu dwaeyo?
+    uz: Soliqni qaytarib oliş mumkinmi?

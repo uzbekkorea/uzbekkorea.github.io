@@ -1,0 +1,162 @@
+# Koreys tili 2-qism, 7-dars: Mehmonxonada joy bron qiliş
+#
+# Audio is generated from this file with `uv run tools/tts.py p2-ch07`
+# and saved to assets/audio/p2-ch07/. Edit text here, then re-run the script.
+#
+# Fields: id (unique, used in audio file names), speaker (key of `speakers`),
+# ko (Korean), rom (Revised Romanization), uz (Uzbek, new alphabet).
+# Optional per line:
+#   tts: { ko: "...", uz: "..." }  text to speak when it differs from the text shown
+#   duration: { ko: 0.8 }            fix a clip's length in seconds
+
+speakers:
+  clerk:
+    name: 직원 (Xodim)
+    side: left
+    voice:
+      ko: { instruct: "female, young adult, high pitch", seed: 42 }
+      uz: { instruct: "female, young adult, high pitch", seed: 42 }
+  anvar:
+    name: 안바르 (Anvar)
+    side: right
+    voice:
+      ko: { instruct: "male, young adult, moderate pitch", seed: 7 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+  narrator:
+    name: ""
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+
+dialog:
+  - id: d01
+    speaker: clerk
+    ko: 어서 오세요. 무엇을 도와드릴까요?
+    rom: Eoseo oseyo. Mueoseul dowadeurilkkayo?
+    uz: Xuş kelibsiz. Sizga qanday yordam bera olaman?
+  - id: d02
+    speaker: anvar
+    ko: 빈방 있어요? 오늘부터 3박 하려고 해요.
+    tts: { ko: "빈방 있어요? 오늘부터 삼 박 하려고 해요." }
+    rom: Binbang isseoyo? Oneulbuteo sambak haryeogo haeyo.
+    uz: Böş xona bormi? Bugundan boşlab uç keça qolmoqçiman.
+  - id: d03
+    speaker: clerk
+    ko: 예약하셨어요?
+    rom: Yeyakasyeosseoyo?
+    uz: Oldindan bron qilganmisiz?
+  - id: d04
+    speaker: anvar
+    ko: 아니요, 예약 안 했어요.
+    rom: Aniyo, yeyak an haesseoyo.
+    uz: Yöq, bron qilmaganman.
+  - id: d05
+    speaker: clerk
+    ko: 몇 분이세요?
+    rom: Myeot buniseyo?
+    uz: Neça kişisiz?
+  - id: d06
+    speaker: anvar
+    ko: 혼자예요. 1인실로 주세요.
+    tts: { ko: "혼자예요. 일인실로 주세요." }
+    rom: Honjayeyo. Irinsillo juseyo.
+    uz: Yolğizman. Bir kişilik xona bering.
+  - id: d07
+    speaker: clerk
+    ko: 네, 있어요. 1박에 12만 원이에요. 조식도 포함이에요.
+    tts: { ko: "네, 있어요. 일 박에 십이만 원이에요. 조식도 포함이에요.", uz: "Ha, bor. Bir keçasi yuz yigirma ming von. Nonuşta ham narxga kiradi." }
+    rom: Ne, isseoyo. Ilbage sibimanwonieyo. Josikdo pohamieyo.
+    uz: Ha, bor. Bir keçasi 120 000 von. Nonuşta ham narxga kiradi.
+  - id: d08
+    speaker: anvar
+    ko: 체크아웃은 몇 시예요?
+    rom: Chekeuauseun myeot siyeyo?
+    uz: Xonani soat neçada böşatiş kerak?
+  - id: d09
+    speaker: clerk
+    ko: 오전 11시예요. 여권 좀 보여 주시겠어요?
+    tts: { ko: "오전 열한 시예요. 여권 좀 보여 주시겠어요?", uz: "Ertalab soat ön birda. Pasportingizni körsata olasizmi?" }
+    rom: Ojeon yeolhan siyeyo. Yeogwon jom boyeo jusigesseoyo?
+    uz: Ertalab soat 11 da. Pasportingizni körsata olasizmi?
+  - id: d10
+    speaker: anvar
+    ko: 여기 있어요. 와이파이 비밀번호가 뭐예요?
+    tts: { uz: "Mana. Vay-fay paroli qanday?" }
+    rom: Yeogi isseoyo. Waipai bimilbeonhoga mwoyeyo?
+    uz: Mana. Wi-Fi paroli qanday?
+  - id: d11
+    speaker: clerk
+    ko: 방 카드에 적혀 있어요. 방은 7층 705호예요.
+    tts: { ko: "방 카드에 적혀 있어요. 방은 칠 층 칠백오 호예요.", uz: "Xona kartasida yozilgan. Xonangiz yettinçi qavatda, yetti yuz beşinçi xona." }
+    rom: Bang kadeue jeokyeo isseoyo. Bangeun chilcheung chilbaegohoyeyo.
+    uz: Xona kartasida yozilgan. Xonangiz 7-qavatda, 705-xona.
+  - id: d12
+    speaker: anvar
+    ko: 감사합니다.
+    rom: Gamsahamnida.
+    uz: Rahmat.
+
+phrases:
+  - id: p01
+    speaker: narrator
+    ko: 빈방 있어요?
+    rom: Binbang isseoyo?
+    uz: Böş xona bormi?
+  - id: p02
+    speaker: narrator
+    ko: 예약했어요.
+    rom: Yeyakaesseoyo.
+    uz: Oldindan bron qilganman.
+  - id: p03
+    speaker: narrator
+    ko: 안바르 이름으로 예약했어요.
+    rom: Anbareu ireumeuro yeyakaesseoyo.
+    uz: Anvar nomiga bron qilganman.
+  - id: p04
+    speaker: narrator
+    ko: 2박 하려고 해요.
+    tts: { ko: "이 박 하려고 해요." }
+    rom: Ibak haryeogo haeyo.
+    uz: Ikki keça qolmoqçiman.
+  - id: p05
+    speaker: narrator
+    ko: 1박에 얼마예요?
+    tts: { ko: "일 박에 얼마예요?" }
+    rom: Ilbage eolmayeyo?
+    uz: Bir keçasi qança turadi?
+  - id: p06
+    speaker: narrator
+    ko: 조식 포함이에요?
+    rom: Josik pohamieyo?
+    uz: Nonuşta narxga kiradimi?
+  - id: p07
+    speaker: narrator
+    ko: 더 싼 방 있어요?
+    rom: Deo ssan bang isseoyo?
+    uz: Arzonroq xona bormi?
+  - id: p08
+    speaker: narrator
+    ko: 체크인은 몇 시부터예요?
+    rom: Chekeuineun myeot sibuteoyeyo?
+    uz: Xonaga soat neçadan kirsa böladi?
+  - id: p09
+    speaker: narrator
+    ko: 체크아웃은 몇 시예요?
+    rom: Chekeuauseun myeot siyeyo?
+    uz: Xonani soat neçada böşatiş kerak?
+  - id: p10
+    speaker: narrator
+    ko: 짐 좀 맡아 주시겠어요?
+    rom: Jim jom mata jusigesseoyo?
+    uz: Yukimni saqlab tura olasizmi?
+  - id: p11
+    speaker: narrator
+    ko: 와이파이 비밀번호가 뭐예요?
+    tts: { uz: "Vay-fay paroli qanday?" }
+    rom: Waipai bimilbeonhoga mwoyeyo?
+    uz: Wi-Fi paroli qanday?
+  - id: p12
+    speaker: narrator
+    ko: 엘리베이터는 어디에 있어요?
+    rom: Ellibeiteoneun eodie isseoyo?
+    uz: Lift qayerda?

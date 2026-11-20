@@ -1,0 +1,154 @@
+# Koreys tili 2-qism, 11-dars: Yöl söraş
+#
+# Audio is generated from this file with `uv run tools/tts.py p2-ch11`
+# and saved to assets/audio/p2-ch11/. Edit text here, then re-run the script.
+#
+# Fields: id (unique, used in audio file names), speaker (key of `speakers`),
+# ko (Korean), rom (Revised Romanization), uz (Uzbek, new alphabet).
+# Optional per line:
+#   tts: { ko: "...", uz: "..." }  text to speak when it differs from the text shown
+#   duration: { ko: 0.8 }            fix a clip's length in seconds
+
+speakers:
+  passerby:
+    name: 행인 (Ötkinçi)
+    side: left
+    voice:
+      ko: { instruct: "female, middle-aged, moderate pitch", seed: 42 }
+      uz: { instruct: "female, middle-aged, moderate pitch", seed: 42 }
+  anvar:
+    name: 안바르 (Anvar)
+    side: right
+    voice:
+      ko: { instruct: "male, young adult, moderate pitch", seed: 7 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+  narrator:
+    name: ""
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+
+dialog:
+  - id: d01
+    speaker: anvar
+    ko: 실례합니다. 이 근처에 약국이 있어요?
+    rom: Sillyehamnida. I geuncheoe yakgugi isseoyo?
+    uz: Keçirasiz, bu yaqin atrofda dorixona bormi?
+  - id: d02
+    speaker: passerby
+    ko: 네, 있어요. 저기 횡단보도 보이죠?
+    rom: Ne, isseoyo. Jeogi hoengdanbodo boijyo?
+    uz: Ha, bor. Anavi piyodalar ötiş joyi körinyaptimi?
+  - id: d03
+    speaker: anvar
+    ko: 네, 보여요.
+    rom: Ne, boyeoyo.
+    uz: Ha, körinyapti.
+  - id: d04
+    speaker: passerby
+    ko: 횡단보도를 건너서 오른쪽으로 쭉 가세요.
+    rom: Hoengdanbodoreul geonneoseo oreunjjogeuro jjuk gaseyo.
+    uz: Yöldan ötib, öng tomonga töğri yuring.
+  - id: d05
+    speaker: anvar
+    ko: 오른쪽으로 쭉 가요?
+    rom: Oreunjjogeuro jjuk gayo?
+    uz: Öng tomonga töğri boramanmi?
+  - id: d06
+    speaker: passerby
+    ko: 네. 그리고 첫 번째 골목에서 왼쪽으로 도세요.
+    rom: Ne. Geurigo cheot beonjjae golmogeseo oenjjogeuro doseyo.
+    uz: Ha. Keyin birinçi tor köçadan çapga buriling.
+  - id: d07
+    speaker: passerby
+    ko: 약국은 은행 건너편에 있어요.
+    rom: Yakgugeun eunhaeng geonneopyeone isseoyo.
+    uz: Dorixona bankning qarşisida.
+  - id: d08
+    speaker: anvar
+    ko: 은행 건너편이죠? 걸어서 몇 분 걸려요?
+    rom: Eunhaeng geonneopyeonijyo? Georeoseo myeot bun geollyeoyo?
+    uz: Bankning qarşisida, şundaymi? Piyoda neça daqiqa vaqt oladi?
+  - id: d09
+    speaker: passerby
+    ko: 걸어서 5분쯤 걸려요. 못 찾으면 다시 물어보세요.
+    tts: { ko: "걸어서 오 분쯤 걸려요. 못 찾으면 다시 물어보세요.", uz: "Piyoda beş daqiqaça. Topa olmasangiz, yana sörab köring." }
+    rom: Georeoseo obunjjeum geollyeoyo. Mot chajeumyeon dasi mureoboseyo.
+    uz: Piyoda 5 daqiqaça. Topa olmasangiz, yana sörab köring.
+  - id: d10
+    speaker: anvar
+    ko: 그런데 근처에 지하철역도 있어요?
+    rom: Geureonde geuncheoe jihacheollyeokdo isseoyo?
+    uz: Aytgançi, yaqin atrofda metro bekati ham bormi?
+  - id: d11
+    speaker: passerby
+    ko: 네, 약국 바로 뒤에 지하철역이 있어요.
+    rom: Ne, yakguk baro dwie jihacheollyeogi isseoyo.
+    uz: Ha, dorixonaning orqasida metro bekati bor.
+  - id: d12
+    speaker: anvar
+    ko: 정말 감사합니다!
+    rom: Jeongmal gamsahamnida!
+    uz: Katta rahmat!
+
+phrases:
+  - id: p01
+    speaker: narrator
+    ko: 이 근처에 약국이 있어요?
+    rom: I geuncheoe yakgugi isseoyo?
+    uz: Bu yaqin atrofda dorixona bormi?
+  - id: p02
+    speaker: narrator
+    ko: 지하철역이 어디에 있어요?
+    rom: Jihacheollyeogi eodie isseoyo?
+    uz: Metro bekati qayerda?
+  - id: p03
+    speaker: narrator
+    ko: 여기에서 멀어요?
+    rom: Yeogieseo meoreoyo?
+    uz: Bu yerdan uzoqmi?
+  - id: p04
+    speaker: narrator
+    ko: 걸어서 갈 수 있어요?
+    rom: Georeoseo gal su isseoyo?
+    uz: Piyoda borsa böladimi?
+  - id: p05
+    speaker: narrator
+    ko: 걸어서 몇 분 걸려요?
+    rom: Georeoseo myeot bun geollyeoyo?
+    uz: Piyoda neça daqiqa vaqt oladi?
+  - id: p06
+    speaker: narrator
+    ko: 쭉 가세요.
+    rom: Jjuk gaseyo.
+    uz: Töğri yuring.
+  - id: p07
+    speaker: narrator
+    ko: 오른쪽으로 도세요.
+    rom: Oreunjjogeuro doseyo.
+    uz: Öngga buriling.
+  - id: p08
+    speaker: narrator
+    ko: 왼쪽으로 도세요.
+    rom: Oenjjogeuro doseyo.
+    uz: Çapga buriling.
+  - id: p09
+    speaker: narrator
+    ko: 길을 건너세요.
+    rom: Gireul geonneoseyo.
+    uz: Yöldan öting.
+  - id: p10
+    speaker: narrator
+    ko: 은행 건너편에 있어요.
+    rom: Eunhaeng geonneopyeone isseoyo.
+    uz: Bankning qarşisida.
+  - id: p11
+    speaker: narrator
+    ko: 이 지도에서 여기가 어디예요?
+    rom: I jidoeseo yeogiga eodiyeyo?
+    uz: Bu xaritada biz qayerdamiz?
+  - id: p12
+    speaker: narrator
+    ko: 길을 잃어버렸어요.
+    rom: Gireul ireobeoryeosseoyo.
+    uz: Adaşib qoldim.

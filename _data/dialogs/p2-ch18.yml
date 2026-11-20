@@ -1,0 +1,161 @@
+# Koreys tili 2-qism, 18-dars: Sayohat (2)
+#
+# Audio is generated from this file with `uv run tools/tts.py p2-ch18`
+# and saved to assets/audio/p2-ch18/. Edit text here, then re-run the script.
+#
+# Fields: id (unique, used in audio file names), speaker (key of `speakers`),
+# ko (Korean), rom (Revised Romanization), uz (Uzbek, new alphabet).
+# Optional per line:
+#   tts: { ko: "...", uz: "..." }  text to speak when it differs from the text shown
+#   duration: { ko: 0.8 }            fix a clip's length in seconds
+
+speakers:
+  jisu:
+    name: 지수 (Jisu)
+    side: left
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "female, young adult, moderate pitch", seed: 42 }
+  passerby:
+    name: 행인 (Ötkinçi)
+    side: left
+    voice:
+      ko: { instruct: "male, middle-aged, moderate pitch", seed: 42 }
+      uz: { instruct: "male, middle-aged, moderate pitch", seed: 42 }
+  anvar:
+    name: 안바르 (Anvar)
+    side: right
+    voice:
+      ko: { instruct: "male, young adult, moderate pitch", seed: 7 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+  narrator:
+    name: ""
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+
+dialog:
+  - id: d01
+    speaker: jisu
+    ko: 안바르 씨, 여기가 경복궁 매표소예요.
+    rom: Anbareu ssi, yeogiga Gyeongbokgung maepyosoyeyo.
+    uz: Anvar, mana bu Gyeongbokgung saroyining bilet kassasi.
+  - id: d02
+    speaker: anvar
+    ko: 입장료가 얼마예요?
+    rom: Ipjangnyoga eolmayeyo?
+    uz: Kiriş narxi qança?
+  - id: d03
+    speaker: jisu
+    ko: 3천 원이에요. 그런데 한복을 입으면 무료예요.
+    tts: { ko: "삼천 원이에요. 그런데 한복을 입으면 무료예요.", uz: "Uç ming von. Lekin hanbok kiysangiz, bepul." }
+    rom: Samcheonwonieyo. Geureonde hanbogeul ibeumyeon muryoyeyo.
+    uz: 3 000 von. Lekin hanbok kiysangiz, bepul.
+  - id: d04
+    speaker: anvar
+    ko: 정말요? 그럼 저도 한복을 빌릴까요?
+    rom: Jeongmallyo? Geureom jeodo hanbogeul billilkkayo?
+    uz: Rostdanmi? Unda men ham hanbok ijaraga olaymi?
+  - id: d05
+    speaker: jisu
+    ko: 오늘은 시간이 없으니까 다음에 빌려요.
+    rom: Oneureun sigani eopseunikka daeume billyeoyo.
+    uz: Bugun vaqtimiz kam, keyingi safar ijaraga olamiz.
+  - id: d06
+    speaker: anvar
+    ko: 경복궁은 언제 지었어요?
+    rom: Gyeongbokgungeun eonje jieosseoyo?
+    uz: Gyeongbokgung qaçon qurilgan?
+  - id: d07
+    speaker: jisu
+    ko: 1395년에 지었어요. 600년이 넘었어요.
+    tts: { ko: "천삼백구십오 년에 지었어요. 육백 년이 넘었어요.", uz: "Bir ming uç yuz töqson beşinçi yilda qurilgan. Olti yuz yildan oşdi." }
+    rom: Cheonsambaekgusibonyeone jieosseoyo. Yukbaengnyeoni neomeosseoyo.
+    uz: 1395-yilda qurilgan. 600 yildan oşdi.
+  - id: d08
+    speaker: anvar
+    ko: 여기에서 사진을 찍어도 돼요?
+    rom: Yeogieseo sajineul jjigeodo dwaeyo?
+    uz: Bu yerda suratga olsam böladimi?
+  - id: d09
+    speaker: jisu
+    ko: 네, 괜찮아요. 하지만 건물 안에 들어가면 안 돼요.
+    rom: Ne, gwaenchanayo. Hajiman geonmul ane deureogamyeon an dwaeyo.
+    uz: Ha, böladi. Lekin binolarning içiga kirib bölmaydi.
+  - id: d10
+    speaker: anvar
+    ko: 저기요, 사진 좀 찍어 주실 수 있어요?
+    rom: Jeogiyo, sajin jom jjigeo jusil su isseoyo?
+    uz: Keçirasiz, bizni suratga olib bera olasizmi?
+  - id: d11
+    speaker: passerby
+    ko: 네, 하나, 둘, 셋! 잘 나왔어요.
+    rom: Ne, hana, dul, set! Jal nawasseoyo.
+    uz: Xöp, bir, ikki, uç! Yaxşi çiqdi.
+  - id: d12
+    speaker: anvar
+    ko: 감사합니다!
+    rom: Gamsahamnida!
+    uz: Rahmat!
+
+phrases:
+  - id: p01
+    speaker: narrator
+    ko: 입장료가 얼마예요?
+    rom: Ipjangnyoga eolmayeyo?
+    uz: Kiriş narxi qança?
+  - id: p02
+    speaker: narrator
+    ko: 어른 두 장 주세요.
+    rom: Eoreun du jang juseyo.
+    uz: Kattalar uçun ikkita bilet bering.
+  - id: p03
+    speaker: narrator
+    ko: 학생 할인 돼요?
+    rom: Haksaeng harin dwaeyo?
+    uz: Talabalarga çegirma bormi?
+  - id: p04
+    speaker: narrator
+    ko: 한복을 입으면 무료예요?
+    rom: Hanbogeul ibeumyeon muryoyeyo?
+    uz: Hanbok kiysam, bepulmi?
+  - id: p05
+    speaker: narrator
+    ko: 한복은 어디에서 빌려요?
+    rom: Hanbogeun eodieseo billyeoyo?
+    uz: Hanbokni qayerdan ijaraga olsa böladi?
+  - id: p06
+    speaker: narrator
+    ko: 사진을 찍어도 돼요?
+    rom: Sajineul jjigeodo dwaeyo?
+    uz: Suratga olsam böladimi?
+  - id: p07
+    speaker: narrator
+    ko: 사진 좀 찍어 주실 수 있어요?
+    rom: Sajin jom jjigeo jusil su isseoyo?
+    uz: Suratga olib bera olasizmi?
+  - id: p08
+    speaker: narrator
+    ko: 한 장 더 찍어 주세요.
+    rom: Han jang deo jjigeo juseyo.
+    uz: Yana bitta surat oling.
+  - id: p09
+    speaker: narrator
+    ko: 여기에 들어가도 돼요?
+    rom: Yeogie deureogado dwaeyo?
+    uz: Bu yerga kirsam böladimi?
+  - id: p10
+    speaker: narrator
+    ko: 화장실이 어디에 있어요?
+    rom: Hwajangsiri eodie isseoyo?
+    uz: Hojatxona qayerda?
+  - id: p11
+    speaker: narrator
+    ko: 이 건물은 언제 지었어요?
+    rom: I geonmureun eonje jieosseoyo?
+    uz: Bu bino qaçon qurilgan?
+  - id: p12
+    speaker: narrator
+    ko: 출구는 어디예요?
+    rom: Chulguneun eodiyeyo?
+    uz: Çiqiş qayerda?

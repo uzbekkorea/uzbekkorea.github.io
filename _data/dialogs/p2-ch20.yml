@@ -1,0 +1,154 @@
+# Koreys tili 2-qism, 20-dars: Yöqolgan narsani qidiriş
+#
+# Audio is generated from this file with `uv run tools/tts.py p2-ch20`
+# and saved to assets/audio/p2-ch20/. Edit text here, then re-run the script.
+#
+# Fields: id (unique, used in audio file names), speaker (key of `speakers`),
+# ko (Korean), rom (Revised Romanization), uz (Uzbek, new alphabet).
+# Optional per line:
+#   tts: { ko: "...", uz: "..." }  text to speak when it differs from the text shown
+#   duration: { ko: 0.8 }            fix a clip's length in seconds
+
+speakers:
+  staff:
+    name: 역무원 (Bekat xodimi)
+    side: left
+    voice:
+      ko: { instruct: "female, middle-aged, moderate pitch", seed: 42 }
+      uz: { instruct: "female, middle-aged, moderate pitch", seed: 42 }
+  anvar:
+    name: 안바르 (Anvar)
+    side: right
+    voice:
+      ko: { instruct: "male, young adult, moderate pitch", seed: 7 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+  narrator:
+    name: ""
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+
+dialog:
+  - id: d01
+    speaker: anvar
+    ko: 저기요, 지하철에 가방을 두고 내렸어요.
+    rom: Jeogiyo, jihacheore gabangeul dugo naeryeosseoyo.
+    uz: Keçirasiz, sumkamni metroda qoldirib tuşib qoldim.
+  - id: d02
+    speaker: staff
+    ko: 몇 호선이었어요? 언제쯤 내리셨어요?
+    rom: Myeot hoseonieosseoyo? Eonjejjeum naeryeosyeosseoyo?
+    uz: Qaysi yönaliş edi? Taxminan qaçon tuşdingiz?
+  - id: d03
+    speaker: anvar
+    ko: 2호선이에요. 30분쯤 전에 이 역에서 내렸어요.
+    tts: { ko: "이 호선이에요. 삼십 분쯤 전에 이 역에서 내렸어요.", uz: "Ikkinçi yönaliş. Taxminan öttiz daqiqa oldin şu bekatda tuşdim." }
+    rom: Ihoseonieyo. Samsipbunjjeum jeone i yeogeseo naeryeosseoyo.
+    uz: 2-yönaliş. Taxminan 30 daqiqa oldin şu bekatda tuşdim.
+  - id: d04
+    speaker: staff
+    ko: 어떤 가방이에요?
+    rom: Eotteon gabangieyo?
+    uz: Qanday sumka?
+  - id: d05
+    speaker: anvar
+    ko: 검은색 배낭이에요. 별로 안 커요.
+    rom: Geomeunsaek baenangieyo. Byeollo an keoyo.
+    uz: Qora ryukzak. Unça katta emas.
+  - id: d06
+    speaker: staff
+    ko: 안에 뭐가 있었어요?
+    rom: Ane mwoga isseosseoyo?
+    uz: Içida nima bor edi?
+  - id: d07
+    speaker: anvar
+    ko: 노트북하고 한국어 책이 있었어요. 선반 위에 놓고 내린 것 같아요.
+    rom: Noteubukago hangugeo chaegi isseosseoyo. Seonban wie noko naerin geot gatayo.
+    uz: Noutbuk va koreys tili kitobi bor edi. Şekilli, uni yuk tokçasida qoldirib ketganman.
+  - id: d08
+    speaker: staff
+    ko: 잠깐만요, 확인해 볼게요.
+    rom: Jamkkanmanyo, hwaginhae bolgeyo.
+    uz: Bir daqiqa, tekşirib köraman.
+  - id: d09
+    speaker: staff
+    ko: 아직 들어온 가방은 없어요. 다른 역에서 찾으면 연락드릴게요.
+    rom: Ajik deureoon gabangeun eopseoyo. Dareun yeogeseo chajeumyeon yeollakdeurilgeyo.
+    uz: Hozirça bunday sumka kelmagan. Boşqa bekatda topilsa, sizga xabar beraman.
+  - id: d10
+    speaker: staff
+    ko: 여기에 이름하고 연락처를 써 주세요.
+    rom: Yeogie ireumhago yeollakcheoreul sseo juseyo.
+    uz: Mana bu yerga ismingiz va telefon raqamingizni yozing.
+  - id: d11
+    speaker: anvar
+    ko: 네. 휴대폰을 잃어버리지 않아서 다행이에요.
+    rom: Ne. Hyudaeponeul ireobeoriji anaseo dahaengieyo.
+    uz: Xöp. Yaxşiyamki, telefonimni yöqotmabman.
+  - id: d12
+    speaker: staff
+    ko: 걱정하지 마세요. 꼭 찾으실 거예요.
+    rom: Geokjeonghaji maseyo. Kkok chajeusil geoyeyo.
+    uz: Xavotir olmang. Albatta topasiz.
+
+phrases:
+  - id: p01
+    speaker: narrator
+    ko: 가방을 잃어버렸어요.
+    rom: Gabangeul ireobeoryeosseoyo.
+    uz: Sumkamni yöqotib qöydim.
+  - id: p02
+    speaker: narrator
+    ko: 지갑을 잃어버렸어요.
+    rom: Jigabeul ireobeoryeosseoyo.
+    uz: Hamyonimni yöqotib qöydim.
+  - id: p03
+    speaker: narrator
+    ko: 택시에 휴대폰을 두고 내렸어요.
+    rom: Taeksie hyudaeponeul dugo naeryeosseoyo.
+    uz: Telefonimni taksida qoldirib tuşib qoldim.
+  - id: p04
+    speaker: narrator
+    ko: 지하철에서 잃어버린 것 같아요.
+    rom: Jihacheoreseo ireobeorin geot gatayo.
+    uz: Şekilli, metroda yöqotganman.
+  - id: p05
+    speaker: narrator
+    ko: 유실물 센터가 어디예요?
+    rom: Yusilmul senteoga eodiyeyo?
+    uz: Yöqolgan buyumlar bölimi qayerda?
+  - id: p06
+    speaker: narrator
+    ko: 검은색 배낭이에요.
+    rom: Geomeunsaek baenangieyo.
+    uz: Qora ryukzak.
+  - id: p07
+    speaker: narrator
+    ko: 이만한 크기예요.
+    rom: Imanhan keugiyeyo.
+    uz: Mana şunça kattalikda.
+  - id: p08
+    speaker: narrator
+    ko: 안에 여권이 있어요.
+    rom: Ane yeogwoni isseoyo.
+    uz: Içida pasportim bor.
+  - id: p09
+    speaker: narrator
+    ko: 경찰서가 어디예요?
+    rom: Gyeongchalseoga eodiyeyo?
+    uz: Politsiya bölimi qayerda?
+  - id: p10
+    speaker: narrator
+    ko: 분실 신고를 하고 싶어요.
+    rom: Bunsil singoreul hago sipeoyo.
+    uz: Yöqotiş haqida ariza bermoqçiman.
+  - id: p11
+    speaker: narrator
+    ko: 찾으면 연락 주세요.
+    rom: Chajeumyeon yeollak juseyo.
+    uz: Topilsa, menga xabar bering.
+  - id: p12
+    speaker: narrator
+    ko: 제 연락처예요.
+    rom: Je yeollakcheoyeyo.
+    uz: Bu mening telefon raqamim.

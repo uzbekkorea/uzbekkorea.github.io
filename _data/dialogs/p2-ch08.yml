@@ -1,0 +1,157 @@
+# Koreys tili 2-qism, 8-dars: Xonaga xizmat buyurtma qiliş
+#
+# Audio is generated from this file with `uv run tools/tts.py p2-ch08`
+# and saved to assets/audio/p2-ch08/. Edit text here, then re-run the script.
+#
+# Fields: id (unique, used in audio file names), speaker (key of `speakers`),
+# ko (Korean), rom (Revised Romanization), uz (Uzbek, new alphabet).
+# Optional per line:
+#   tts: { ko: "...", uz: "..." }  text to speak when it differs from the text shown
+#   duration: { ko: 0.8 }            fix a clip's length in seconds
+
+speakers:
+  clerk:
+    name: 직원 (Xodim)
+    side: left
+    voice:
+      ko: { instruct: "male, young adult, low pitch", seed: 42 }
+      uz: { instruct: "male, young adult, low pitch", seed: 42 }
+  anvar:
+    name: 안바르 (Anvar)
+    side: right
+    voice:
+      ko: { instruct: "male, young adult, moderate pitch", seed: 7 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+  narrator:
+    name: ""
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+
+dialog:
+  - id: d01
+    speaker: clerk
+    ko: 네, 프런트입니다.
+    rom: Ne, peureonteuimnida.
+    uz: Ha, qabulxona eşitadi.
+  - id: d02
+    speaker: anvar
+    ko: 여기 705호인데요. 수건 좀 더 갖다 주시겠어요?
+    tts: { ko: "여기 칠백오 호인데요. 수건 좀 더 갖다 주시겠어요?", uz: "Bu yetti yuz beşinçi xonadan. Yana soçiq olib kelib bera olasizmi?" }
+    rom: Yeogi chilbaegohoindeyo. Sugeon jom deo gatda jusigesseoyo?
+    uz: Bu 705-xonadan. Yana soçiq olib kelib bera olasizmi?
+  - id: d03
+    speaker: clerk
+    ko: 네, 몇 장 필요하세요?
+    rom: Ne, myeot jang piryohaseyo?
+    uz: Xöp, neçta kerak?
+  - id: d04
+    speaker: anvar
+    ko: 두 장 주세요. 그리고 에어컨이 안 돼요.
+    rom: Du jang juseyo. Geurigo eeokeoni an dwaeyo.
+    uz: Ikkita bering. Yana konditsioner işlamayapti.
+  - id: d05
+    speaker: clerk
+    ko: 죄송합니다. 바로 사람을 보내 드릴게요.
+    rom: Joesonghamnida. Baro sarameul bonae deurilgeyo.
+    uz: Uzr. Hozir odam yuboraman.
+  - id: d06
+    speaker: anvar
+    ko: 그리고 룸서비스도 돼요?
+    rom: Geurigo rumseobiseudo dwaeyo?
+    uz: Yana, xonaga ovqat buyurtma qilsa böladimi?
+  - id: d07
+    speaker: clerk
+    ko: 네, 밤 10시까지 돼요. 뭘 드릴까요?
+    tts: { ko: "네, 밤 열 시까지 돼요. 뭘 드릴까요?", uz: "Ha, keçasi soat öngaça böladi. Nima olib kelay?" }
+    rom: Ne, bam yeolsikkaji dwaeyo. Mwol deurilkkayo?
+    uz: Ha, keçasi soat 10 gaça böladi. Nima olib kelay?
+  - id: d08
+    speaker: anvar
+    ko: 야채볶음밥 하나하고 물 한 병 주세요.
+    rom: Yachaebokkeumbap hanahago mul han byeong juseyo.
+    uz: Bitta sabzavotli qovurilgan guruç va bir şişa suv bering.
+  - id: d09
+    speaker: clerk
+    ko: 네, 30분쯤 걸려요. 방으로 갖다 드릴게요.
+    tts: { ko: "네, 삼십 분쯤 걸려요. 방으로 갖다 드릴게요.", uz: "Xöp, öttiz daqiqaça vaqt oladi. Xonangizga olib çiqaman." }
+    rom: Ne, samsipbunjjeum geollyeoyo. Bangeuro gatda deurilgeyo.
+    uz: Xöp, 30 daqiqaça vaqt oladi. Xonangizga olib çiqaman.
+  - id: d10
+    speaker: anvar
+    ko: 계산은 어떻게 해요?
+    rom: Gyesaneun eotteoke haeyo?
+    uz: Pulini qanday tölayman?
+  - id: d11
+    speaker: clerk
+    ko: 체크아웃하실 때 같이 계산하시면 돼요.
+    rom: Chekeuautasil ttae gachi gyesanhasimyeon dwaeyo.
+    uz: Xonani böşatayotganingizda hammasini birga tölasangiz böladi.
+  - id: d12
+    speaker: anvar
+    ko: 네, 알겠습니다. 감사합니다.
+    rom: Ne, algetseumnida. Gamsahamnida.
+    uz: Xöp, tuşundim. Rahmat.
+
+phrases:
+  - id: p01
+    speaker: narrator
+    ko: 수건 좀 더 주세요.
+    rom: Sugeon jom deo juseyo.
+    uz: Yana soçiq bering.
+  - id: p02
+    speaker: narrator
+    ko: 휴지가 없어요.
+    rom: Hyujiga eopseoyo.
+    uz: Tualet qoğozi yöq.
+  - id: p03
+    speaker: narrator
+    ko: 에어컨이 안 돼요.
+    rom: Eeokeoni an dwaeyo.
+    uz: Konditsioner işlamayapti.
+  - id: p04
+    speaker: narrator
+    ko: 뜨거운 물이 안 나와요.
+    rom: Tteugeoun muri an nawayo.
+    uz: Issiq suv kelmayapti.
+  - id: p05
+    speaker: narrator
+    ko: 방 청소 좀 해 주세요.
+    rom: Bang cheongso jom hae juseyo.
+    uz: Xonani yiğiştirib bering.
+  - id: p06
+    speaker: narrator
+    ko: 룸서비스 돼요?
+    rom: Rumseobiseu dwaeyo?
+    uz: Xonaga ovqat buyurtma qilsa böladimi?
+  - id: p07
+    speaker: narrator
+    ko: 내일 아침 7시에 깨워 주세요.
+    tts: { ko: "내일 아침 일곱 시에 깨워 주세요.", uz: "Ertaga ertalab soat yettida uyğotib qöying." }
+    rom: Naeil achim ilgopsie kkaewo juseyo.
+    uz: Ertaga ertalab soat 7 da uyğotib qöying.
+  - id: p08
+    speaker: narrator
+    ko: 세탁 서비스 있어요?
+    rom: Setak seobiseu isseoyo?
+    uz: Kir yuviş xizmati bormi?
+  - id: p09
+    speaker: narrator
+    ko: 방 카드를 잃어버렸어요.
+    rom: Bang kadeureul ireobeoryeosseoyo.
+    uz: Xona kartasini yöqotib qöydim.
+  - id: p10
+    speaker: narrator
+    ko: 방을 바꿔 주실 수 있어요?
+    rom: Bangeul bakkwo jusil su isseoyo?
+    uz: Xonani almaştirib bera olasizmi?
+  - id: p11
+    speaker: narrator
+    ko: 체크아웃을 한 시간 늦게 해도 돼요?
+    rom: Chekeuauseul han sigan neutge haedo dwaeyo?
+    uz: Xonani bir soat keçroq böşatsam böladimi?
+  - id: p12
+    speaker: narrator
+    ko: 택시 좀 불러 주세요.
+    rom: Taeksi jom bulleo juseyo.
+    uz: Taksi çaqirib bering.
