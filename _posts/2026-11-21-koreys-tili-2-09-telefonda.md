@@ -3,6 +3,7 @@ title: "Koreys tili 2-qism, 9-dars: Telefonda"
 author:
   name: Koreyadagi Özbekistonliklar
   link: https://github.com/uzbekkorea
+date: 2026-11-21 20:00:00 +0900
 categories: [Koreys Tili, Muloqot]
 tags: [koreys tili, muloqot, audio, telefon]
 pin: false
