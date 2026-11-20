@@ -1,0 +1,155 @@
+# Koreys tili 2-qism, 6-dars: Taksida
+#
+# Audio is generated from this file with `uv run tools/tts.py p2-ch06`
+# and saved to assets/audio/p2-ch06/. Edit text here, then re-run the script.
+#
+# Fields: id (unique, used in audio file names), speaker (key of `speakers`),
+# ko (Korean), rom (Revised Romanization), uz (Uzbek, new alphabet).
+# Optional per line:
+#   tts: { ko: "...", uz: "..." }  text to speak when it differs from the text shown
+#   duration: { ko: 0.8 }            fix a clip's length in seconds
+
+speakers:
+  driver:
+    name: 기사 (Haydovçi)
+    side: left
+    voice:
+      ko: { instruct: "male, middle-aged, moderate pitch", seed: 42 }
+      uz: { instruct: "male, middle-aged, moderate pitch", seed: 42 }
+  anvar:
+    name: 안바르 (Anvar)
+    side: right
+    voice:
+      ko: { instruct: "male, young adult, moderate pitch", seed: 7 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+  narrator:
+    name: ""
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+
+dialog:
+  - id: d01
+    speaker: driver
+    ko: 어서 오세요. 어디로 가세요?
+    rom: Eoseo oseyo. Eodiro gaseyo?
+    uz: Xuş kelibsiz. Qayerga borasiz?
+  - id: d02
+    speaker: anvar
+    ko: 이 주소로 가 주세요.
+    rom: I jusoro ga juseyo.
+    uz: Mana şu manzilga olib boring.
+  - id: d03
+    speaker: driver
+    ko: 네, 동대문 쪽이네요.
+    rom: Ne, Dongdaemun jjogineyo.
+    uz: Xöp, Dongdaemun tomonda ekan.
+  - id: d04
+    speaker: anvar
+    ko: 얼마나 걸려요?
+    rom: Eolmana geollyeoyo?
+    uz: Qança vaqt oladi?
+  - id: d05
+    speaker: driver
+    ko: 차가 안 막히면 20분쯤 걸려요.
+    tts: { ko: "차가 안 막히면 이십 분쯤 걸려요.", uz: "Yöl tirband bölmasa, yigirma daqiqaça vaqt oladi." }
+    rom: Chaga an makimyeon isipbunjjeum geollyeoyo.
+    uz: Yöl tirband bölmasa, 20 daqiqaça vaqt oladi.
+  - id: d06
+    speaker: anvar
+    ko: 기사님, 저기 편의점 앞에서 세워 주세요.
+    rom: Gisanim, jeogi pyeonuijeom apeseo sewo juseyo.
+    uz: Haydovçi aka, anavi dökon oldida töxtating.
+  - id: d07
+    speaker: driver
+    ko: 네, 다 왔습니다. 9,800원입니다.
+    tts: { ko: "네, 다 왔습니다. 구천팔백 원입니다.", uz: "Xöp, yetib keldik. Töqqiz ming sakkiz yuz von." }
+    rom: Ne, da watseumnida. Gucheonpalbaek wonimnida.
+    uz: Xöp, yetib keldik. 9 800 von.
+  - id: d08
+    speaker: anvar
+    ko: 카드로 계산해도 돼요?
+    rom: Kadeuro gyesanhaedo dwaeyo?
+    uz: Karta bilan tölasam böladimi?
+  - id: d09
+    speaker: driver
+    ko: 네, 여기에 대 주세요.
+    rom: Ne, yeogie dae juseyo.
+    uz: Ha, kartani şu yerga tegizing.
+  - id: d10
+    speaker: driver
+    ko: 영수증 드릴까요?
+    rom: Yeongsujeung deurilkkayo?
+    uz: Çek beraymi?
+  - id: d11
+    speaker: anvar
+    ko: 아니요, 괜찮아요. 수고하세요.
+    rom: Aniyo, gwaenchanayo. Sugohaseyo.
+    uz: Yöq, kerak emas. Işingizga omad.
+  - id: d12
+    speaker: driver
+    ko: 안녕히 가세요. 짐 잊지 마세요.
+    rom: Annyeonghi gaseyo. Jim itji maseyo.
+    uz: Xayr. Yuklaringizni unutmang.
+
+phrases:
+  - id: p01
+    speaker: narrator
+    ko: 이 주소로 가 주세요.
+    rom: I jusoro ga juseyo.
+    uz: Şu manzilga olib boring.
+  - id: p02
+    speaker: narrator
+    ko: 서울역으로 가 주세요.
+    rom: Seoullyeogeuro ga juseyo.
+    uz: Seul vokzaliga olib boring.
+  - id: p03
+    speaker: narrator
+    ko: 트렁크 좀 열어 주세요.
+    rom: Teureongkeu jom yeoreo juseyo.
+    uz: Bagajni oçib bering.
+  - id: p04
+    speaker: narrator
+    ko: 얼마나 걸려요?
+    rom: Eolmana geollyeoyo?
+    uz: Qança vaqt oladi?
+  - id: p05
+    speaker: narrator
+    ko: 빨리 가 주세요.
+    rom: Ppalli ga juseyo.
+    uz: Tezroq haydang.
+  - id: p06
+    speaker: narrator
+    ko: 천천히 가 주세요.
+    rom: Cheoncheonhi ga juseyo.
+    uz: Sekinroq haydang.
+  - id: p07
+    speaker: narrator
+    ko: 여기서 세워 주세요.
+    rom: Yeogiseo sewo juseyo.
+    uz: Şu yerda töxtating.
+  - id: p08
+    speaker: narrator
+    ko: 저 앞에서 내려 주세요.
+    rom: Jeo apeseo naeryeo juseyo.
+    uz: Oldinroqda tuşirib qöying.
+  - id: p09
+    speaker: narrator
+    ko: 여기가 맞아요?
+    rom: Yeogiga majayo?
+    uz: Şu yer töğrimi?
+  - id: p10
+    speaker: narrator
+    ko: 얼마예요?
+    rom: Eolmayeyo?
+    uz: Qança böldi?
+  - id: p11
+    speaker: narrator
+    ko: 카드로 계산해도 돼요?
+    rom: Kadeuro gyesanhaedo dwaeyo?
+    uz: Karta bilan tölasam böladimi?
+  - id: p12
+    speaker: narrator
+    ko: 에어컨 좀 켜 주세요.
+    rom: Eeokeon jom kyeo juseyo.
+    uz: Konditsionerni yoqib bering.

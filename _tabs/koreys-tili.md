@@ -28,6 +28,7 @@ Har bir darsda koreysça va özbekça audio bilan dialog bor.
 3. [Bojxonada]({% post_url 2026-11-18-koreys-tili-2-03-bojxonada %})
 4. [Pul almaştiriş]({% post_url 2026-11-20-koreys-tili-2-04-pul-almaştiriş %})
 5. [Aeroport maʼlumot byurosida]({% post_url 2026-11-20-koreys-tili-2-05-aeroport-malumot-byurosida %})
+6. [Taksida]({% post_url 2026-11-20-koreys-tili-2-06-taksida %})
 
 > Darslar mavzulari [KBS WORLD Learn Korean](https://world.kbs.co.kr/learn_korean/lessons/e_index.htm) kursi asosida tanlandi. Koreys sözlarining lotin yozuvidagi öqilişi rasmiy [Koreys tilini romanizatsiya qiliş qoidalari](https://www.korean.go.kr/front_eng/roman/roman_01.do) (Revised Romanization) böyiça berilgan.
 {: .prompt-info }
