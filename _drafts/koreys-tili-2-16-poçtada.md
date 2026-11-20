@@ -3,6 +3,7 @@ title: "Koreys tili 2-qism, 16-dars: Poçtada"
 author:
   name: Koreyadagi Özbekistonliklar
   link: https://github.com/uzbekkorea
+date: 2026-11-24 18:00:00 +0900
 categories: [Koreys Tili, Muloqot]
 tags: [koreys tili, muloqot, audio, poçta]
 pin: false

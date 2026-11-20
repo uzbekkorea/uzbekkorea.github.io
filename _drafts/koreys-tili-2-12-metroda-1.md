@@ -3,6 +3,7 @@ title: "Koreys tili 2-qism, 12-dars: Metroda (1)"
 author:
   name: Koreyadagi Özbekistonliklar
   link: https://github.com/uzbekkorea
+date: 2026-11-22 20:00:00 +0900
 categories: [Koreys Tili, Muloqot]
 tags: [koreys tili, muloqot, audio, transport, metro]
 pin: false
