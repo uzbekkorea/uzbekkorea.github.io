@@ -1,0 +1,152 @@
+# Koreys tili 2-qism, 4-dars: Pul almaştiriş
+#
+# Audio is generated from this file with `uv run tools/tts.py p2-ch04`
+# and saved to assets/audio/p2-ch04/. Edit text here, then re-run the script.
+#
+# Fields: id (unique, used in audio file names), speaker (key of `speakers`),
+# ko (Korean), rom (Revised Romanization), uz (Uzbek, new alphabet).
+# Optional per line:
+#   tts: { ko: "...", uz: "..." }  text to speak when it differs from the text shown
+#   duration: { ko: 0.8 }            fix a clip's length in seconds
+
+speakers:
+  clerk:
+    name: 직원 (Xodim)
+    side: left
+    voice:
+      ko: { instruct: "female, middle-aged, moderate pitch", seed: 42 }
+      uz: { instruct: "female, middle-aged, moderate pitch", seed: 42 }
+  anvar:
+    name: 안바르 (Anvar)
+    side: right
+    voice:
+      ko: { instruct: "male, young adult, moderate pitch", seed: 7 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+  narrator:
+    name: ""
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+
+dialog:
+  - id: d01
+    speaker: clerk
+    ko: 어서 오세요. 무엇을 도와드릴까요?
+    rom: Eoseo oseyo. Mueoseul dowadeurilkkayo?
+    uz: Xuş kelibsiz. Sizga qanday yordam beray?
+  - id: d02
+    speaker: anvar
+    ko: 달러를 원으로 바꾸고 싶어요.
+    rom: Dalleoreul woneuro bakkugo sipeoyo.
+    uz: Dollarni vonga almaştirmoqçiman.
+  - id: d03
+    speaker: clerk
+    ko: 얼마나 바꾸시겠어요?
+    rom: Eolmana bakkusigesseoyo?
+    uz: Qançasini almaştirasiz?
+  - id: d04
+    speaker: anvar
+    ko: 500달러요. 오늘 환율이 얼마예요?
+    tts: { ko: "오백 달러요. 오늘 환율이 얼마예요?", uz: "Beş yuz dollar. Bugungi kurs qança?" }
+    rom: Obaek dalleoyo. Oneul hwanyuri eolmayeyo?
+    uz: 500 dollar. Bugungi kurs qança?
+  - id: d05
+    speaker: clerk
+    ko: 1달러에 1,400원이에요.
+    tts: { ko: "일 달러에 천사백 원이에요.", uz: "Bir dollar ming tört yuz von." }
+    rom: Il dalleoe cheonsabaek wonieyo.
+    uz: 1 dollar 1 400 von.
+  - id: d06
+    speaker: clerk
+    ko: 여권 좀 보여 주시겠어요?
+    rom: Yeogwon jom boyeo jusigesseoyo?
+    uz: Pasportingizni körsatib yuborasizmi?
+  - id: d07
+    speaker: anvar
+    ko: 네, 여기 있어요.
+    rom: Ne, yeogi isseoyo.
+    uz: Ha, mana.
+  - id: d08
+    speaker: clerk
+    ko: 모두 70만 원입니다. 어떻게 드릴까요?
+    tts: { ko: "모두 칠십만 원입니다. 어떻게 드릴까요?", uz: "Hammasi yetti yuz ming von. Qanday pul bilan beray?" }
+    rom: Modu chilsimman wonimnida. Eotteoke deurilkkayo?
+    uz: Hammasi 700 000 von. Qanday pul bilan beray?
+  - id: d09
+    speaker: anvar
+    ko: 5만 원짜리 열 장하고, 나머지는 만 원짜리로 주세요.
+    tts: { ko: "오만 원짜리 열 장하고, 나머지는 만 원짜리로 주세요.", uz: "Ellik ming vonlikdan önta, qolganini ön ming vonlik qilib bering." }
+    rom: Oman wonjjari yeol janghago, nameojineun man wonjjariro juseyo.
+    uz: 50 000 vonlikdan önta, qolganini 10 000 vonlik qilib bering.
+  - id: d10
+    speaker: clerk
+    ko: 여기 있습니다. 확인해 보세요.
+    rom: Yeogi itseumnida. Hwaginhae boseyo.
+    uz: Mana. Tekşirib köring.
+  - id: d11
+    speaker: anvar
+    ko: 네, 맞아요. 감사합니다.
+    rom: Ne, majayo. Gamsahamnida.
+    uz: Ha, töğri. Rahmat.
+  - id: d12
+    speaker: clerk
+    ko: 안녕히 가세요.
+    rom: Annyeonghi gaseyo.
+    uz: Xayr, yaxşi boring.
+
+phrases:
+  - id: p01
+    speaker: narrator
+    ko: 환전하고 싶어요.
+    rom: Hwanjeonhago sipeoyo.
+    uz: Pul almaştirmoqçiman.
+  - id: p02
+    speaker: narrator
+    ko: 환전소가 어디에 있어요?
+    rom: Hwanjeonsoga eodie isseoyo?
+    uz: Valyuta ayirboşlaş punkti qayerda?
+  - id: p03
+    speaker: narrator
+    ko: 달러를 원으로 바꿔 주세요.
+    rom: Dalleoreul woneuro bakkwo juseyo.
+    uz: Dollarni vonga almaştirib bering.
+  - id: p04
+    speaker: narrator
+    ko: 원을 달러로 바꿀 수 있어요?
+    rom: Woneul dalleoro bakkul su isseoyo?
+    uz: Vonni dollarga almaştirsa böladimi?
+  - id: p05
+    speaker: narrator
+    ko: 오늘 환율이 얼마예요?
+    rom: Oneul hwanyuri eolmayeyo?
+    uz: Bugungi kurs qança?
+  - id: p06
+    speaker: narrator
+    ko: 수수료가 있어요?
+    rom: Susuryoga isseoyo?
+    uz: Komissiya bormi?
+  - id: p07
+    speaker: narrator
+    ko: 얼마나 바꾸시겠어요?
+    rom: Eolmana bakkusigesseoyo?
+    uz: Qançasini almaştirasiz?
+  - id: p08
+    speaker: narrator
+    ko: 만 원짜리로 주세요.
+    rom: Man wonjjariro juseyo.
+    uz: Ön ming vonlik qilib bering.
+  - id: p09
+    speaker: narrator
+    ko: 잔돈으로 바꿔 주세요.
+    rom: Jandoneuro bakkwo juseyo.
+    uz: Mayda pulga almaştirib bering.
+  - id: p10
+    speaker: narrator
+    ko: 영수증 주세요.
+    rom: Yeongsujeung juseyo.
+    uz: Kvitansiya bering.
+  - id: p11
+    speaker: narrator
+    ko: 은행이 몇 시에 문을 열어요?
+    rom: Eunhaengi myeot sie muneul yeoreoyo?
+    uz: Bank soat neçada oçiladi?
