@@ -1,0 +1,154 @@
+# Koreys tili 2-qism, 5-dars: Aeroport maʼlumot byurosida
+#
+# Audio is generated from this file with `uv run tools/tts.py p2-ch05`
+# and saved to assets/audio/p2-ch05/. Edit text here, then re-run the script.
+#
+# Fields: id (unique, used in audio file names), speaker (key of `speakers`),
+# ko (Korean), rom (Revised Romanization), uz (Uzbek, new alphabet).
+# Optional per line:
+#   tts: { ko: "...", uz: "..." }  text to speak when it differs from the text shown
+#   duration: { ko: 0.8 }            fix a clip's length in seconds
+
+speakers:
+  staff:
+    name: 안내원 (Maʼlumot xodimi)
+    side: left
+    voice:
+      ko: { instruct: "female, young adult, high pitch", seed: 42 }
+      uz: { instruct: "female, young adult, high pitch", seed: 42 }
+  anvar:
+    name: 안바르 (Anvar)
+    side: right
+    voice:
+      ko: { instruct: "male, young adult, moderate pitch", seed: 7 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+  narrator:
+    name: ""
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+
+dialog:
+  - id: d01
+    speaker: anvar
+    ko: 실례합니다. 서울역에 어떻게 가요?
+    rom: Sillyehamnida. Seoullyeoge eotteoke gayo?
+    uz: Keçirasiz, Seul vokzaliga qanday borsam böladi?
+  - id: d02
+    speaker: staff
+    ko: 공항철도나 공항버스를 타세요.
+    rom: Gonghangcheoldona gonghangbeoseureul taseyo.
+    uz: Aeroport poyezdi yoki aeroport avtobusida borişingiz mumkin.
+  - id: d03
+    speaker: anvar
+    ko: 어느 게 더 빨라요?
+    rom: Eoneu ge deo ppallayo?
+    uz: Qaysi biri tezroq?
+  - id: d04
+    speaker: staff
+    ko: 공항철도가 더 빨라요. 서울역까지 한 시간쯤 걸려요.
+    rom: Gonghangcheoldoga deo ppallayo. Seoullyeokkaji han siganjjeum geollyeoyo.
+    uz: Poyezd tezroq. Seul vokzaligaça bir soatça vaqt oladi.
+  - id: d05
+    speaker: anvar
+    ko: 표는 어디에서 사요?
+    rom: Pyoneun eodieseo sayo?
+    uz: Biletni qayerdan olaman?
+  - id: d06
+    speaker: staff
+    ko: 교통카드를 사서 타시면 돼요. 편의점에서 팔아요.
+    rom: Gyotongkadeureul saseo tasimyeon dwaeyo. Pyeonuijeomeseo parayo.
+    uz: Transport kartasini olib, şu bilan minsangiz böladi. Dökonda sotiladi.
+  - id: d07
+    speaker: anvar
+    ko: 충전도 편의점에서 해요?
+    rom: Chungjeondo pyeonuijeomeseo haeyo?
+    uz: Kartaga pulni ham dökonda solamanmi?
+  - id: d08
+    speaker: staff
+    ko: 네, 편의점이나 역에서 충전할 수 있어요.
+    rom: Ne, pyeonuijeomina yeogeseo chungjeonhal su isseoyo.
+    uz: Ha, dökonda yoki bekatda pul solsangiz böladi.
+  - id: d09
+    speaker: anvar
+    ko: 공항철도 타는 곳은 어디예요?
+    rom: Gonghangcheoldo taneun goseun eodiyeyo?
+    uz: Poyezdga qayerdan çiqiladi?
+  - id: d10
+    speaker: staff
+    ko: 지하 1층으로 내려가세요. 표지판을 따라가시면 돼요.
+    tts: { ko: "지하 일 층으로 내려가세요. 표지판을 따라가시면 돼요.", uz: "Yer osti birinçi qavatiga tuşing. Körsatkiçlar böyiça borsangiz böladi." }
+    rom: Jiha il cheungeuro naeryeogaseyo. Pyojipaneul ttaragasimyeon dwaeyo.
+    uz: Yer osti 1-qavatiga tuşing. Körsatkiçlar böyiça borsangiz böladi.
+  - id: d11
+    speaker: anvar
+    ko: 정말 감사합니다.
+    rom: Jeongmal gamsahamnida.
+    uz: Katta rahmat.
+  - id: d12
+    speaker: staff
+    ko: 즐거운 여행 되세요.
+    rom: Jeulgeoun yeohaeng doeseyo.
+    uz: Sayohatingiz yaxşi ötsin.
+
+phrases:
+  - id: p01
+    speaker: narrator
+    ko: 안내 데스크가 어디에 있어요?
+    rom: Annae deseukeuga eodie isseoyo?
+    uz: Maʼlumot byurosi qayerda?
+  - id: p02
+    speaker: narrator
+    ko: 서울역에 어떻게 가요?
+    rom: Seoullyeoge eotteoke gayo?
+    uz: Seul vokzaliga qanday boriladi?
+  - id: p03
+    speaker: narrator
+    ko: 공항버스는 어디에서 타요?
+    rom: Gonghangbeoseuneun eodieseo tayo?
+    uz: Aeroport avtobusiga qayerdan çiqiladi?
+  - id: p04
+    speaker: narrator
+    ko: 시간이 얼마나 걸려요?
+    rom: Sigani eolmana geollyeoyo?
+    uz: Qança vaqt oladi?
+  - id: p05
+    speaker: narrator
+    ko: 어느 게 더 빨라요?
+    rom: Eoneu ge deo ppallayo?
+    uz: Qaysi biri tezroq?
+  - id: p06
+    speaker: narrator
+    ko: 교통카드는 어디에서 사요?
+    rom: Gyotongkadeuneun eodieseo sayo?
+    uz: Transport kartasini qayerdan olsa böladi?
+  - id: p07
+    speaker: narrator
+    ko: 유심 카드는 어디에서 사요?
+    rom: Yusim kadeuneun eodieseo sayo?
+    uz: SIM kartani qayerdan olsa böladi?
+  - id: p08
+    speaker: narrator
+    ko: 택시 타는 곳이 어디예요?
+    rom: Taeksi taneun gosi eodiyeyo?
+    uz: Taksi bekati qayerda?
+  - id: p09
+    speaker: narrator
+    ko: 지도 있어요?
+    rom: Jido isseoyo?
+    uz: Xarita bormi?
+  - id: p10
+    speaker: narrator
+    ko: 화장실이 어디예요?
+    rom: Hwajangsiri eodiyeyo?
+    uz: Hojatxona qayerda?
+  - id: p11
+    speaker: narrator
+    ko: 다시 한번 말씀해 주세요.
+    rom: Dasi hanbeon malsseumhae juseyo.
+    uz: Yana bir marta aytib yuboring.
+  - id: p12
+    speaker: narrator
+    ko: 천천히 말씀해 주세요.
+    rom: Cheoncheonhi malsseumhae juseyo.
+    uz: Sekinroq gapirib bering.
