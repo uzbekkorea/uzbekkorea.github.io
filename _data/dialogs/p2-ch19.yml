@@ -1,0 +1,156 @@
+# Koreys tili 2-qism, 19-dars: Avtomobil ijaraga oliş
+#
+# Audio is generated from this file with `uv run tools/tts.py p2-ch19`
+# and saved to assets/audio/p2-ch19/. Edit text here, then re-run the script.
+#
+# Fields: id (unique, used in audio file names), speaker (key of `speakers`),
+# ko (Korean), rom (Revised Romanization), uz (Uzbek, new alphabet).
+# Optional per line:
+#   tts: { ko: "...", uz: "..." }  text to speak when it differs from the text shown
+#   duration: { ko: 0.8 }            fix a clip's length in seconds
+
+speakers:
+  clerk:
+    name: 직원 (Xodim)
+    side: left
+    voice:
+      ko: { instruct: "male, middle-aged, moderate pitch", seed: 11 }
+      uz: { instruct: "male, middle-aged, moderate pitch", seed: 11 }
+  anvar:
+    name: 안바르 (Anvar)
+    side: right
+    voice:
+      ko: { instruct: "male, young adult, moderate pitch", seed: 7 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+  narrator:
+    name: ""
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+
+dialog:
+  - id: d01
+    speaker: clerk
+    ko: 어서 오세요. 예약하셨어요?
+    rom: Eoseo oseyo. Yeyakasyeosseoyo?
+    uz: Xuş kelibsiz. Oldindan bron qilganmisiz?
+  - id: d02
+    speaker: anvar
+    ko: 아니요. 차를 빌리고 싶어요. 강릉에 가려고 해요.
+    rom: Aniyo. Chareul billigo sipeoyo. Gangneunge garyeogo haeyo.
+    uz: Yöq. Maşina ijaraga olmoqçiman. Gangneungga bormoqçiman.
+  - id: d03
+    speaker: clerk
+    ko: 며칠 동안 쓰실 거예요?
+    rom: Myeochil dongan sseusil geoyeyo?
+    uz: Neça kun foydalanasiz?
+  - id: d04
+    speaker: anvar
+    ko: 3일 동안 쓰려고 해요. 작은 차로 주세요.
+    tts: { ko: "삼 일 동안 쓰려고 해요. 작은 차로 주세요." }
+    rom: Samil dongan sseuryeogo haeyo. Jageun charo juseyo.
+    uz: Uç kun foydalanmoqçiman. Kiçikroq maşina bering.
+  - id: d05
+    speaker: clerk
+    ko: 국제운전면허증하고 여권, 신용카드를 보여 주세요.
+    rom: Gukjeunjeonmyeonheojeunghago yeogwon, sinyongkadeureul boyeo juseyo.
+    uz: Xalqaro haydovçilik guvohnomasi, pasport va kredit kartangizni körsating.
+  - id: d06
+    speaker: anvar
+    ko: 여기 있어요. 보험도 포함이에요?
+    rom: Yeogi isseoyo. Boheomdo pohamieyo?
+    uz: Mana. Suğurta ham narxga kiradimi?
+  - id: d07
+    speaker: clerk
+    ko: 기본 보험은 포함이에요. 완전 자차 보험은 하루에 2만 원 추가예요.
+    tts: { ko: "기본 보험은 포함이에요. 완전 자차 보험은 하루에 이만 원 추가예요.", uz: "Asosiy suğurta kiradi. Töliq suğurta uçun kuniga yigirma ming von qöşimça tölanadi." }
+    rom: Gibon boheomeun pohamieyo. Wanjeon jacha boheomeun harue imanwon chugayeyo.
+    uz: Asosiy suğurta kiradi. Töliq suğurta uçun kuniga 20 000 von qöşimça tölanadi.
+  - id: d08
+    speaker: anvar
+    ko: 그럼 그것도 해 주세요. 기름은 어떻게 해요?
+    rom: Geureom geugeotdo hae juseyo. Gireumeun eotteoke haeyo?
+    uz: Unda uni ham qöşing. Benzin-çi, qanday böladi?
+  - id: d09
+    speaker: clerk
+    ko: 반납할 때 기름을 가득 채워 주세요. 그리고 차 안에서 담배 피우지 마세요.
+    rom: Bannapal ttae gireumeul gadeuk chaewo juseyo. Geurigo cha aneseo dambae piuji maseyo.
+    uz: Maşinani qaytarayotganda bakni töldirib qöying. Yana maşina içida sigaret çekmang.
+  - id: d10
+    speaker: anvar
+    ko: 반납은 어디에서 해요?
+    rom: Bannabeun eodieseo haeyo?
+    uz: Maşinani qayerga qaytaraman?
+  - id: d11
+    speaker: clerk
+    ko: 여기로 오시면 돼요. 과속 카메라가 많으니까 천천히 운전하세요.
+    rom: Yeogiro osimyeon dwaeyo. Gwasok kameraga maneunikka cheoncheonhi unjeonhaseyo.
+    uz: Şu yerga olib kelsangiz böladi. Tezlik kameralari köp, şuning uçun sekin haydang.
+  - id: d12
+    speaker: anvar
+    ko: 네, 알겠습니다. 조심해서 운전할게요.
+    rom: Ne, algetseumnida. Josimhaeseo unjeonhalgeyo.
+    uz: Xöp, tuşundim. Ehtiyot bölib haydayman.
+
+phrases:
+  - id: p01
+    speaker: narrator
+    ko: 차를 빌리고 싶어요.
+    rom: Chareul billigo sipeoyo.
+    uz: Maşina ijaraga olmoqçiman.
+  - id: p02
+    speaker: narrator
+    ko: 하루에 얼마예요?
+    rom: Harue eolmayeyo?
+    uz: Bir kuniga qança turadi?
+  - id: p03
+    speaker: narrator
+    ko: 3일 동안 빌릴 거예요.
+    tts: { ko: "삼 일 동안 빌릴 거예요." }
+    rom: Samil dongan billil geoyeyo.
+    uz: Uç kunga olaman.
+  - id: p04
+    speaker: narrator
+    ko: 국제운전면허증 있어요.
+    rom: Gukjeunjeonmyeonheojeung isseoyo.
+    uz: Xalqaro haydovçilik guvohnomam bor.
+  - id: p05
+    speaker: narrator
+    ko: 보험도 포함이에요?
+    rom: Boheomdo pohamieyo?
+    uz: Suğurta ham narxga kiradimi?
+  - id: p06
+    speaker: narrator
+    ko: 내비게이션 있어요?
+    rom: Naebigeisyeon isseoyo?
+    uz: Navigator bormi?
+  - id: p07
+    speaker: narrator
+    ko: 주유소가 어디에 있어요?
+    rom: Juyusoga eodie isseoyo?
+    uz: Yoqilği quyiş şoxobçasi qayerda?
+  - id: p08
+    speaker: narrator
+    ko: 가득 넣어 주세요.
+    rom: Gadeuk neoeo juseyo.
+    uz: Bakni töldirib qöying.
+  - id: p09
+    speaker: narrator
+    ko: 주차장이 어디예요?
+    rom: Juchajangi eodiyeyo?
+    uz: Avtoturargoh qayerda?
+  - id: p10
+    speaker: narrator
+    ko: 차를 반납하러 왔어요.
+    rom: Chareul bannapareo wasseoyo.
+    uz: Maşinani qaytarişga keldim.
+  - id: p11
+    speaker: narrator
+    ko: 차에 문제가 있어요.
+    rom: Chae munjega isseoyo.
+    uz: Maşinada muammo bor.
+  - id: p12
+    speaker: narrator
+    ko: 사고가 났어요.
+    rom: Sagoga nasseoyo.
+    uz: Avariya böldi.

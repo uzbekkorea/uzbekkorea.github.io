@@ -1,0 +1,162 @@
+# Koreys tili 2-qism, 13-dars: Metroda (2)
+#
+# Audio is generated from this file with `uv run tools/tts.py p2-ch13`
+# and saved to assets/audio/p2-ch13/. Edit text here, then re-run the script.
+#
+# Fields: id (unique, used in audio file names), speaker (key of `speakers`),
+# ko (Korean), rom (Revised Romanization), uz (Uzbek, new alphabet).
+# Optional per line:
+#   tts: { ko: "...", uz: "..." }  text to speak when it differs from the text shown
+#   duration: { ko: 0.8 }            fix a clip's length in seconds
+
+speakers:
+  passenger:
+    name: 승객 (Yölovçi)
+    side: left
+    voice:
+      ko: { instruct: "female, middle-aged, moderate pitch", seed: 42 }
+      uz: { instruct: "female, middle-aged, moderate pitch", seed: 42 }
+  anvar:
+    name: 안바르 (Anvar)
+    side: right
+    voice:
+      ko: { instruct: "male, young adult, moderate pitch", seed: 7 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+  announcement:
+    name: 안내 방송 (Eʼlon)
+    side: left
+    voice:
+      ko: { instruct: "female, young adult, high pitch", seed: 42 }
+      uz: { instruct: "female, young adult, high pitch", seed: 42 }
+  narrator:
+    name: ""
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+
+dialog:
+  - id: d01
+    speaker: anvar
+    ko: 실례지만, 이 열차 경복궁역에 가요?
+    rom: Sillyejiman, i yeolcha Gyeongbokgungyeoge gayo?
+    uz: Keçirasiz, bu poyezd Gyeongbokgung bekatiga boradimi?
+  - id: d02
+    speaker: passenger
+    ko: 네, 가요.
+    rom: Ne, gayo.
+    uz: Ha, boradi.
+  - id: d03
+    speaker: anvar
+    ko: 몇 정거장 가야 돼요?
+    rom: Myeot jeonggeojang gaya dwaeyo?
+    uz: Neçta bekat yurişim kerak?
+  - id: d04
+    speaker: passenger
+    ko: 안국역 다음이니까 두 번째 역이에요.
+    rom: Angugyeok daeuminikka du beonjjae yeogieyo.
+    uz: Angukdan keyingisi, yaʼni ikkinçi bekat.
+  - id: d05
+    speaker: anvar
+    ko: 경복궁은 몇 번 출구로 나가요?
+    rom: Gyeongbokgungeun myeot beon chulguro nagayo?
+    uz: Gyeongbokgung saroyiga qaysi çiqişdan çiqiladi?
+  - id: d06
+    speaker: passenger
+    ko: 5번 출구로 나가세요. 경복궁이 아주 가까워요.
+    tts: { ko: "오 번 출구로 나가세요. 경복궁이 아주 가까워요.", uz: "Beşinçi çiqişdan çiqing. Gyeongbokgung saroyi juda yaqin." }
+    rom: Obeon chulguro nagaseyo. Gyeongbokgungi aju gakkawoyo.
+    uz: 5-çiqişdan çiqing. Gyeongbokgung saroyi juda yaqin.
+  - id: d07
+    speaker: announcement
+    ko: 이번 역은 안국, 안국역입니다.
+    rom: Ibeon yeogeun Anguk, Angugyeogimnida.
+    uz: Bu bekat — Anguk.
+  - id: d08
+    speaker: passenger
+    ko: 다음 역에서 내리세요. 내리기 전에 문 앞으로 가 있는 게 좋아요.
+    rom: Daeum yeogeseo naeriseyo. Naerigi jeone mun apeuro ga inneun ge joayo.
+    uz: Keyingi bekatda tuşasiz. Tuşişdan oldin eşik oldiga borib turganingiz yaxşi.
+  - id: d09
+    speaker: anvar
+    ko: 네. 내린 다음에 친구한테 전화할 거예요.
+    rom: Ne. Naerin daeume chinguhante jeonhwahal geoyeyo.
+    uz: Xöp. Tuşgandan keyin döstimga qönğiroq qilaman.
+  - id: d10
+    speaker: passenger
+    ko: 친구분하고 5번 출구에서 만나세요. 거기가 찾기 쉬워요.
+    tts: { ko: "친구분하고 오 번 출구에서 만나세요. 거기가 찾기 쉬워요.", uz: "Döstingiz bilan beşinçi çiqişda uçraşing. U yerni topiş oson." }
+    rom: Chingubunhago obeon chulgueseo mannaseyo. Geogiga chatgi swiwoyo.
+    uz: Döstingiz bilan 5-çiqişda uçraşing. U yerni topiş oson.
+  - id: d11
+    speaker: announcement
+    ko: 이번 역은 경복궁, 경복궁역입니다.
+    rom: Ibeon yeogeun Gyeongbokgung, Gyeongbokgungyeogimnida.
+    uz: Bu bekat — Gyeongbokgung.
+  - id: d12
+    speaker: anvar
+    ko: 감사합니다. 좋은 하루 보내세요.
+    rom: Gamsahamnida. Joeun haru bonaeseyo.
+    uz: Rahmat. Kuningiz yaxşi ötsin.
+
+phrases:
+  - id: p01
+    speaker: narrator
+    ko: 몇 정거장 가야 돼요?
+    rom: Myeot jeonggeojang gaya dwaeyo?
+    uz: Neçta bekat yurişim kerak?
+  - id: p02
+    speaker: narrator
+    ko: 다음 역은 어디예요?
+    rom: Daeum yeogeun eodiyeyo?
+    uz: Keyingi bekat qaysi?
+  - id: p03
+    speaker: narrator
+    ko: 이번에 내리세요?
+    rom: Ibeone naeriseyo?
+    uz: Şu bekatda tuşasizmi?
+  - id: p04
+    speaker: narrator
+    ko: 잠깐만요, 내릴게요.
+    rom: Jamkkanmanyo, naerilgeyo.
+    uz: Ruxsat bering, tuşaman.
+  - id: p05
+    speaker: narrator
+    ko: 몇 번 출구로 나가요?
+    rom: Myeot beon chulguro nagayo?
+    uz: Qaysi çiqişdan çiqiladi?
+  - id: p06
+    speaker: narrator
+    ko: 3번 출구에서 만나요.
+    tts: { ko: "삼 번 출구에서 만나요.", uz: "Uçinçi çiqişda uçraşamiz." }
+    rom: Sambeon chulgueseo mannayo.
+    uz: 3-çiqişda uçraşamiz.
+  - id: p07
+    speaker: narrator
+    ko: 두 번째 역에서 내리세요.
+    rom: Du beonjjae yeogeseo naeriseyo.
+    uz: Ikkinçi bekatda tuşing.
+  - id: p08
+    speaker: narrator
+    ko: 이 역에서 갈아타야 돼요?
+    rom: I yeogeseo garataya dwaeyo?
+    uz: Şu bekatda boşqa yönalişga ötişim kerakmi?
+  - id: p09
+    speaker: narrator
+    ko: 지하철을 잘못 탔어요.
+    rom: Jihacheoreul jalmot tasseoyo.
+    uz: Notöğri poyezdga çiqib qoldim.
+  - id: p10
+    speaker: narrator
+    ko: 반대 방향으로 타야 돼요.
+    rom: Bandae banghyangeuro taya dwaeyo.
+    uz: Qarama-qarşi tomonga ketadigan poyezdga çiqiş kerak.
+  - id: p11
+    speaker: narrator
+    ko: 여기 앉으세요.
+    rom: Yeogi anjeuseyo.
+    uz: Bu yerga ötiring.
+  - id: p12
+    speaker: narrator
+    ko: 화장실이 어디에 있어요?
+    rom: Hwajangsiri eodie isseoyo?
+    uz: Hojatxona qayerda?

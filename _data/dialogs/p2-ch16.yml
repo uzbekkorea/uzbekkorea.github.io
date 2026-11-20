@@ -1,0 +1,158 @@
+# Koreys tili 2-qism, 16-dars: Poçtada
+#
+# Audio is generated from this file with `uv run tools/tts.py p2-ch16`
+# and saved to assets/audio/p2-ch16/. Edit text here, then re-run the script.
+#
+# Fields: id (unique, used in audio file names), speaker (key of `speakers`),
+# ko (Korean), rom (Revised Romanization), uz (Uzbek, new alphabet).
+# Optional per line:
+#   tts: { ko: "...", uz: "..." }  text to speak when it differs from the text shown
+#   duration: { ko: 0.8 }            fix a clip's length in seconds
+
+speakers:
+  clerk:
+    name: 직원 (Xodim)
+    side: left
+    voice:
+      ko: { instruct: "female, middle-aged, moderate pitch", seed: 42 }
+      uz: { instruct: "female, middle-aged, moderate pitch", seed: 42 }
+  anvar:
+    name: 안바르 (Anvar)
+    side: right
+    voice:
+      ko: { instruct: "male, young adult, moderate pitch", seed: 7 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+  narrator:
+    name: ""
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+
+dialog:
+  - id: d01
+    speaker: clerk
+    ko: 어서 오세요. 뭘 도와드릴까요?
+    rom: Eoseo oseyo. Mwol dowadeurilkkayo?
+    uz: Xuş kelibsiz. Sizga qanday yordam bera olaman?
+  - id: d02
+    speaker: anvar
+    ko: 이 소포를 우즈베키스탄에 보내고 싶어요.
+    rom: I soporeul Ujeubekiseutane bonaego sipeoyo.
+    uz: Bu posilkani Özbekistonga jönatmoqçiman.
+  - id: d03
+    speaker: clerk
+    ko: 저울에 올려 주세요. 3킬로그램이네요.
+    tts: { ko: "저울에 올려 주세요. 삼 킬로그램이네요.", uz: "Tarozining ustiga qöying. Uç kilogramm ekan." }
+    rom: Jeoure ollyeo juseyo. Samkillogeuraemineyo.
+    uz: Tarozining ustiga qöying. 3 kilogramm ekan.
+  - id: d04
+    speaker: anvar
+    ko: 며칠 걸려요?
+    rom: Myeochil geollyeoyo?
+    uz: Neça kunda yetib boradi?
+  - id: d05
+    speaker: clerk
+    ko: EMS로 보내면 일주일쯤 걸려요. 항공 소포는 더 싸지만 2주쯤 걸려요.
+    tts: { ko: "이엠에스로 보내면 일주일쯤 걸려요. 항공 소포는 더 싸지만 이 주쯤 걸려요.", uz: "E-em-es bilan jönatsangiz, bir haftaça vaqt oladi. Aviaposilka arzonroq, lekin ikki haftaça vaqt oladi." }
+    rom: Iemeseuro bonaemyeon iljuiljjeum geollyeoyo. Hanggong soponeun deo ssajiman ijujjeum geollyeoyo.
+    uz: EMS bilan jönatsangiz, bir haftaça vaqt oladi. Aviaposilka arzonroq, lekin ikki haftaça vaqt oladi.
+  - id: d06
+    speaker: anvar
+    ko: 그럼 EMS로 보내 주세요. 얼마예요?
+    tts: { ko: "그럼 이엠에스로 보내 주세요. 얼마예요?", uz: "Unda E-em-es bilan jönating. Qança böladi?" }
+    rom: Geureom iemeseuro bonae juseyo. Eolmayeyo?
+    uz: Unda EMS bilan jönating. Qança böladi?
+  - id: d07
+    speaker: clerk
+    ko: 6만 5천 원이에요.
+    tts: { ko: "육만 오천 원이에요.", uz: "Oltmiş beş ming von." }
+    rom: Yungman ocheonwonieyo.
+    uz: 65 000 von.
+  - id: d08
+    speaker: clerk
+    ko: 해외로 보내시려면 이 종이에 주소하고 내용물을 써 주세요.
+    rom: Haeoero bonaesiryeomyeon i jongie jusohago naeyongmureul sseo juseyo.
+    uz: Çet elga jönatmoqçi bölsangiz, bu qoğozga manzil va içidagi narsalarni yozing.
+  - id: d09
+    speaker: anvar
+    ko: 영어로 써도 돼요?
+    rom: Yeongeoro sseodo dwaeyo?
+    uz: Inglizça yozsam böladimi?
+  - id: d10
+    speaker: clerk
+    ko: 네, 영어로 쓰세요. 안에 배터리나 액체는 없죠?
+    rom: Ne, yeongeoro sseuseyo. Ane baeteorina aekcheneun eopjyo?
+    uz: Ha, inglizça yozing. Içida batareya yoki suyuqlik yöq-a?
+  - id: d11
+    speaker: anvar
+    ko: 네, 없어요. 옷하고 책만 있어요.
+    rom: Ne, eopseoyo. Otago chaengman isseoyo.
+    uz: Yöq, faqat kiyim va kitob bor.
+  - id: d12
+    speaker: clerk
+    ko: 이 영수증에 번호가 있어요. 인터넷으로 배송을 조회할 수 있어요.
+    rom: I yeongsujeunge beonhoga isseoyo. Inteoneseuro baesongeul johoehal su isseoyo.
+    uz: Bu çekda raqam bor. Posilka qayerdaligini internetda kuzatib borişingiz mumkin.
+
+phrases:
+  - id: p01
+    speaker: narrator
+    ko: 이 소포를 우즈베키스탄에 보내고 싶어요.
+    rom: I soporeul Ujeubekiseutane bonaego sipeoyo.
+    uz: Bu posilkani Özbekistonga jönatmoqçiman.
+  - id: p02
+    speaker: narrator
+    ko: 우즈베키스탄까지 며칠 걸려요?
+    rom: Ujeubekiseutankkaji myeochil geollyeoyo?
+    uz: Özbekistongaça neça kunda yetib boradi?
+  - id: p03
+    speaker: narrator
+    ko: EMS로 보내 주세요.
+    tts: { ko: "이엠에스로 보내 주세요.", uz: "E-em-es bilan jönating." }
+    rom: Iemeseuro bonae juseyo.
+    uz: EMS bilan jönating.
+  - id: p04
+    speaker: narrator
+    ko: 제일 싼 방법이 뭐예요?
+    rom: Jeil ssan bangbeobi mwoyeyo?
+    uz: Eng arzon usuli qaysi?
+  - id: p05
+    speaker: narrator
+    ko: 상자 있어요?
+    rom: Sangja isseoyo?
+    uz: Quti bormi?
+  - id: p06
+    speaker: narrator
+    ko: 무게가 얼마나 돼요?
+    rom: Mugega eolmana dwaeyo?
+    uz: Oğirligi qança?
+  - id: p07
+    speaker: narrator
+    ko: 깨지는 물건이에요.
+    rom: Kkaejineun mulgeonieyo.
+    uz: Bu tez sinadigan narsa.
+  - id: p08
+    speaker: narrator
+    ko: 우표 한 장 주세요.
+    rom: Upyo han jang juseyo.
+    uz: Bitta marka bering.
+  - id: p09
+    speaker: narrator
+    ko: 이 편지를 등기로 보내 주세요.
+    rom: I pyeonjireul deunggiro bonae juseyo.
+    uz: Bu xatni buyurtma xat qilib jönating.
+  - id: p10
+    speaker: narrator
+    ko: 받는 사람 주소를 어디에 써요?
+    rom: Banneun saram jusoreul eodie sseoyo?
+    uz: Oluvçining manzilini qayerga yozaman?
+  - id: p11
+    speaker: narrator
+    ko: 배송 조회는 어떻게 해요?
+    rom: Baesong johoeneun eotteoke haeyo?
+    uz: Posilkani qanday kuzatsam böladi?
+  - id: p12
+    speaker: narrator
+    ko: 우체국은 몇 시까지 해요?
+    rom: Uchegugeun myeot sikkaji haeyo?
+    uz: Poçta soat neçagaça işlaydi?

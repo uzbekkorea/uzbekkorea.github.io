@@ -1,0 +1,155 @@
+# Koreys tili 2-qism, 17-dars: Sayohat (1)
+#
+# Audio is generated from this file with `uv run tools/tts.py p2-ch17`
+# and saved to assets/audio/p2-ch17/. Edit text here, then re-run the script.
+#
+# Fields: id (unique, used in audio file names), speaker (key of `speakers`),
+# ko (Korean), rom (Revised Romanization), uz (Uzbek, new alphabet).
+# Optional per line:
+#   tts: { ko: "...", uz: "..." }  text to speak when it differs from the text shown
+#   duration: { ko: 0.8 }            fix a clip's length in seconds
+
+speakers:
+  staff:
+    name: 안내원 (Maʼlumot xodimi)
+    side: left
+    voice:
+      ko: { instruct: "female, middle-aged, moderate pitch", seed: 42 }
+      uz: { instruct: "female, middle-aged, moderate pitch", seed: 42 }
+  anvar:
+    name: 안바르 (Anvar)
+    side: right
+    voice:
+      ko: { instruct: "male, young adult, moderate pitch", seed: 7 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+  narrator:
+    name: ""
+    voice:
+      ko: { instruct: "female, young adult, moderate pitch", seed: 42 }
+      uz: { instruct: "male, young adult, moderate pitch", seed: 42 }
+
+dialog:
+  - id: d01
+    speaker: staff
+    ko: 안녕하세요. 무엇을 도와드릴까요?
+    rom: Annyeonghaseyo. Mueoseul dowadeurilkkayo?
+    uz: Assalomu alaykum. Sizga qanday yordam bera olaman?
+  - id: d02
+    speaker: anvar
+    ko: 시티투어 버스를 타고 싶어요. 어디에서 타요?
+    rom: Sititueo beoseureul tago sipeoyo. Eodieseo tayo?
+    uz: Şahar böylab sayohat avtobusiga minmoqçiman. Qayerdan minaman?
+  - id: d03
+    speaker: staff
+    ko: 광화문에서 출발해요. 시티투어 버스를 탄 적이 있어요?
+    rom: Gwanghwamuneseo chulbalhaeyo. Sititueo beoseureul tan jeogi isseoyo?
+    uz: Gwanghwamundan jönaydi. Bu avtobusga oldin minganmisiz?
+  - id: d04
+    speaker: anvar
+    ko: 아니요, 탄 적이 없어요. 처음이에요.
+    rom: Aniyo, tan jeogi eopseoyo. Cheoeumieyo.
+    uz: Yöq, minmaganman. Birinçi marta.
+  - id: d05
+    speaker: anvar
+    ko: 몇 시부터 몇 시까지 다녀요?
+    rom: Myeot sibuteo myeot sikkaji danyeoyo?
+    uz: Soat neçadan neçagaça yuradi?
+  - id: d06
+    speaker: staff
+    ko: 오전 9시 반부터 오후 5시까지 다녀요.
+    tts: { ko: "오전 아홉 시 반부터 오후 다섯 시까지 다녀요.", uz: "Soat töqqiz yarimdan ön yettigaça yuradi." }
+    rom: Ojeon ahopsi banbuteo ohu daseotsikkaji danyeoyo.
+    uz: Soat 9:30 dan 17:00 gaça yuradi.
+  - id: d07
+    speaker: anvar
+    ko: 표는 얼마예요?
+    rom: Pyoneun eolmayeyo?
+    uz: Bilet qança turadi?
+  - id: d08
+    speaker: staff
+    ko: 어른은 2만 원이에요. 하루 종일 타고 내릴 수 있어요.
+    tts: { ko: "어른은 이만 원이에요. 하루 종일 타고 내릴 수 있어요.", uz: "Kattalarga yigirma ming von. Kun böyi istagan bekatda tuşib, yana minişingiz mumkin." }
+    rom: Eoreuneun imanwonieyo. Haru jongil tago naeril su isseoyo.
+    uz: Kattalarga 20 000 von. Kun böyi istagan bekatda tuşib, yana minişingiz mumkin.
+  - id: d09
+    speaker: anvar
+    ko: 여기에서 예약할 수 있어요?
+    rom: Yeogieseo yeyakal su isseoyo?
+    uz: Şu yerda bron qilsam böladimi?
+  - id: d10
+    speaker: staff
+    ko: 예약은 안 하셔도 돼요. 버스에서 표를 사시면 돼요.
+    rom: Yeyageun an hasyeodo dwaeyo. Beoseueseo pyoreul sasimyeon dwaeyo.
+    uz: Bron qiliş şart emas. Biletni avtobusda olsangiz böladi.
+  - id: d11
+    speaker: anvar
+    ko: 경복궁에도 가요?
+    rom: Gyeongbokgungedo gayo?
+    uz: Gyeongbokgung saroyiga ham boradimi?
+  - id: d12
+    speaker: staff
+    ko: 네, 첫 번째 정류장이 경복궁이에요. 즐거운 여행 되세요!
+    rom: Ne, cheot beonjjae jeongnyujangi Gyeongbokgungieyo. Jeulgeoun yeohaeng doeseyo!
+    uz: Ha, birinçi bekat — Gyeongbokgung. Sayohatingiz yaxşi ötsin!
+
+phrases:
+  - id: p01
+    speaker: narrator
+    ko: 관광안내소가 어디에 있어요?
+    rom: Gwangwangannaesoga eodie isseoyo?
+    uz: Turistlar uçun maʼlumot markazi qayerda?
+  - id: p02
+    speaker: narrator
+    ko: 지도 좀 주세요.
+    rom: Jido jom juseyo.
+    uz: Xarita bering.
+  - id: p03
+    speaker: narrator
+    ko: 러시아어 지도 있어요?
+    rom: Reosiaeo jido isseoyo?
+    uz: Rus tilidagi xarita bormi?
+  - id: p04
+    speaker: narrator
+    ko: 시티투어 버스는 어디에서 타요?
+    rom: Sititueo beoseuneun eodieseo tayo?
+    uz: Şahar sayohati avtobusiga qayerdan minsa böladi?
+  - id: p05
+    speaker: narrator
+    ko: 몇 시에 출발해요?
+    rom: Myeot sie chulbalhaeyo?
+    uz: Soat neçada jönaydi?
+  - id: p06
+    speaker: narrator
+    ko: 몇 시까지 해요?
+    rom: Myeot sikkaji haeyo?
+    uz: Soat neçagaça işlaydi?
+  - id: p07
+    speaker: narrator
+    ko: 투어는 몇 시간 걸려요?
+    rom: Tueoneun myeot sigan geollyeoyo?
+    uz: Sayohat neça soat davom etadi?
+  - id: p08
+    speaker: narrator
+    ko: 표는 얼마예요?
+    rom: Pyoneun eolmayeyo?
+    uz: Bilet qança turadi?
+  - id: p09
+    speaker: narrator
+    ko: 예약할 수 있어요?
+    rom: Yeyakal su isseoyo?
+    uz: Bron qilsa böladimi?
+  - id: p10
+    speaker: narrator
+    ko: 러시아어 가이드가 있어요?
+    rom: Reosiaeo gaideuga isseoyo?
+    uz: Rus tilida gapiradigan gid bormi?
+  - id: p11
+    speaker: narrator
+    ko: 오늘 문 열어요?
+    rom: Oneul mun yeoreoyo?
+    uz: Bugun oçiqmi?
+  - id: p12
+    speaker: narrator
+    ko: 경복궁에 간 적이 있어요?
+    rom: Gyeongbokgunge gan jeogi isseoyo?
+    uz: Gyeongbokgung saroyiga borganmisiz?
