@@ -1,5 +1,5 @@
 ---
-title: Koreys Tilini Örganamiz
+title: Koreysça Örganamiz
 icon: fas fa-language
 order: 4
 ---
