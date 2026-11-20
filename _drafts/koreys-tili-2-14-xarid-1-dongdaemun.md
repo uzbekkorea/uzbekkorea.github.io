@@ -3,6 +3,7 @@ title: "Koreys tili 2-qism, 14-dars: Xarid (1): Dongdaemun"
 author:
   name: Koreyadagi Özbekistonliklar
   link: https://github.com/uzbekkorea
+date: 2026-11-23 19:00:00 +0900
 categories: [Koreys Tili, Muloqot]
 tags: [koreys tili, muloqot, audio, xarid, kiyim]
 pin: false

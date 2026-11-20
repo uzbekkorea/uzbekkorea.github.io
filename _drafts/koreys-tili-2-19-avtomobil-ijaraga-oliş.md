@@ -3,6 +3,7 @@ title: "Koreys tili 2-qism, 19-dars: Avtomobil ijaraga oliş"
 author:
   name: Koreyadagi Özbekistonliklar
   link: https://github.com/uzbekkorea
+date: 2026-11-25 18:00:00 +0900
 categories: [Koreys Tili, Muloqot]
 tags: [koreys tili, muloqot, audio, transport, avtomobil]
 pin: false
