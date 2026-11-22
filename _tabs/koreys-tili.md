@@ -34,6 +34,7 @@ Har bir darsda koreysça va özbekça audio bilan dialog bor.
 9. [Telefonda]({% post_url 2026-11-21-koreys-tili-2-09-telefonda %})
 10. [Restoranda]({% post_url 2026-11-22-koreys-tili-2-10-restoranda %})
 11. [Yöl söraş]({% post_url 2026-11-22-koreys-tili-2-11-yöl-söraş %})
+12. [Metroda (1)]({% post_url 2026-11-22-koreys-tili-2-12-metroda-1 %})
 
 > Darslar mavzulari [KBS WORLD Learn Korean](https://world.kbs.co.kr/learn_korean/lessons/e_index.htm) kursi asosida tanlandi. Koreys sözlarining lotin yozuvidagi öqilişi rasmiy [Koreys tilini romanizatsiya qiliş qoidalari](https://www.korean.go.kr/front_eng/roman/roman_01.do) (Revised Romanization) böyiça berilgan.
 {: .prompt-info }
