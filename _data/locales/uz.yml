@@ -5,18 +5,18 @@
 layout:
   post: Maqola
   category: Turkumlar
-  tag: Kalit Sözlar
+  tag: Kalit sözlar
 
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
-  home: Boş Sahifa
+  home: Boş sahifa
   categories: Turkumlar
-  tags: Kalit Sözlar
-  archives: Maqolalar Arxivi
-  koreys-tili: Koreysça Örganamiz
-  foydali-manzillar: Foydali Manzillar
-  about: Sayt Haqida
+  tags: Kalit sözlar
+  archives: Maqolalar arxivi
+  koreys-tili: Koreysça örganamiz
+  foydali-manzillar: Foydali manzillar
+  about: Sayt haqida
 
 # the text displayed in the search bar & search results
 search:
@@ -25,22 +25,22 @@ search:
   no_results: Afsus! Heç narsa topilmadi.
 
 panel:
-  lastmod: Oxirgi Yangilanish
-  trending_tags: Maşxur Kalit Sözlar
+  lastmod: Oxirgi yangilanish
+  trending_tags: Maşhur kalit sözlar
   toc: Mundarija
 
 copyright:
   # Shown at the bottom of the post
   license:
-    template: Uşbu maqola muallif tomonidan :LICENSE_NAME bilan licensiyalangan.
+    template: Uşbu maqola muallifi tomonidan :LICENSE_NAME bilan litsenziyalangan.
     name: CC BY 4.0
     link: https://creativecommons.org/licenses/by/4.0/
 
   # Displayed in the footer
   brief: Barça huquqlar himoyalangan
   verbose: >-
-    Alohida körsatilmaganda, uşbu saytdagi maqolalar muallif tomonidan
-    "Creative Commons Attribution 4.0 International (CC BY 4.0)" bilan licensiyalangan.
+    Alohida körsatilmaganda, uşbu saytdagi maqolalar muallifi tomonidan
+    "Creative Commons Attribution 4.0 International (CC BY 4.0)" bilan litsenziyalangan.
 
 meta: Powered by :PLATFORM with :THEME theme.
 
@@ -54,7 +54,7 @@ not_found:
 
 post:
   written_by: 'Muallif:'
-  posted: 'Kiritildi:'
+  posted: 'Kiritilgan:'
   updated: Yangilandi
   words: söz
   pageview_measure: körildi
@@ -69,8 +69,8 @@ post:
     copy_code:
       succeed: Nusxa olindi!
     share_link:
-      title: Böğlanişni Köçiriş
-      succeed: Böğlanişni köçirildi!
+      title: Böğlanişni köçiriş
+      succeed: Böğlanma köçirildi!
   # pinned prompt of posts list on homepage
   pin_prompt: Qadalgan
 
