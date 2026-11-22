@@ -3,13 +3,13 @@ title: "Koreys tili 2-qism, 11-dars: Yöl söraş"
 author:
   name: Koreyadagi Özbekistonliklar
   link: https://github.com/uzbekkorea
-date: 2026-11-22 19:00:00 +0900
+date: 2026-11-22 11:14:00 +0900
 categories: [Koreys Tili, Muloqot]
 tags: [koreys tili, muloqot, audio, yöl]
 pin: false
 ---
 
-Notaniş şaharda telefon xaritasi ham har doim yordam beravermaydi: baʼzan ötkinçilardan yöl söraşga töğri keladi. Bu darsda Anvar mehmonxona yaqinidan dorixona qidiradi va ötkinçi ayoldan yöl söraydi. Yönaliş sözlari, "töğri yuring", "öngga buriling" kabi iboralarni örganamiz.
+Notaniş şaharda telefon xaritasi ham har doim yordam beravermaydi: baʼzan ötkinçilardan yöl söraşga töğri keladi. Bu darsda Anvar mehmonxona yaqinidan dorixona qidiradi va ötkinçi ayoldan yöl söraydi. Yönaliş sözlari, "töğriga yuring", "öngga buriling" kabi iboralarni örganamiz.
 
 ## Dialog
 
@@ -44,7 +44,7 @@ Yöl tuşuntirganda eng köp eşitiladigan sözlar:
 - **오른쪽** — öng tomon, **왼쪽** — çap tomon
 - **앞** — old, **뒤** — orqa, **옆** — yon
 - **건너편** — qarşi tomon (yölning naryoği)
-- **쭉** — töğri, töxtamasdan: 쭉 가세요 (töğri yuring)
+- **쭉** — töğri, töxtamasdan: 쭉 가세요 (töğriga yuring)
 - **돌다** — burilmoq: 왼쪽으로 **도세요** (çapga buriling). 돌다 ning ㄹ i -세요 oldidan tuşib qoladi.
 
 Joyni bildirganda bu sözlardan keyin 에 qöyiladi: 은행 건너편**에** 있어요, 약국 뒤**에** 있어요. Yönalişni bildirganda esa (으)로 (6-dars): 오른쪽**으로** 가세요.
